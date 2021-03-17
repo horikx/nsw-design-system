@@ -125,10 +125,38 @@
     height: 100%;
     object-fit: cover;
   }
-}
 
-.nsw-card--headline {
-  .nsw-card__title {
-    @include font-size('lg');
+  &-- {
+    &headline {
+      .nsw-card__title {
+        @include font-size('lg');
+      }
+    }
+
+    &transparent {
+      background-color: transparent;
+      box-shadow: none;
+    }
+
+    &white {
+      &,
+      .nsw-card__link {
+        color: $white;
+      }
+    }
+
+    &centered {
+      text-align: center;
+    }
+
+    &no-highlight {
+      .nsw-card__content {
+        border-top: 0;
+      }
+
+      .nsw-card__image-area img {
+        @include border-radius;
+      }
+    }
   }
 }

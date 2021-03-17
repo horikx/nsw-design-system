@@ -13,9 +13,31 @@ model:
   card-news-1: ../../components/card/json/card-news-1.json
   card-news-2: ../../components/card/json/card-news-2.json
   card-news-3: ../../components/card/json/card-news-3.json
+  card-gwic-1: ../../components/card/json/card-gwic-1.json
 ---
 
 <main>
+  <div class="nsw-section--light-40">
+    <div class="nsw-container">
+      <div class="nsw-page-layout">
+        <div class="nsw-page-layout__main">
+          <h2 class="nsw-section-title">GWIC CoP</h2>
+          <div class="nsw-grid">
+            <div class="nsw-col nsw-col-md-4">
+              {{>_card model.card-gwic-1}}
+            </div>
+            <div class="nsw-col nsw-col-md-4">
+              {{>_card model.card-news-2}}
+            </div>
+            <div class="nsw-col nsw-col-md-4">
+              {{>_card model.card-news-3}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="nsw-section--white">
     <div class="nsw-container">
       <div class="nsw-page-layout">
