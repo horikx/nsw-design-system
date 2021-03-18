@@ -2,7 +2,7 @@
   overflow: hidden;
 }
 
-.nsw-navigation {
+.gwic-navigation {
   @include z-index('middle');
   width: 100%;
   position: absolute;
@@ -26,19 +26,6 @@
     transform: translateX(-100%);
   }
 
-  @include breakpoint($desktop-breakpoint) {
-    position: relative;
-    transform: none;
-    background-color: $light10;
-    top: auto;
-    left: auto;
-    transition: none;
-    visibility: visible;
-    border-top: solid 1px $light40;
-    overflow-y: visible;
-    height: auto;
-  }
-
   &__close {
     @include border-radius;
     width: rem(40px);
@@ -59,17 +46,13 @@
       @include nsw-focus;
     }
 
-    .nsw-icon {
+    .gwic-icon {
       height: rem(20px);
       width: rem(20px);
     }
 
     .nsw-material-icons {
       font-size: rem(34px);
-    }
-
-    @include breakpoint($desktop-breakpoint) {
-      display: none;
     }
   }
 
@@ -106,74 +89,35 @@
 
 }
 
-.nsw-navigation__list,
-.nsw-subnavigation__list {
+.gwic-navigation__list,
+.gwic-subnavigation__list {
   list-style: none;
   padding: 0;
   margin-top: 0;
   margin-bottom: 0;
-
-  @include breakpoint($desktop-breakpoint) {
-    @include container(0);
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    flex-wrap: wrap;
-    position: relative;
-  }
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.nsw-subnavigation__list {
-  @include breakpoint($desktop-breakpoint) {
-    @include nsw-spacing(margin-top, xl);
-    display: flex;
-  }
-}
-
-.nsw-navigation__list-item,
-.nsw-subnavigation__list-item,
-.nsw-subnavigation__title {
+.gwic-navigation__list-item,
+.gwic-subnavigation__list-item,
+.gwic-subnavigation__title {
   border-bottom: solid 1px $light20;
   display: flex;
   flex-direction: row;
   align-items: stretch;
   flex-wrap: nowrap;
-
-  @include breakpoint($desktop-breakpoint) {
-    border-bottom: 0;
-  }
+  width: 20%;
 }
 
-.nsw-navigation__list-item,
-.nsw-subnavigation__list-item {
+.gwic-navigation__list-item,
+.gwic-subnavigation__list-item {
   @include font-stack;
-
-  @include breakpoint($desktop-breakpoint) {
-    @include font-stack('heading');
-    border-bottom: 0;
-  }
 }
 
-.nsw-subnavigation__list-item {
-
-  @include breakpoint($desktop-breakpoint) {
-    width: 32%;
-    border-top: solid 1px $light20;
-
-    &:nth-child(3n+2) {
-      margin-left: 2%;
-      margin-right: 2%;
-    }
-
-    &:nth-last-child(-n+3) {
-      border-bottom: solid 1px $light20;
-    }
-  }
-}
-
-.nsw-navigation__link,
-.nsw-subnavigation__link,
-.nsw-subnavigation__title-link {
+.gwic-navigation__link,
+.gwic-subnavigation__link,
+.gwic-subnavigation__title-link {
   flex: 1 1 auto;
   padding: 16px;
   color: $dark80;
@@ -182,11 +126,7 @@
   flex-direction: row;
   align-items: stretch;
   flex-wrap: nowrap;
-
-  @include breakpoint($desktop-breakpoint) {
-    @include z-index('middle');
-    position: relative;
-  }
+  text-align: center;
 
   &:hover {
     @include nsw-hover;
@@ -201,14 +141,8 @@
   }
 }
 
-.nsw-subnavigation__link {
-  @include breakpoint($desktop-breakpoint) {
-    color: $nsw-primary-blue;
-  }
-}
-
-.nsw-navigation__link,
-.nsw-subnavigation__link {
+.gwic-navigation__link,
+.gwic-subnavigation__link {
   justify-content: center;
 
   &:last-child {
@@ -216,7 +150,7 @@
   }
 }
 
-.nsw-navigation__link-icon {
+.gwic-navigation__link-icon {
   line-height: rem(26px);
   position: relative;
   right: rem(-7px);
@@ -228,26 +162,12 @@
     margin-top: rem(4px);
   }
 
-  @include breakpoint($desktop-breakpoint) {
-    display: block;
-    transform: rotate(90deg);
-    font-size: rem(24px);
-    line-height: rem(24px);
-    margin-left: rem(-2px);
-
-    &.nsw-icon {
-      height: rem(12px);
-      width: rem(12px);
-      margin-left: rem(10px);
-    }
-  }
-
-  .nsw-navigation__link.is-open & {
+  .gwic-navigation__link.is-open & {
     transform: rotate(270deg);
   }
 }
 
-.nsw-subnavigation {
+.gwic-subnavigation {
   @include z-index;
   position: absolute;
   top: 0;
@@ -264,32 +184,10 @@
     transform: translateX(0);
     visibility: visible;
   }
-
-  @include breakpoint($desktop-breakpoint) {
-    @include container;
-    padding: rem(48) rem(40);
-    top: 100%;
-    background: $white;
-    box-shadow: map-get($shadows, menu);
-    transition: none;
-    transform: none;
-    height: auto;
-    overflow: auto;
-
-    &.is-open {
-      left: 50%;
-      transform: translateX(-50%);
-    }
-  }
-
-  @include breakpoint($desktop-breakpoint) {
-    @include nsw-spacing(padding-top, xxl);
-    @include nsw-spacing(padding-bottom, xxl);
-  }
 }
 
-.nsw-navigation__header,
-.nsw-subnavigation__header {
+.gwic-navigation__header,
+.gwic-subnavigation__header {
   @include nsw-spacing(padding-top, xs);
   @include nsw-spacing(padding-bottom, xs);
   @include container;
@@ -305,13 +203,9 @@
     flex: 1 1 auto;
     align-self: center;
   }
-
-  @include breakpoint($desktop-breakpoint) {
-    display: none;
-  }
 }
 
-.nsw-subnavigation__back-btn {
+.gwic-subnavigation__back-btn {
   @include font-stack('heading');
   @include font-size('md');
   @include nsw-spacing(padding, none xs);
@@ -343,32 +237,19 @@
     margin: 0 rem(-2px) 0 rem(-6px);
     align-self: center;
   }
-
-  @include breakpoint($desktop-breakpoint) {
-    display: none;
-  }
 }
 
-.nsw-subnavigation__title {
+.gwic-subnavigation__title {
   @include font-stack('heading');
   @include font-size('md');
   @include nsw-spacing(margin, none);
 
-  @include breakpoint($desktop-breakpoint) {
-    @include font-size('lg');
-    display: inline-block;
-  }
-
-  .nsw-card__icon {
+  .gwic-card__icon {
     margin: 0 0 0 rem(12px);
     position: relative;
     bottom: auto;
     left: auto;
     display: none;
-
-    @include breakpoint($desktop-breakpoint) {
-      display: inline;
-    }
 
     &.nsw-icon {
       top: rem(3);
@@ -377,29 +258,9 @@
   }
 }
 
-.nsw-subnavigation__title-link {
-  @include breakpoint($desktop-breakpoint) {
-    @include nsw-spacing(padding, none);
-    color: $nsw-primary-blue;
-  }
-}
-
-.nsw-subnavigation__description {
+.gwic-subnavigation__description {
   @include font-stack;
   @include nsw-spacing(margin-top, md);
   @include font-size('xs');
   display: none;
-
-  @include breakpoint($desktop-breakpoint) {
-    display: block;
-  }
-}
-
-.nsw-subnavigation .nsw-subnavigation,
-.nsw-subnavigation .nsw-navigation__link-icon {
-
-  @include breakpoint($desktop-breakpoint) {
-    display: none;
-  }
-
 }

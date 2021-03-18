@@ -1,5 +1,5 @@
 import SiteSearch from './components/header/header'
-import Navigation from './components/main-navigation/main-navigation'
+import Navigation from './components/gwic-nav/gwic-nav'
 import Accordion from './components/accordion/accordion'
 import ShareThis from './components/social-bar/social-bar'
 import Tabs from './components/tab-navigation/tab-navigation'

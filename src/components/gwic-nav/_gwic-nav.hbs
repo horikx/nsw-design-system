@@ -1,0 +1,25 @@
+<nav id="gwic-navigation" class="gwic-navigation" aria-label="main menu">
+  <div class="gwic-navigation__header">
+    <h2 id="gwic-navigation">Menu</h2>
+    <button type="button" class="gwic-navigation__close js-close-navigation" aria-expanded="true">
+      <i class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">close</i>
+      <span class="sr-only">Close Menu</span>
+    </button>
+  </div>
+  
+  <ul class="gwic-navigation__list">
+    {{#each navitems}}
+      <li class="gwic-navigation__list-item">
+        <a href="{{url}}" class="gwic-navigation__link">
+          <span class="gwic-navigation__link-text">{{text}}</span>
+          {{#if subnav}}
+          <i class="material-icons nsw-material-icons gwic-navigation__link-icon" focusable="false" aria-hidden="true">keyboard_arrow_right</i>
+          {{/if}}
+        </a>
+        {{#if subnav}}
+          {{>_sub-nav}}
+        {{/if}}
+      </li>
+    {{/each}}
+  </ul>
+</nav>

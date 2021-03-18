@@ -8,7 +8,7 @@ class Navigation {
     this.closeNavButtons = document.querySelectorAll('.js-close-navigation')
     this.openSubnavButtons = document.querySelectorAll('.js-open-subnav')
     this.closeSubnavButtons = document.querySelectorAll('.js-close-subnav')
-    this.mainNavElement = document.getElementById('main-navigation')
+    this.mainNavElement = document.getElementById('gwic-navigation')
     this.isMegaMenuElement = !!document.querySelector('.js-mega-menu')
     this.transitionEvent = whichTransitionEvent()
     this.mobileToggleMainNavEvent = (e) => this.mobileToggleMainNav(e)
@@ -30,15 +30,15 @@ class Navigation {
   init() {
     if (this.mainNavElement) {
       this.setUpMobileControls()
-      this.responsiveCheck(this.breakpoint)
-      this.breakpoint.addListener((e) => this.responsiveCheck(e))
+      // this.responsiveCheck(this.breakpoint)
+      // this.breakpoint.addListener((e) => this.responsiveCheck(e))
     }
   }
 
   responsiveCheck(e) {
     let megaMenuListItems = []
     if (e.matches) {
-      megaMenuListItems = [].slice.call(this.mainNavElement.querySelectorAll('.nsw-navigation__list > li'))
+      megaMenuListItems = [].slice.call(this.mainNavElement.querySelectorAll('.gwic-navigation__list > li'))
       this.body.classList.remove('navigation-open')
     } else {
       megaMenuListItems = [].slice.call(this.mainNavElement.querySelectorAll('li'))
@@ -153,6 +153,7 @@ class Navigation {
   }
 
   escapeClose(e) {
+    console.log('escapeclose', e)
     if (e.key === 'Escape') {
       const { link } = this.whichSubNavLatest()
       const isExpanded = link.getAttribute('aria-expanded') === 'true'
@@ -226,7 +227,7 @@ class Navigation {
   checkIfContainsFocus() {
     const { linkParent } = this.whichSubNavLatest()
     const focusWithin = linkParent.contains(document.activeElement)
-    const isNavLinkActive = document.activeElement.getAttribute('class').indexOf('nsw-navigation__link') > -1
+    const isNavLinkActive = document.activeElement.getAttribute('class').indexOf('gwic-navigation__link') > -1
     if (!focusWithin && isNavLinkActive) {
       this.toggleSubnavDesktop()
     }
