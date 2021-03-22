@@ -10,7 +10,7 @@ $font-weight: (
 ) !default;
 
 //Font sizes presets (mobile, desktop)
-$font-sizes: (
+$nsw-font-sizes: (
   xs:   (14px, 14px),
   sm:   (16px, 16px),
   md:   (18px, 20px),
@@ -45,7 +45,7 @@ $border-radii: (
   round: 50%,
 ) !default;
 
-$border-width: (
+$nsw-border-width: (
   none: 0,
   sm: 1px,
   md: 2px,

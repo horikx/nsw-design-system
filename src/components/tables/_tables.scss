@@ -1,6 +1,6 @@
 .nsw-table {
   @include font-stack;
-  @include font-size('sm');
+  @include nsw-font-size('sm');
   @include border-radius('none');
   border-collapse: collapse;
   width: 100%;

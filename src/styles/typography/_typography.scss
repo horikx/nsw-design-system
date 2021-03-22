@@ -1,7 +1,7 @@
 .nsw-wysiwyg-content,
 .nsw-body-content {
   @include font-stack;
-  @include font-size('sm');
+  @include nsw-font-size('sm');
   color: $dark80;
 
   a:not(.nsw-button):not(.nsw-tag) {
@@ -34,7 +34,7 @@
   }
 
   small {
-    @include font-size('xs');
+    @include nsw-font-size('xs');
   }
 
   abbr,
@@ -44,7 +44,7 @@
   }
 
   blockquote {
-    @include font-size('lg');
+    @include nsw-font-size('lg');
     @include nsw-spacing(margin-top, md);
     border-left: solid 6px $nsw-primary-highlight;
     padding: rem(20px) rem(24px);
@@ -57,7 +57,7 @@
   }
 
   cite {
-    @include font-size('sm');
+    @include nsw-font-size('sm');
     @include nsw-spacing(margin-top, md);
     display: block;
     font-style: normal;
@@ -87,28 +87,28 @@
   }
 
   h1 {
-    @include font-size('xxxl');
+    @include nsw-font-size('xxxl');
   }
 
   h2 {
-    @include font-size('xxl');
+    @include nsw-font-size('xxl');
   }
 
   h3 {
-    @include font-size('lg');
+    @include nsw-font-size('lg');
   }
 
   h4 {
-    @include font-size('md');
+    @include nsw-font-size('md');
   }
 
   h5,
   h6 {
-    @include font-size('sm');
+    @include nsw-font-size('sm');
   }
 
   .nsw-intro {
-    @include font-size('md');
+    @include nsw-font-size('md');
   }
 
   * + h1 {
@@ -157,24 +157,24 @@ h4 {
 
 h1 {
   &.nsw-section-title {
-    @include font-size('xxxl');
+    @include nsw-font-size('xxxl');
   }
 }
 
 h2 {
   &.nsw-section-title {
-    @include font-size('xxl');
+    @include nsw-font-size('xxl');
   }
 }
 
 h3 {
   &.nsw-section-title {
-    @include font-size('lg');
+    @include nsw-font-size('lg');
   }
 }
 
 h4 {
   &.nsw-section-title {
-    @include font-size('md');
+    @include nsw-font-size('md');
   }
 }

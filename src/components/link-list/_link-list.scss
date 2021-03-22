@@ -3,7 +3,7 @@
   @include component-spacing();
 
   &__title {
-    @include font-size('lg');
+    @include nsw-font-size('lg');
     @include nsw-spacing(padding-bottom, md);
     
     @include breakpoint('md') {

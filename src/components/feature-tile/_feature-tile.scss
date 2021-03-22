@@ -6,7 +6,7 @@
 
   &__title {
     @include font-stack('heading');
-    @include font-size('xxl');
+    @include nsw-font-size('xxl');
     @include nsw-spacing(margin, none);
     position: relative;
 
@@ -46,7 +46,7 @@
 
   &__cards-group {
     @include font-stack;
-    @include font-size('sm');
+    @include nsw-font-size('sm');
     @include nsw-spacing(margin-top, md);
     @include nsw-spacing(padding, none);
     list-style: none;
@@ -109,7 +109,7 @@
   &__links-group {
     @include nsw-spacing(margin-top, md);
     @include font-stack;
-    @include font-size('sm');
+    @include nsw-font-size('sm');
 
     @include breakpoint('md') {
       display: flex;

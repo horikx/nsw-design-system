@@ -190,7 +190,7 @@
 
   &__input {
     @include font-stack;
-    @include font-size('md');
+    @include nsw-font-size('md');
     background: none;
     padding: rem(8px) rem(72px) rem(8px) rem(16px);
     color: $dark80;

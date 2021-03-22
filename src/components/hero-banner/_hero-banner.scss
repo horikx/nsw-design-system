@@ -43,7 +43,7 @@
 
   &__content {
     @include font-stack;
-    @include font-size('md');
+    @include nsw-font-size('md');
     @include nsw-spacing(padding, md);
     background-color: $light20;
     border-top: solid 6px $nsw-primary-highlight;
@@ -88,7 +88,7 @@
 
   &__title {
     @include font-stack('heading');
-    @include font-size('xxl');
+    @include nsw-font-size('xxl');
     @include nsw-spacing(margin, none);
   }
 

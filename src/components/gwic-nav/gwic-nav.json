@@ -3,7 +3,9 @@
     {
       "text": "Introduction",
       "url": "http://google.com",
-      "description": "Filium morte multavit si sine causa? quae fuerit causa, nollem."
+      "img": {
+        "url": "/assets/svg/van.svg"
+      }
     },
     {
       "text": "Nutrition & Hydration",

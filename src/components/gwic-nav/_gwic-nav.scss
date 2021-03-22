@@ -7,13 +7,11 @@
   width: 100%;
   position: absolute;
   left: 0;
-  top: 0;
   background: $white;
   transition: map-get($transitions, base);
   transform: translateX(-100%);
   visibility: hidden;
   outline: none;
-  height: 100%;
   overflow-y: auto;
 
   &.is-opening,
@@ -87,10 +85,15 @@
     }
   }
 
+  &__icon {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 .gwic-navigation__list,
 .gwic-subnavigation__list {
+  @include container;
   list-style: none;
   padding: 0;
   margin-top: 0;
@@ -199,7 +202,7 @@
   h2 {
     @include font-stack('heading');
     @include nsw-spacing(margin, none);
-    @include font-size('md');
+    @include nsw-font-size('md');
     flex: 1 1 auto;
     align-self: center;
   }
@@ -207,7 +210,7 @@
 
 .gwic-subnavigation__back-btn {
   @include font-stack('heading');
-  @include font-size('md');
+  @include nsw-font-size('md');
   @include nsw-spacing(padding, none xs);
   @include border-radius;
   background: none;
@@ -241,7 +244,7 @@
 
 .gwic-subnavigation__title {
   @include font-stack('heading');
-  @include font-size('md');
+  @include nsw-font-size('md');
   @include nsw-spacing(margin, none);
 
   .gwic-card__icon {
@@ -261,6 +264,6 @@
 .gwic-subnavigation__description {
   @include font-stack;
   @include nsw-spacing(margin-top, md);
-  @include font-size('xs');
+  @include nsw-font-size('xs');
   display: none;
 }

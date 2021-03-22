@@ -6,7 +6,7 @@
   &__heading {
     @include nsw-spacing(margin, none);
     @include font-stack('heading');
-    @include font-size('sm');
+    @include nsw-font-size('sm');
   }
 
   &__list {

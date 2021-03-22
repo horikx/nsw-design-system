@@ -171,14 +171,15 @@
 }
 
 @mixin border($direction: null, $width: sm, $color: $nsw-primary-blue) {
-  @if map-has-key($border-width, $width) == false {
-    @error 'NSW-DS border mixin allows the following values for $width: #{map-keys($border-width)}. You have used "#{$width}"';
+  
+  @if map-has-key($nsw-border-width, $width) == false {
+    @error 'NSW-DS border mixin allows the following values for $width: #{map-keys($nsw-border-width)}. You have used "#{$width}"';
   }
   @if $direction != null and $direction != 'left' and $direction != 'top' and $direction != 'bottom' and $direction != 'right' {
     @error 'NSW-DS border mixin allows the following values for $direction: left, top, bottom, right. You have used "#{$direction}"';
   }
 
-  $properties: if($width == 'none', map-get($border-width, $width), solid map-get($border-width, $width) $color);
+  $properties: if($width == 'none', map-get($nsw-border-width, $width), solid map-get($nsw-border-width, $width) $color);
 
   @if $direction == null {
     border: $properties;

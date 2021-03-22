@@ -301,7 +301,7 @@
   h2 {
     @include font-stack('heading');
     @include nsw-spacing(margin, none);
-    @include font-size('md');
+    @include nsw-font-size('md');
     flex: 1 1 auto;
     align-self: center;
   }
@@ -313,7 +313,7 @@
 
 .nsw-subnavigation__back-btn {
   @include font-stack('heading');
-  @include font-size('md');
+  @include nsw-font-size('md');
   @include nsw-spacing(padding, none xs);
   @include border-radius;
   background: none;
@@ -351,11 +351,11 @@
 
 .nsw-subnavigation__title {
   @include font-stack('heading');
-  @include font-size('md');
+  @include nsw-font-size('md');
   @include nsw-spacing(margin, none);
 
   @include breakpoint($desktop-breakpoint) {
-    @include font-size('lg');
+    @include nsw-font-size('lg');
     display: inline-block;
   }
 
@@ -387,7 +387,7 @@
 .nsw-subnavigation__description {
   @include font-stack;
   @include nsw-spacing(margin-top, md);
-  @include font-size('xs');
+  @include nsw-font-size('xs');
   display: none;
 
   @include breakpoint($desktop-breakpoint) {

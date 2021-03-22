@@ -1,6 +1,6 @@
 .nsw-button {
   @include font-stack('heading');
-  @include font-size('sm');
+  @include nsw-font-size('sm');
   @include nsw-spacing(margin, lg md none none);
   @include border-radius;
   border: solid 2px transparent;

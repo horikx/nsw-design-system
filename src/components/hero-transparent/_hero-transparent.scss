@@ -5,7 +5,7 @@
 
   &__title {
     @include font-stack('heading');
-    @include font-size('xxxl');
+    @include nsw-font-size('xxxl');
     @include nsw-spacing(margin, none);
   }
 
@@ -20,25 +20,25 @@
 
   &__content {
     @include break-out;
-    @include nsw-spacing(padding, xl md);
+    @include nsw-spacing(padding, xl none);
     @include border-radius;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     text-align: center;
 
     @include breakpoint('md') {
-      @include nsw-spacing(padding, xl xxxxl);
+      // @include nsw-spacing(padding, xl xxxxl);
       @include break-out-reset;
     }
 
-    > * {
-      max-width: rem(700);
-      margin-left: auto;
-      margin-right: auto;
-    }
+    // > * {
+    //   max-width: rem(700);
+    //   margin-left: auto;
+    //   margin-right: auto;
+    // }
 
     p {
-      @include font-size('md');
+      @include nsw-font-size('md');
       margin-left: auto;
       margin-right: auto;
     }

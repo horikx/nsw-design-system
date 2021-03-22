@@ -46,7 +46,7 @@
     "@babel/preset-env": "^7.9.0",
     "auto-changelog": "^2.2.1",
     "autoprefixer": "^9.7.5",
-    "browser-sync": "^2.26.13",
+    "browser-sync": "^2.26.14",
     "cssnano": "^4.1.10",
     "del": "^5.1.0",
     "eslint": "^6.8.0",
@@ -63,12 +63,14 @@
     "gulp-replace": "^1.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-sass-glob": "^1.1.0",
+    "gulp-sass-inline-svg": "^1.0.3",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-stylelint": "^13.0.0",
     "gulp-surge": "^0.1.4",
     "gulp-svg-sprite": "^1.5.0",
     "gulp-zip": "^5.0.1",
     "handlebars": "^4.7.6",
+    "handlebars-helpers": "^0.10.0",
     "inquirer": "^7.1.0",
     "jstransformer-handlebars": "^1.1.0",
     "metalsmith": "^2.3.0",
@@ -78,7 +80,7 @@
     "metalsmith-discover-helpers": "^0.1.1",
     "metalsmith-discover-partials": "^0.1.2",
     "metalsmith-ignore": "^1.0.0",
-    "metalsmith-in-place": "^4.4.1",
+    "metalsmith-in-place": "^4.4.2",
     "metalsmith-layouts": "^2.3.1",
     "metalsmith-register-helpers": "^0.4.1",
     "node-sass": "^4.13.1",
@@ -93,5 +95,7 @@
     "stylelint-scss": "^3.16.0",
     "yargs": "^15.3.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta2"
+  }
 }

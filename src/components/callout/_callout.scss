@@ -77,7 +77,7 @@
 
   &__title {
     @include font-stack('heading');
-    @include font-size('md');
+    @include nsw-font-size('md');
     margin: 0;
   }
 }

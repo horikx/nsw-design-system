@@ -13,12 +13,12 @@
 
   &__title {
     @include font-stack('heading');
-    @include font-size('lg');
+    @include nsw-font-size('lg');
     margin: 0;
   }
 
   &__content {
-    @include font-size('sm');
+    @include nsw-font-size('sm');
     display: flex;
     flex-direction: column;
     order: 2;

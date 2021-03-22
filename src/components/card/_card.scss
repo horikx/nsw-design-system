@@ -25,12 +25,12 @@
 
   &__title {
     @include font-stack('heading');
-    @include font-size('md');
+    @include nsw-font-size('md');
     margin: 0;
   }
 
   &__content {
-    @include font-size('sm');
+    @include nsw-font-size('sm');
     @include nsw-spacing(padding, md md xxxxl md);
     border-top: solid 6px $nsw-primary-highlight;
     display: flex;
@@ -67,7 +67,7 @@
 
   &__tag,
   &__date {
-    @include font-size('xs');
+    @include nsw-font-size('xs');
   }
 
   &__title,
@@ -129,7 +129,7 @@
   &-- {
     &headline {
       .nsw-card__title {
-        @include font-size('lg');
+        @include nsw-font-size('lg');
       }
     }
 
@@ -147,6 +147,13 @@
 
     &centered {
       text-align: center;
+    }
+
+    &border {
+      &-white {
+        @include border(null, md, 2px);
+        @include border-radius(tag);
+      }
     }
 
     &no-highlight {

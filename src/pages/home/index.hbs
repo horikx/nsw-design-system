@@ -2,8 +2,7 @@
 title: Full width - Hero banner
 model:
   nav: ../../components/gwic-nav/gwic-nav.json
-  hero-transparent: ../../components/hero-transparent/json/hero-transparent.json
-  hero-banner: ../../components/hero-banner/json/hero-banner.json
+  hero: json/home.json
   breadcrumbs: ../../components/breadcrumbs/json/breadcrumbs.json
   card-gwic-1: ../../components/card/json/card-gwic-1.json
   card-media-1: ../../components/card/json/card-media-1.json
@@ -23,7 +22,7 @@ model:
 {{>_gwic-nav model.nav}}
 
 <div class="nsw-section--image nsw-section--no-padding" style="background-image: url(https://picsum.photos/id/199/2000/1250);">
-  {{>_hero-transparent model.hero-transparent}}
+  {{>_hero-transparent model.hero}}
 </div>
 
 <main id="content">
