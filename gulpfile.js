@@ -226,8 +226,8 @@ const javascript = series(lintJavascript, compileJS)
 function watchFiles(done) {
   watch(config.scss.watch, series(styles, reload))
   watch(config.js.watch, series(javascript, reload))
-  watch(config.svg.watch, series(compileSvg, reload))
-  watch(config.metalSmith.watch, series(metalsmithBuild, reload))
+  watch(config.svg.watch, series([compileSvg, injectSVG], reload))
+  watch(config.metalSmith.watch, series([metalsmithBuild, compileSvg, injectSVG], reload))
   done()
 }
 
@@ -250,6 +250,7 @@ const dev = series(
   styles,
   javascript,
   compileSvg,
+  injectSVG,
   watchFiles,
   browserSync,
 )
@@ -264,6 +265,7 @@ exports.scss = buildStyles // gulp sass - compiles the sass
 exports.watch = watchFiles // gulp watch - watches the files
 exports.lint = lintStyles // gulp lint - lints the sass
 exports.svg = compileSvg // gulp svg - creates svg sprite
+exports.isvg = injectSVG // gulp svg - creates svg sprite
 exports.build = build // gulp build - builds the files
 exports.surge = deploy // gulp surge - builds the files and deploys to surge
 exports.clean = cleanUp // gulp clean - clean the dist directory
