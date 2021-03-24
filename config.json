@@ -21,11 +21,26 @@
     "watch": "./src/assets/svg/*.svg",
     "build": "./dist/assets/svg/",
     "svgSprite": {
+      "shape": {
+        "dimension": { 
+          "maxHeight": 32
+        },
+        "spacing": { 
+          "padding": 10
+        }
+      },
       "mode": {
         "defs": {
           "dest": "",
           "sprite": "sprite.svg"
-        }
+        },
+        "view": { 
+          "bust": false,
+          "render": {
+            "css": true 
+          }
+        },
+        "symbol": false 
       }
     }
   },
