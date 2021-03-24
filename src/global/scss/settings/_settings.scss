@@ -103,9 +103,15 @@ $components-spacing: (
 
 // Predefined Colours and their names
 // Brand
-$nsw-primary-blue: #002664 !default;
-$nsw-primary-highlight: #d7153a !default;
-$nsw-secondary-blue: #2e5299 !default;
+$nsw-primary-blue: #002664;
+$nsw-primary-highlight: #84bddc;
+$nsw-secondary-blue: #2e5299;
+$gwic-sky-blue: #84bddc;
+$gwic-green: #78b143;
+$gwic-orange: #ff7f2f;
+$gwic-yellow: #f9be00;
+$gwic-blue: #0a7cb9;
+$gwic-dark-blue: #002664;
 
 // Shades
 $black: #000000 !default;
@@ -134,6 +140,28 @@ $focus-color: #0085b3 !default;
 $hover-colour: rgba($focus-color, 0.2);
 $link-color: $nsw-primary-blue;
 $link-visited: #551a8b;
+
+// Colours to generate backgrounds for
+$bg-colors: (
+  nsw-primary-blue: $nsw-primary-blue,
+  nsw-primary-highlight: $nsw-primary-highlight,
+  nsw-secondary-blue: $nsw-secondary-blue,
+  gwic-sky-blue: $gwic-sky-blue,
+  gwic-green: $gwic-green,
+  gwic-orange: $gwic-orange,
+  gwic-yellow: $gwic-yellow,
+  gwic-blue: $gwic-blue,
+  gwic-dark-blue: $gwic-dark-blue,
+  black: $black,
+  dark80: $dark80,
+  dark70: $dark70,
+  dark60: $dark60,
+  light40: $light40,
+  light20: $light20,
+  light10: $light10,
+  white: $white,
+  black70: $black70,
+);
 
 $focus-offset: 3px;
 
@@ -257,6 +285,14 @@ $button-variations: (
     background-hover: $nsw-primary-blue,
     border: $nsw-primary-blue,
     border-hover: $nsw-primary-blue
+  ),
+  gwic-yellow: (
+    text-color: $gwic-dark-blue,
+    text-color-hover: $gwic-dark-blue,
+    background: $gwic-yellow,
+    background-hover: darken($gwic-yellow, 10%),
+    border: $gwic-yellow,
+    border-hover: darken($gwic-yellow, 10%)
   ),
   danger: (
     text-color: $white,
