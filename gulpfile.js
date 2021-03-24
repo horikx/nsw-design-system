@@ -107,11 +107,16 @@ function cleanBuild(files, metalsmith, done) {
 }
 
 function sortByAlpha(a, b) {
-  const nameA = a.title.toLowerCase()
-  const nameB = b.title.toLowerCase()
-  if (nameA < nameB) { return -1 }
-  if (nameA > nameB) { return 1 }
-  return 0
+  try {
+    const nameA = a.title.toLowerCase()
+    const nameB = b.title.toLowerCase()
+    if (nameA < nameB) { return -1 }
+    if (nameA > nameB) { return 1 }
+    return 0
+  } catch (e) {
+    console.log(`ERROR in sortByAlpha see keys -->: ${Object.keys(a)} + ${Object.keys(b)}`)
+    return 0
+  }
 }
 
 function metalsmithBuild(callback) {
