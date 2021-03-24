@@ -1,0 +1,29 @@
+@mixin bg-variant-hover-less-important($parent, $color) {
+  #{$parent} {
+    background-color: $color;
+  }
+  a#{$parent},
+  button#{$parent} {
+    &:hover {
+      /* stylelint-disable */
+      background-color: darken($color, 10%);
+      /* stylelint-enable */
+    }
+  }
+}
+
+@each $color, $value in $bg-colors {
+  @include bg-variant-hover-less-important('.bg-#{$color}', $value);
+
+  @media (min-width: map_get($grid-breakpoints, lg)) {
+    @include bg-variant-hover-less-important('.bg-#{$color}-lg', $value);
+  }
+  
+  @media (min-width: map_get($grid-breakpoints, md)) {
+    @include bg-variant-hover-less-important('.bg-#{$color}-md', $value);
+  }
+  
+  @media (min-width: map_get($grid-breakpoints, sm)) {
+    @include bg-variant-hover-less-important('.bg-#{$color}-sm', $value);
+  }
+}
