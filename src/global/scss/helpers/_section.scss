@@ -44,6 +44,18 @@
   background-color: $light40;
 }
 
+.nsw-section--dark-60 {
+  background-color: $dark60;
+}
+
+.nsw-section--dark-70 {
+  background-color: $dark70;
+}
+
+.nsw-section--dark-80 {
+  background-color: $dark80;
+}
+
 .nsw-section--box {
   @include border-radius;
   border: 1px solid $light20;

@@ -1,7 +1,5 @@
 .hero-transparent {
-
   color: $white;
-  background-color: $black70;
 
   &__title {
     @include font-stack('heading');

@@ -39,7 +39,7 @@
 .gwic-masthead {
   @include font-stack;
   @include nsw-spacing(padding, sm none);
-  background-color: $nsw-primary-blue;
+  background-color: $gwic-sky-blue;
   color: $white;
 
   p {
@@ -49,7 +49,7 @@
 }
 
 .gwic-header {
-  background-color: $nsw-primary-blue;
+  background-color: $gwic-sky-blue;
   position: relative;
   border-bottom: solid 1px $light20;
 
@@ -178,14 +178,14 @@
     background: $light10;
     top: 0;
 
-    @include breakpoint('lg') {
-      @include break-out-reset;
-      position: absolute;
-      width: rem(394px);
-      right: rem(16px);
-      top: 50%;
-      transform: translateY(-50%);
-    }
+    // @include breakpoint('lg') {
+    //   @include break-out-reset;
+    //   position: absolute;
+    //   width: rem(394px);
+    //   right: rem(16px);
+    //   top: 50%;
+    //   transform: translateY(-50%);
+    // }
   }
 
   &__input {
@@ -203,12 +203,12 @@
       @include nsw-focus($offset: false);
     }
 
-    @include breakpoint('lg') {
-      @include nsw-spacing(padding, none md);
-      @include border-radius;
-      height: rem(50px);
-      padding: 0 rem(16px);
-    }
+    // @include breakpoint('lg') {
+    //   @include nsw-spacing(padding, none md);
+    //   @include border-radius;
+    //   height: rem(50px);
+    //   padding: 0 rem(16px);
+    // }
   }
 
   &__submit {
@@ -232,9 +232,9 @@
     margin-top: -1px;
     display: none;
 
-    @include breakpoint('lg') {
-      display: inline-block;
-    }
+    // @include breakpoint('lg') {
+    //   display: inline-block;
+    // }
 
     &.nsw-icon {
       width: rem(24px);

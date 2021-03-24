@@ -1,0 +1,27 @@
+<div class="nsw-section--image nsw-section--no-padding" style="background-image: url(https://picsum.photos/id/199/2000/1250);">
+  <div class="nsw-section" style="background-color: rgba(0,0,0,0.6)">
+    <div class="nsw-container text-white">  
+      <h2 class="text-center">NSW Greyhound Welfare Code of Practice</h2>
+
+      <ul class="gwic-navigation__list">
+        {{#each navitems}}
+        <li class="gwic-navigation__list-item">
+          <a href="{{url}}" class="gwic-navigation__link d-flex flex-column align-items-center">
+            {{#with img}} 
+            <span class="flex-grow-1">
+              <span class="gwic-navigation__icon">
+                {{{replace icon "002664" "f9be00"}}}
+              </span>
+              <span class="gwic-navigation__icon--hover">
+                {{{ icon }}}
+              </span>
+            </span>
+            {{/with}}
+            <span class="gwic-navigation__link-text flex-shrink-1 text-white">{{text}}</span>
+          </a>
+        </li>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+</div>

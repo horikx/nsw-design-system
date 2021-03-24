@@ -6,32 +6,24 @@
       <span class="sr-only">Close Menu</span>
     </button>
   </div>
-  
+
   <ul class="gwic-navigation__list">
+    {{#each navitems}}
     <li class="gwic-navigation__list-item">
       <a href="{{url}}" class="gwic-navigation__link d-flex flex-column align-items-center">
-        <img src="../../assets/svg/gwic-van.svg" alt="">
-        <span class="gwic-navigation__link-text">Introduction</span>
+        {{#with img}} 
+        <span class="flex-grow-1">
+          <span class="gwic-navigation__icon">
+            {{{icon}}}
+          </span>
+          <span class="gwic-navigation__icon--hover">
+            {{{ icon }}}
+          </span>
+        </span>
+        {{/with}}
+        <span class="gwic-navigation__link-text flex-shrink-1">{{text}}</span>
       </a>
     </li>
-    <li class="gwic-navigation__list-item">
-      <a href="{{url}}" class="gwic-navigation__link d-flex flex-column align-items-center">
-
-        <span class="gwic-navigation__link-text">Health &amp; Wellbeing</span>
-      </a>
-    </li>
-    <li class="gwic-navigation__list-item">
-      <a href="{{url}}" class="gwic-navigation__link d-flex flex-column align-items-center">
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120.571" height="73.003" viewBox="0 0 120.571 73.003">
-
-        <span class="gwic-navigation__link-text">Greyhound Breeding</span>
-      </a>
-    </li>
-    <li class="gwic-navigation__list-item">
-      <a href="{{url}}" class="gwic-navigation__link d-flex flex-column align-items-center">
-
-        <span class="gwic-navigation__link-text">Nutrition &amp; Hydration</span>
-      </a>
-    </li>
+    {{/each}}
   </ul>
 </nav>

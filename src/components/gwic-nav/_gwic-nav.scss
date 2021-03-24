@@ -1,5 +1,9 @@
 .navigation-open {
   overflow: hidden;
+  
+  @include breakpoint('lg') {
+    overflow: visible;
+  }
 }
 
 .gwic-navigation {
@@ -105,7 +109,7 @@
 .gwic-navigation__list-item,
 .gwic-subnavigation__list-item,
 .gwic-subnavigation__title {
-  border-bottom: solid 1px $light20;
+  // border-bottom: solid 1px $light20;
   display: flex;
   flex-direction: row;
   align-items: stretch;
@@ -132,7 +136,7 @@
   text-align: center;
 
   &:hover {
-    @include nsw-hover;
+    background-color: $gwic-yellow;
   }
 
   &:focus {
@@ -167,6 +171,20 @@
 
   .gwic-navigation__link.is-open & {
     transform: rotate(270deg);
+  }
+}
+
+.gwic-navigation__icon--hover {
+  display: none;
+}
+
+.gwic-navigation__link:hover {
+  .gwic-navigation__icon {
+    display: none;
+  }
+  
+  .gwic-navigation__icon--hover {
+    display: block;
   }
 }
 

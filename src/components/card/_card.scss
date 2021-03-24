@@ -76,6 +76,10 @@
     order: 3;
   }
 
+  &__button {
+    order: 4;
+  }
+
   &__icon {
     @include nsw-spacing(margin, md none none none);
     position: absolute;
