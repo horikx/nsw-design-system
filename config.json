@@ -16,6 +16,10 @@
     "watch": ["./src/main.js", "./src/components/**/*.js", "./src/global/scripts/**/*.js", "./src/styles/**/*.js"],
     "build": "./dist/js/"
   },
+  "serverjs": {
+    "src": "./src/server.mjs",
+    "build": "./dist/server/"
+  },
   "svg": {
     "src": "./src/assets/svg/*.svg",
     "watch": "./src/assets/svg/*.svg",

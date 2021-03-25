@@ -23,6 +23,11 @@ const dataLoader = require('metalsmith-data-loader')
 // const debug = require('metalsmith-debug-ui')
 const discoverHelpers = require('metalsmith-discover-helpers')
 const rollup = require('gulp-better-rollup')
+const commonJS = require('rollup-plugin-commonjs')
+const { nodeResolve } = require('@rollup/plugin-node-resolve')
+const builtins = require('rollup-plugin-node-builtins')
+const globals = require('rollup-plugin-node-globals')
+const json = require('@rollup/plugin-json')
 const babel = require('rollup-plugin-babel')
 const eslint = require('gulp-eslint')
 const gulpStylelint = require('gulp-stylelint')
@@ -175,6 +180,33 @@ function compileJS() {
     .pipe(dest(config.js.build))
 }
 
+function compileServerJS() {
+  return src(config.serverjs.src)
+    .pipe(
+      rollup(
+        {
+          plugins: [
+            babel(),
+            nodeResolve({
+              browser: true,
+              preferBuiltins: false,
+            }),
+            commonJS(),
+            json(),
+            globals(),
+            builtins(),
+          ],
+          treeshake: false,
+        },
+        {
+          name: 'handlebars',
+          format: 'iife',
+        },
+      ),
+    )
+    .pipe(dest(config.serverjs.build))
+}
+
 function lintJavascript() {
   return src(config.js.watch)
     .pipe(eslint())
@@ -227,6 +259,7 @@ function injectSVG() {
 
 const styles = series(lintStyles, buildStyles)
 const javascript = series(lintJavascript, compileJS)
+const serverjs = series(lintJavascript, compileServerJS)
 
 function watchFiles(done) {
   watch(config.scss.watch, series(styles, reload))
@@ -270,11 +303,12 @@ exports.scss = buildStyles // gulp sass - compiles the sass
 exports.watch = watchFiles // gulp watch - watches the files
 exports.lint = lintStyles // gulp lint - lints the sass
 exports.svg = compileSvg // gulp svg - creates svg sprite
-exports.isvg = injectSVG // gulp svg - creates svg sprite
+exports.isvg = injectSVG // gulp svg - creates svg sprite and CSS
 exports.build = build // gulp build - builds the files
 exports.surge = deploy // gulp surge - builds the files and deploys to surge
 exports.clean = cleanUp // gulp clean - clean the dist directory
 exports.metal = metalsmithBuild // gulp metal - generates static site of components
 exports.js = javascript // gulp js - compiles the js
+exports.serverjs = serverjs // gulp js - compiles the js
 exports.bumping = bumping // gulp bump - bumps the version number in specific files - used for releases
 exports.default = dev // gulp - default gulp task
