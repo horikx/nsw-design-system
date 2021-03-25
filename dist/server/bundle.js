@@ -1,5 +1,7 @@
-var handlebars = (function (exports) {
+var handlebars = (function (exports, init) {
 	'use strict';
+
+	init = init && Object.prototype.hasOwnProperty.call(init, 'default') ? init['default'] : init;
 
 	var commonjsGlobal = typeof globalThis !== 'undefined' ? globalThis : typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
 
@@ -1589,7 +1591,7 @@ var handlebars = (function (exports) {
 	module.exports = exports['default'];
 	});
 
-	var handlebars_runtime$1 = unwrapExports(handlebars_runtime);
+	var Handlebars = unwrapExports(handlebars_runtime);
 
 	var ast = createCommonjsModule(function (module, exports) {
 	'use strict';
@@ -10286,6 +10288,121 @@ var handlebars = (function (exports) {
 	  return Array.prototype.slice.call(arguments, 0, -1).some(Boolean);
 	};
 
+	init();
+	var Template = /*#__PURE__*/Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
+	    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+	        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+	          return parent[propertyName];
+	        }
+	        return undefined
+	    };
+
+	  return " nsw-card--"
+	    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"theme") || (depth0 != null ? lookupProperty(depth0,"theme") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"theme","hash":{},"data":data,"loc":{"start":{"line":1,"column":45},"end":{"line":1,"column":54}}}) : helper)));
+	},"3":function(container,depth0,helpers,partials,data) {
+	    return " nsw-card--content";
+	},"5":function(container,depth0,helpers,partials,data) {
+	    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+	        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+	          return parent[propertyName];
+	        }
+	        return undefined
+	    };
+
+	  return " "
+	    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"classifiers") || (depth0 != null ? lookupProperty(depth0,"classifiers") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"classifiers","hash":{},"data":data,"loc":{"start":{"line":1,"column":121},"end":{"line":1,"column":136}}}) : helper)))
+	    + " ";
+	},"7":function(container,depth0,helpers,partials,data) {
+	    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+	        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+	          return parent[propertyName];
+	        }
+	        return undefined
+	    };
+
+	  return "    <p class=\"nsw-card__tag\">"
+	    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"tag") || (depth0 != null ? lookupProperty(depth0,"tag") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"tag","hash":{},"data":data,"loc":{"start":{"line":7,"column":29},"end":{"line":7,"column":36}}}) : helper)))
+	    + "</p>\r\n";
+	},"9":function(container,depth0,helpers,partials,data) {
+	    var stack1, alias1=container.lambda, alias2=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+	        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+	          return parent[propertyName];
+	        }
+	        return undefined
+	    };
+
+	  return "    <p class=\"nsw-card__date\">\r\n      <time datetime=\""
+	    + alias2(alias1(((stack1 = (depth0 != null ? lookupProperty(depth0,"date") : depth0)) != null ? lookupProperty(stack1,"machine") : stack1), depth0))
+	    + "\">"
+	    + alias2(alias1(((stack1 = (depth0 != null ? lookupProperty(depth0,"date") : depth0)) != null ? lookupProperty(stack1,"human") : stack1), depth0))
+	    + "</time>\r\n    </p>\r\n";
+	},"11":function(container,depth0,helpers,partials,data) {
+	    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+	        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+	          return parent[propertyName];
+	        }
+	        return undefined
+	    };
+
+	  return "<p class=\"nsw-card__copy\">"
+	    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"copy") || (depth0 != null ? lookupProperty(depth0,"copy") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"copy","hash":{},"data":data,"loc":{"start":{"line":14,"column":42},"end":{"line":14,"column":50}}}) : helper)))
+	    + "</p>";
+	},"13":function(container,depth0,helpers,partials,data) {
+	    var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", alias4=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+	        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+	          return parent[propertyName];
+	        }
+	        return undefined
+	    };
+
+	  return "      <div class=\"nsw-card__button\">\r\n        <a href=\""
+	    + alias4(((helper = (helper = lookupProperty(helpers,"url") || (depth0 != null ? lookupProperty(depth0,"url") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"url","hash":{},"data":data,"loc":{"start":{"line":17,"column":17},"end":{"line":17,"column":24}}}) : helper)))
+	    + "\" class=\"nsw-button nsw-button--"
+	    + alias4(((helper = (helper = lookupProperty(helpers,"bgColor") || (depth0 != null ? lookupProperty(depth0,"bgColor") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"bgColor","hash":{},"data":data,"loc":{"start":{"line":17,"column":56},"end":{"line":17,"column":67}}}) : helper)))
+	    + "\">"
+	    + alias4(((helper = (helper = lookupProperty(helpers,"buttonText") || (depth0 != null ? lookupProperty(depth0,"buttonText") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"buttonText","hash":{},"data":data,"loc":{"start":{"line":17,"column":69},"end":{"line":17,"column":83}}}) : helper)))
+	    + "</a>\r\n      </div>\r\n";
+	},"15":function(container,depth0,helpers,partials,data) {
+	    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+	        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+	          return parent[propertyName];
+	        }
+	        return undefined
+	    };
+
+	  return "  <div class=\"nsw-card__image-area\">\r\n    <img src=\""
+	    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"img") || (depth0 != null ? lookupProperty(depth0,"img") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"img","hash":{},"data":data,"loc":{"start":{"line":23,"column":14},"end":{"line":23,"column":21}}}) : helper)))
+	    + "\" alt=\"\" class=\"nsw-card__image\">\r\n  </div>\r\n";
+	},"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+	    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
+	        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+	          return parent[propertyName];
+	        }
+	        return undefined
+	    };
+
+	  return "<div class=\"nsw-card "
+	    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"theme") : depth0),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":1,"column":21},"end":{"line":1,"column":61}}})) != null ? stack1 : "")
+	    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"content") : depth0),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":1,"column":61},"end":{"line":1,"column":101}}})) != null ? stack1 : "")
+	    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"classifiers") : depth0),{"name":"if","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":1,"column":101},"end":{"line":1,"column":144}}})) != null ? stack1 : "")
+	    + "\">\r\n  <div class=\"nsw-card__content\">\r\n    <h2 class=\"nsw-card__title\">\r\n      <a href=\"#\" class=\"nsw-card__link\">"
+	    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,"heading") || (depth0 != null ? lookupProperty(depth0,"heading") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"heading","hash":{},"data":data,"loc":{"start":{"line":4,"column":41},"end":{"line":4,"column":52}}}) : helper)))
+	    + "</a>\r\n    </h2>\r\n"
+	    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"tag") : depth0),{"name":"if","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":6,"column":4},"end":{"line":8,"column":11}}})) != null ? stack1 : "")
+	    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"date") : depth0),{"name":"if","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":9,"column":4},"end":{"line":13,"column":11}}})) != null ? stack1 : "")
+	    + "    "
+	    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"copy") : depth0),{"name":"if","hash":{},"fn":container.program(11, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":14,"column":4},"end":{"line":14,"column":61}}})) != null ? stack1 : "")
+	    + "\r\n"
+	    + ((stack1 = lookupProperty(helpers,"with").call(alias1,(depth0 != null ? lookupProperty(depth0,"button") : depth0),{"name":"with","hash":{},"fn":container.program(13, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":15,"column":4},"end":{"line":19,"column":13}}})) != null ? stack1 : "")
+	    + "  </div>\r\n"
+	    + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"img") : depth0),{"name":"if","hash":{},"fn":container.program(15, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":21,"column":2},"end":{"line":25,"column":9}}})) != null ? stack1 : "")
+	    + "</div>\r\n";
+	},"useData":true});
+	function cardHbs(data, options, asString) {
+	  var html = Template(data, options);
+	  return (asString || true) ? html : $(html);
+	};
+
 	// import * as handlebarsRuntime from 'handlebars/runtime'
 	lib.registerHelper(capitalize);
 	lib.registerHelper(changeExtention);
@@ -10294,7 +10411,7 @@ var handlebars = (function (exports) {
 	lib.registerHelper(ifEquals);
 	lib.registerHelper(or);
 	var templates = {
-	  card: lib.compile(require('./components/card/_card.hbs'))
+	  card: lib.compile(cardHbs)
 	};
 
 	exports.handlebars = lib;
@@ -10302,4 +10419,4 @@ var handlebars = (function (exports) {
 
 	return exports;
 
-}({}));
+}({}, init));
