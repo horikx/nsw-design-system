@@ -199,6 +199,7 @@ function compileServerJS() {
           treeshake: false,
         },
         {
+          file: 'bundle.js',
           name: 'handlebars',
           format: 'iife',
         },
