@@ -16,6 +16,11 @@ handlebars.registerHelper(encodeUrl)
 handlebars.registerHelper(ifEquals)
 handlebars.registerHelper(orHelper)
 
-// helpers.string({ handlebars })
+const templates = {
+  card: handlebars.compile(require('./components/card/_card.hbs'))
+}
 
-export default handlebars
+export {
+  handlebars,
+  templates,
+}

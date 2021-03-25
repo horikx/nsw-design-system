@@ -1,4 +1,4 @@
-var handlebars = (function () {
+var handlebars = (function (exports) {
 	'use strict';
 
 	var commonjsGlobal = typeof globalThis !== 'undefined' ? globalThis : typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
@@ -10292,8 +10292,14 @@ var handlebars = (function () {
 	lib.registerHelper(debug);
 	lib.registerHelper(encodeUrl);
 	lib.registerHelper(ifEquals);
-	lib.registerHelper(or); // helpers.string({ handlebars })
+	lib.registerHelper(or);
+	var templates = {
+	  card: lib.compile(require('./components/card/_card.hbs'))
+	};
 
-	return lib;
+	exports.handlebars = lib;
+	exports.templates = templates;
 
-}());
+	return exports;
+
+}({}));
