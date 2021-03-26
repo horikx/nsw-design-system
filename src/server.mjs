@@ -1,26 +1,24 @@
-// import * as handlebarsRuntime from 'handlebars/runtime'
-import handlebars from 'handlebars'
-// import helpers from 'handlebars-helpers'
-// import 'handlebars/runtime.js'
-import capitalize from './global/handlebars/helpers/capitalize.js'
-import changeExt from './global/handlebars/helpers/change-extention.js'
-import debug from './global/handlebars/helpers/debug.js'
-import encodeUrl from './global/handlebars/helpers/encodeUrl.js'
-import ifEquals from './global/handlebars/helpers/if-equals.js'
-import orHelper from './global/handlebars/helpers/or.js'
+// // import * as handlebarsRuntime from 'handlebars/runtime'
+import handlebars from 'handlebars/runtime'
+// // import helpers from 'handlebars-helpers'
+// // import 'handlebars/runtime.js'
+// // handlebars.registerHelper(helpers)
 
-handlebars.registerHelper(capitalize)
-handlebars.registerHelper(changeExt)
-handlebars.registerHelper(debug)
-handlebars.registerHelper(encodeUrl)
-handlebars.registerHelper(ifEquals)
-handlebars.registerHelper(orHelper)
+import card from './components/card/_card.hbs'
+import gwicNav from './components/gwic-nav/_gwic-nav.hbs'
+import gwicHeader from './components/gwic-header/_gwic-header.hbs'
+import gwicFooter from './components/gwic-footer/_gwic-footer.hbs'
+import gwicSubNav from './components/gwic-sub-nav/_gwic-sub-nav.hbs'
+import breadcrumbs from './components/breadcrumbs/_breadcrumbs.hbs'
 
 const templates = {
-  card: handlebars.compile(require('./components/card/_card.hbs'))
+  handlebars,
+  card,
+  breadcrumbs,
+  gwicNav,
+  gwicHeader,
+  gwicFooter,
+  gwicSubNav,
 }
 
-export {
-  handlebars,
-  templates,
-}
+export default templates

@@ -1,7 +1,7 @@
-var handlebars = (function (exports, init) {
+var handlebars = (function (exports, Helpers0) {
 	'use strict';
 
-	init = init && Object.prototype.hasOwnProperty.call(init, 'default') ? init['default'] : init;
+	Helpers0 = Helpers0 && Object.prototype.hasOwnProperty.call(Helpers0, 'default') ? Helpers0['default'] : Helpers0;
 
 	var commonjsGlobal = typeof globalThis !== 'undefined' ? globalThis : typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
 
@@ -1591,7 +1591,7 @@ var handlebars = (function (exports, init) {
 	module.exports = exports['default'];
 	});
 
-	var Handlebars = unwrapExports(handlebars_runtime);
+	var handlebars_runtime$1 = unwrapExports(handlebars_runtime);
 
 	var ast = createCommonjsModule(function (module, exports) {
 	'use strict';
@@ -10251,45 +10251,12 @@ var handlebars = (function (exports, init) {
 	  commonjsRequire.extensions['.hbs'] = extension;
 	}
 
-	var capitalize = function (str) {
-	  if (typeof str !== 'string') return '';
-	  return str.charAt(0).toUpperCase() + str.slice(1);
-	};
-
-	var changeExtention = function (page) {
-	  return page.split('.')[0] + '.html';
-	};
-
-	var debug = function (optionalValue) {
-	  console.log('Current Context');
-	  console.log('====================');
-	  console.log(this);
-
-	  if (optionalValue) {
-	    console.log('Value');
-	    console.log('====================');
-	    console.log(optionalValue);
-	  }
-	};
-
-	var encodeUrl = function (str) {
-	  return encodeURIComponent(str);
-	};
-
-	var ifEquals = function (a, b, options) {
-	  if (a === b) {
-	    return options.fn(this);
-	  }
-
-	  return options.inverse(this);
-	};
-
-	var or = function () {
-	  return Array.prototype.slice.call(arguments, 0, -1).some(Boolean);
-	};
+	function init() {
+	  Helpers0.__initialized || (Helpers0(lib), Helpers0.__initialized = true);
+	}
 
 	init();
-	var Template = /*#__PURE__*/Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
+	var Template = /*#__PURE__*/lib.template({"1":function(container,depth0,helpers,partials,data) {
 	    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
 	        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
 	          return parent[propertyName];
@@ -10404,12 +10371,12 @@ var handlebars = (function (exports, init) {
 	};
 
 	// import * as handlebarsRuntime from 'handlebars/runtime'
-	lib.registerHelper(capitalize);
-	lib.registerHelper(changeExtention);
-	lib.registerHelper(debug);
-	lib.registerHelper(encodeUrl);
-	lib.registerHelper(ifEquals);
-	lib.registerHelper(or);
+	// handlebars.registerHelper(changeExt)
+	// handlebars.registerHelper(debug)
+	// handlebars.registerHelper(encodeUrl)
+	// handlebars.registerHelper(ifEquals)
+	// handlebars.registerHelper(orHelper)
+
 	var templates = {
 	  card: lib.compile(cardHbs)
 	};
@@ -10419,4 +10386,4 @@ var handlebars = (function (exports, init) {
 
 	return exports;
 
-}({}, init));
+}({}, Helpers0));

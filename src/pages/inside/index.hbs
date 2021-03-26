@@ -1,9 +1,21 @@
 ---
-title: GWIC Home
+title: Full width - Hero banner
 model:
   nav: ../../components/gwic-nav/gwic-nav.json
   content-nav: ../../components/gwic-content-nav/gwic-content-nav.json
+  hero: json/home.json
+  breadcrumbs: ../../components/breadcrumbs/json/breadcrumbs.json
   card-gwic-1: ../../components/card/json/card-gwic-1.json
+  card-media-1: ../../components/card/json/card-media-1.json
+  card-media-2: ../../components/card/json/card-media-2.json
+  card-media-3: ../../components/card/json/card-media-3.json
+  card-simple-1: ../../components/card/json/card-simple-1.json
+  card-simple-2: ../../components/card/json/card-simple-2.json
+  card-simple-3: ../../components/card/json/card-simple-3.json
+  card-simple-4: ../../components/card/json/card-simple-4.json
+  card-news-1: ../../components/card/json/card-news-1.json
+  card-news-2: ../../components/card/json/card-news-2.json
+  card-news-3: ../../components/card/json/card-news-3.json
   footer: ../../components/gwic-footer/json/footer.json
 ---
 
@@ -36,13 +48,8 @@ model:
       </div>
     </div>
   </section>
-  <div class="nsw-section--image nsw-section--no-padding" style="background-image: url(https://picsum.photos/id/199/2000/1250);">
-    <div class="nsw-section" style="background-color: rgba(0,0,0,0.6)">
-      <div class="nsw-container text-white">  
-        {{>_gwic-content-nav model.content-nav}}
-      </div>
-    </div>
-  </div>
+
+  {{>_gwic-content-nav model.content-nav}}
 </main>
 
 {{>_gwic-footer model.footer}}

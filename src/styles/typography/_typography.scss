@@ -2,7 +2,7 @@
 .nsw-body-content {
   @include font-stack;
   @include nsw-font-size('sm');
-  color: $dark80;
+  color: $nsw-primary-blue;
 
   a:not(.nsw-button):not(.nsw-tag) {
     @include link;

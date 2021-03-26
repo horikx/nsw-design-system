@@ -4,7 +4,7 @@
       <a href="#" class="nsw-card__link">{{heading}}</a>
     </h2>
     {{#if tag}}
-    <p class="nsw-card__tag">{{tag}}</p>
+    <p class="nsw-card__tag">{{replace tag 'foo' 'bar'}}</p>
     {{/if}}
     {{#if date}}
     <p class="nsw-card__date">

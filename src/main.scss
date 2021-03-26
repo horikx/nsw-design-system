@@ -22,7 +22,6 @@
 @import 'components/forms/forms';
 @import 'components/footer/footer';
 @import 'components/gwic-header/gwic-header';
-@import 'components/gwic-nav/gwic-nav';
 @import 'components/gwic-footer/gwic-footer';
 @import 'components/header/header';
 @import 'components/hero-banner/hero-banner';
@@ -30,7 +29,8 @@
 @import 'components/hero-transparent/hero-transparent';
 @import 'components/in-page-navigation/in-page-navigation';
 @import 'components/link-list/link-list';
-// @import 'components/main-navigation/main-navigation';
+@import 'components/main-navigation/main-navigation';
+@import 'components/gwic-nav/gwic-nav';
 @import 'components/notification/notification';
 @import 'components/pagination/pagination';
 @import 'components/progress-indicator/progress-indicator';

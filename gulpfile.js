@@ -27,6 +27,8 @@ const commonJS = require('rollup-plugin-commonjs')
 const { nodeResolve } = require('@rollup/plugin-node-resolve')
 const builtins = require('rollup-plugin-node-builtins')
 const globals = require('rollup-plugin-node-globals')
+const rHandlebars = require('rollup-plugin-handlebars-plus')
+const rootImport = require('rollup-plugin-root-import')
 const json = require('@rollup/plugin-json')
 const babel = require('rollup-plugin-babel')
 const eslint = require('gulp-eslint')
@@ -37,6 +39,7 @@ const fs = require('fs')
 const { argv } = require('yargs')
 const bump = require('gulp-bump')
 const config = require('./config')
+const handlebars = require('handlebars')
 
 const server = browsersync.create()
 sass.compiler = require('node-sass')
@@ -191,9 +194,11 @@ function compileServerJS() {
               browser: true,
               preferBuiltins: false,
             }),
-            commonJS(),
-            json(),
-            globals(),
+            commonJS({
+              include: 'node_modules/**',
+            }),
+            // json(),
+            // globals(),
             builtins(),
           ],
           treeshake: false,

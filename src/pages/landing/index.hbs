@@ -1,0 +1,46 @@
+---
+title: GWIC Landing
+model:
+  nav: ../../components/gwic-nav/gwic-nav.json
+  breadcrumbs: ../../components/breadcrumbs/json/breadcrumbs.json
+  content-nav: ../../components/gwic-content-nav/gwic-content-nav.json
+  footer: ../../components/gwic-footer/json/footer.json
+---
+
+{{>_gwic-header content="#content" nav="#gwic-navigation"}}
+{{>_gwic-nav model.nav}}
+
+<div class="nsw-container mb-4">
+  {{>_breadcrumbs model.breadcrumbs}}
+</div>
+
+<div class="nsw-section bg-gwic-sky-blue nsw-section--no-padding mb-4">
+  <div class="nsw-container text-center text-gwic-dark-blue">
+    <h1>NSW Greyhound Welfare Code of Practice</h1>
+    {{>_gwic-content-nav model.content-nav}}
+  </div>
+</div>
+
+<main id="content">
+  <div class="nsw-container">
+    <h1>Nutrition &amp; Hydration</h1>
+    <div class="lead">To ensure that every greyhound receives the food and water neede for optimal development, health and wellbeing</div>
+  </div>
+  <div class="nsw-container">
+    <h2>Standards</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Food</h3>
+        
+      </div>
+    </div>
+  </div>
+  <div class="bg-dark80">
+    <div class="nsw-container">
+    </div>
+  </div>
+</main>
+
+
+
+{{>_gwic-footer model.footer}}
