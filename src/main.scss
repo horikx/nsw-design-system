@@ -1,4 +1,5 @@
 @import '../node_modules/bootstrap/scss/bootstrap-utilities';
+@import '../node_modules/bootstrap/scss/images';
 
 @import 'global/scss/settings/_settings';
 @import 'global/scss/tools/_all';
@@ -36,6 +37,7 @@
 @import 'components/progress-indicator/progress-indicator';
 @import 'components/side-navigation/side-navigation';
 @import 'components/site-wide-message/site-wide-message';
+@import 'components/split-col/split-col';
 @import 'components/social-bar/social-bar';
 @import 'components/tab-navigation/tab-navigation';
 @import 'components/tables/tables';
