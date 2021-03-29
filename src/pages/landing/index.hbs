@@ -5,6 +5,8 @@ model:
   breadcrumbs: ../../components/breadcrumbs/json/breadcrumbs.json
   content-nav: ../../components/gwic-content-nav/gwic-content-nav.json
   footer: ../../components/gwic-footer/json/footer.json
+  split-col-1: ../../components/split-col/split-col.json
+  split-col-2: ../../components/split-col/split-col-rev.json
 ---
 
 {{>_gwic-header content="#content" nav="#gwic-navigation"}}
@@ -22,18 +24,20 @@ model:
 </div>
 
 <main id="content">
-  <div class="nsw-container">
+  <div class="nsw-container nsw-body-content">
     <h1>Nutrition &amp; Hydration</h1>
     <div class="lead">To ensure that every greyhound receives the food and water neede for optimal development, health and wellbeing</div>
-  </div>
-  <div class="nsw-container">
+
+
     <h2>Standards</h2>
-    <div class="row">
-      <div class="col-md-6">
-        <h3>Food</h3>
-        
-      </div>
-    </div>
+    {{>_split-col model.split-col-1}}
+    {{>_split-col model.split-col-2}}
+    {{>_split-col model.split-col-1}}
+
+    <hr>
+
+    <p class="mb-5"><strong>Note:</strong> Participants who keep retired greyhouds ar required to comply with those Standards marked with an "R" in relation to those greyhounds.</p>
+    <a href="#" class="nsw-button nsw-button--primary w-100 mb-4">Download the complete Code of Practice PDF</a>
   </div>
   <div class="bg-dark80">
     <div class="nsw-container">

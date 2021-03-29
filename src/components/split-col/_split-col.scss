@@ -1,0 +1,28 @@
+.split-col {
+  // https://stackoverflow.com/questions/4098195/can-ordered-list-produce-result-that-looks-like-1-1-1-2-1-3-instead-of-just-1
+
+  &__top-border::before {
+    content: ' ';
+    display: block;
+    border-top: 2px solid $gwic-sky-blue;
+  }
+
+  ol {
+    list-style-type: none;
+    counter-reset: seconditem -1;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ol > li {
+    display: table;
+    counter-increment: seconditem;
+    margin-bottom: 0.6em;
+  }
+  
+  ol > li::before {
+    content: counter(item) '.' counter(seconditem);
+    display: table-cell;
+    padding-right: 0.6em;    
+  }
+}

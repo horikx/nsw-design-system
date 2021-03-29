@@ -1,0 +1,10 @@
+{
+  "col-2": {
+    "content": "<h3>Food</h3><ol style='counter-reset: item 2;'><li>All greyhounds must be fed at least once daily. Food must be provided in sufficient quantity and nutritional quality. Food must be canine-appropriate and meet the daily requirements for the greyhound’s age, size, condition, and level of activity. R</li></ol>",
+    "show-top-border": true
+  },
+  "col-1": {
+    "size": 6,
+    "content": "<img src='https://picsum.photos/1080/800' class='w-100' alt=''>"
+  }
+}
