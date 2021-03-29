@@ -6,7 +6,7 @@
         {{{col-1.content}}}
       </div>
       
-      <div class="nsw-col nsw-col-sm-6 {{#if 
+      <div class="nsw-col nsw-col-sm-{{#with col-1}}{{minus 12 size}}{{/with}} {{#if 
     col-2.show-top-border}}split-col__top-border{{/if}}">
         {{{col-2.content}}}
       </div>
