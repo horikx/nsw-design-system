@@ -1,0 +1,12 @@
+/* stylelint-disable */
+#bootstrap-specificity,
+.bootstrap-specificity {
+  @import "../node_modules/bootstrap/scss/bootstrap.scss";
+  @import "./global/scss/style/squiz-override";
+  font-family: $font-family-base;
+  @include font-size($font-size-base);
+  font-weight: $font-weight-base;
+  line-height: $line-height-base;
+  color: $body-color;
+}
+/* stylelint-enable */

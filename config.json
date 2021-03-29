@@ -2,12 +2,12 @@
 {
   "dir": {
     "src": "./src/",
-    "build": "./dist/",
+    "build": ["./dist/"],
     "zip": "./zip/",
     "temp": "./temp/"
   },
   "scss": {
-    "src": "./src/main.scss",
+    "src": "./src/*.scss",
     "watch": "./src/**/*.scss",
     "build": "./dist/css/"
   },

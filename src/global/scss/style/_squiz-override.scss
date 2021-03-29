@@ -1,0 +1,12 @@
+/* stylelint-disable */
+input[type="text"],
+input[type="password"] {
+  height: auto;
+  line-height: inherit;
+}
+
+input[name*="metadata_field_select"] + table td {
+  padding: 0 !important;
+  border: none !important;
+}
+/* stylelint-enable */

@@ -3,7 +3,7 @@ module.exports = {
   entry: require.resolve("./src/server.mjs"),
   mode: 'production',
   output: {
-    path: path.join(__dirname, "/dist/server"),
+    path: path.join(__dirname, "/server-dist"),
     // iife: true,
     library: 'templates',
     filename: "wbundle.js",
