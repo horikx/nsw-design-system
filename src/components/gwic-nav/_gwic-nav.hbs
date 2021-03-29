@@ -6,17 +6,16 @@
       <span class="sr-only">Close Menu</span>
     </button>
   </div>
-
-  <ul class="gwic-navigation__list">
+  <ul class="gwic-navigation__list {{{navClassByCount navitems}}}">
     {{#each navitems}}
     <li class="gwic-navigation__list-item">
-      <a href="{{url}}" class="gwic-navigation__link d-flex flex-column align-items-center">
+      <a href="{{url}}" class="gwic-navigation__link d-flex flex-column">
         {{#with img}} 
         <span class="flex-grow-1">
-          <span class="gwic-navigation__icon">
+          <span class="gwic-navigation__icon text-center">
             {{{icon}}}
           </span>
-          <span class="gwic-navigation__icon--hover">
+          <span class="gwic-navigation__icon--hover text-center">
             {{{ icon }}}
           </span>
         </span>
