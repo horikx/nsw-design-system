@@ -1,19 +1,45 @@
-<ul class="gwic-navigation__list">
-  {{#each navitems}}
-  <li class="gwic-navigation__list-item">
-    <a href="{{url}}" class="gwic-navigation__link d-flex flex-column align-items-center">
-      {{#with img}} 
-      <span class="flex-grow-1">
-        <span class="gwic-navigation__icon">
-          {{{replace icon "002664" "f9be00"}}}
-        </span>
-        <span class="gwic-navigation__icon--hover">
-          {{{ icon }}}
-        </span>
-      </span>
-      {{/with}}
-      <span class="gwic-navigation__link-text flex-shrink-1 text-white">{{text}}</span>
-    </a>
-  </li>
-  {{/each}}
-</ul>
+<div class="nsw-section bg-gwic-sky-blue nsw-section--no-padding">
+  <div class="nsw-container ">
+    <h1 class="text-gwic-dark-blue">{{title}}</h1>
+  </div>
+</div>
+<div class="nsw-section bg-gwic-sky-blue nsw-section--no-padding mb-4">
+  <div class="nsw-container ">
+    <div class="gwic-sub-navigation">
+      <div class="gwic-sub-navigation__btn-ctr">
+        <button type="button" class="gwic-sub-navigation-btn gwic-sub-navigation-btn--menu js-open-sub-navigation"
+          aria-expanded="false" aria-controls="main-navigation">
+          <i class="material-icons nsw-material-icons gwic-sub-navigation-btn__icon" focusable="false"
+            aria-hidden="true">menu</i>
+          <span class="gwic-sub-navigation-btn__sub"><span class="sr-only">Open Menu</span></span>
+        </button>
+        <button type="button" class="gwic-navigation__close js-close-sub-navigation" aria-expanded="true">
+          <i class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">close</i>
+          <span class="sr-only">Close Menu</span>
+        </button>
+      </div>
+
+      <div class="gwic-sub-navigation__list-ctr">
+        <ul class="gwic-sub-navigation__list">
+          {{#each navitems}}
+          <li class="gwic-navigation__list-item">
+            <a href="{{url}}" class="gwic-navigation__link d-flex flex-column align-items-center">
+              {{#with img}}
+              <span class="flex-grow-1">
+                <span class="gwic-navigation__icon">
+                  {{{replace icon "002664" "f9be00"}}}
+                </span>
+                <span class="gwic-navigation__icon--hover">
+                  {{{ icon }}}
+                </span>
+              </span>
+              {{/with}}
+              <span class="gwic-navigation__link-text flex-shrink-1 text-white">{{text}}</span>
+            </a>
+          </li>
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

@@ -101,8 +101,7 @@
   }
 }
 
-.gwic-navigation__list,
-.gwic-subnavigation__list {
+%gwic-pl-navigation-list {
   @include container;
   list-style: none;
   padding: 0;
@@ -114,6 +113,11 @@
   @include breakpoint('md') {
     justify-content: center;
   }
+}
+
+.gwic-navigation__list,
+.gwic-subnavigation__list {
+  @extend %gwic-pl-navigation-list;
 }
 
 .gwic-navigation__list-item,

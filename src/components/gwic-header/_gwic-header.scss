@@ -110,7 +110,8 @@
   height: rem(46px);
 }
 
-.gwic-header-btn {
+  /* stylelint-disable */
+%gwic-menu-btn {
   @include border-radius;
   color: $white;
   width: rem(48px);
@@ -151,6 +152,11 @@
     @include font-stack('heading');
     font-size: rem(12px);
   }
+}
+/* stylelint-enable */
+
+.gwic-header-btn {
+  @extend %gwic-menu-btn;
 }
 
 .gwic-header-btn--search {

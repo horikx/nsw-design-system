@@ -1,5 +1,6 @@
 import SiteSearch from './components/header/header'
 import Navigation from './components/gwic-nav/gwic-nav'
+import SubNavigation from './components/gwic-content-nav/gwic-content-nav'
 // import Navigation from './components/main-navigation/main-navigation'
 import Accordion from './components/accordion/accordion'
 import ShareThis from './components/social-bar/social-bar'
@@ -44,6 +45,7 @@ function initSite() {
 
   // Navigation
   new Navigation().init()
+  new SubNavigation().init()
 
   accordions.forEach((element) => {
     new Accordion(element).init()
@@ -65,5 +67,5 @@ function initSite() {
 }
 
 export {
-  initSite, SiteSearch, Navigation, Accordion, ShareThis, Tabs, SitewideMessage,
+  initSite, SiteSearch, SubNavigation, Navigation, Accordion, ShareThis, Tabs, SitewideMessage,
 }

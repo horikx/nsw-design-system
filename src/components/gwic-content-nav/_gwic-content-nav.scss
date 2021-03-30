@@ -1,0 +1,42 @@
+.gwic-sub-navigation {
+  &__list {
+    @extend %gwic-pl-navigation-list;
+    height: 0;
+    overflow: hidden;
+    
+    @include breakpoint('md') {  
+      height: auto;
+
+    }    
+  }
+  
+  &--open {
+    .gwic-sub-navigation__list {
+      height: auto;
+    } 
+
+    .gwic-sub-navigation-btn {
+      display: none;
+    }
+
+    .gwic-navigation__close {
+      display: block;
+    }
+  }
+
+  &-btn {
+    @extend %gwic-menu-btn;
+  }
+
+  &__btn-ctr {
+    display: block;
+
+    @include breakpoint('md') {  
+      display: none;
+    }   
+  }
+}
+
+.gwic-navigation__close {
+  display: none;
+}

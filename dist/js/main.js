@@ -469,6 +469,78 @@
     return Navigation;
   }();
 
+  var SubNavigation = /*#__PURE__*/function () {
+    function SubNavigation() {
+      _classCallCheck(this, SubNavigation);
+
+      this.openSubnavButtons = document.querySelectorAll('.js-open-sub-navigation');
+      this.closeSubnavButtons = document.querySelectorAll('.js-close-sub-navigation');
+      this.submenu = document.querySelector('.gwic-sub-navigation');
+    }
+
+    _createClass(SubNavigation, [{
+      key: "init",
+      value: function init() {
+        if (this.submenu) {
+          this.setUpMobileControls(); // this.responsiveCheck(this.breakpoint)
+          // this.breakpoint.addListener((e) => this.responsiveCheck(e))
+        }
+      }
+    }, {
+      key: "setUpMobileControls",
+      value: function setUpMobileControls() {
+        var _this = this;
+
+        this.openSubnavButtons.forEach(function (element) {
+          element.addEventListener('click', function () {
+            return _this.opensubnav();
+          }, false);
+        });
+        this.closeSubnavButtons.forEach(function (element) {
+          element.addEventListener('click', function () {
+            return _this.closeSubnav();
+          }, false);
+        });
+      }
+    }, {
+      key: "closeSubnav",
+      value: function closeSubnav() {
+        this.submenu.classList.remove('gwic-sub-navigation--open');
+        this.submenu.setAttribute('aria-expanded', false); // const { submenu, link } = this.whichSubNavLatest()
+        // if (this.breakpoint.matches) {
+        //   link.setAttribute('aria-expanded', false)
+        //   link.classList.remove('is-open')
+        //   this.mainNavElement.removeEventListener('focus', this.checkFocusEvent, true)
+        //   // fix: workaround for safari because it doesn't support focus event
+        //   this.mainNavElement.removeEventListener('mousedown', this.checkFocusEvent, true)
+        // } else {
+        //   link.focus()
+        //   submenu.removeEventListener('keydown', this.mobileSubNavTrapTabKeyEvent, false)
+        // }
+        // submenu.classList.remove('is-open')
+        // this.openSubNavElements.pop()
+      }
+    }, {
+      key: "opensubnav",
+      value: function opensubnav() {
+        this.submenu.classList.add('gwic-sub-navigation--open');
+        this.submenu.setAttribute('aria-expanded', true); // if (this.breakpoint.matches) {
+        //   link.setAttribute('aria-expanded', true)
+        //   link.classList.add('is-open')
+        //   this.mainNavElement.addEventListener('focus', this.checkFocusEvent, true)
+        //   // fix: workaround for safari because it doesn't support focus event
+        //   this.mainNavElement.addEventListener('mousedown', this.checkFocusEvent, true)
+        // } else {
+        //   submenu.addEventListener('keydown', this.mobileSubNavTrapTabKeyEvent, false)
+        //   submenu.addEventListener(this.transitionEvent, this.showSubNavTransitionEndEvent, false)
+        // }
+        // submenu.classList.add('is-open')
+      }
+    }]);
+
+    return SubNavigation;
+  }();
+
   function createButtons(_ref) {
     var textContent = _ref.textContent;
     var fragment = document.createDocumentFragment();
@@ -833,6 +905,7 @@
     }); // Navigation
 
     new Navigation().init();
+    new SubNavigation().init();
     accordions.forEach(function (element) {
       new Accordion(element).init();
     });
@@ -857,6 +930,7 @@
   exports.ShareThis = ShareThis;
   exports.SiteSearch = SiteSearch;
   exports.SitewideMessage = SitewideMessage;
+  exports.SubNavigation = SubNavigation;
   exports.Tabs = Tabs;
   exports.initSite = initSite;
 
