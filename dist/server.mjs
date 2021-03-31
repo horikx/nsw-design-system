@@ -7,6 +7,7 @@ import gwicFooter from './components/gwic-footer/_gwic-footer.hbs'
 import gwicSubNav from './components/gwic-sub-nav/_gwic-sub-nav.hbs'
 import gwicSplitCol from './components/split-col/_split-col.hbs'
 import gwicBreadcrumbs from './components/gwic-breadcrumbs/_gwic-breadcrumbs.hbs'
+import gwicContentNav from './components/gwic-breadcrumbs/_gwic-breadcrumbs.hbs'
 
 const templates = {
   handlebars,
@@ -17,6 +18,7 @@ const templates = {
   gwicFooter,
   gwicSubNav,
   gwicSplitCol,
+  gwicContentNav,
 }
 
 export default templates
