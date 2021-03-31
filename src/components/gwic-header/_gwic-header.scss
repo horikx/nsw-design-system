@@ -133,30 +133,38 @@
   &:focus {
     @include nsw-focus;
   }
+}
 
-  &__icon {
-    position: relative;
-    font-size: rem(40px);
-    line-height: rem(18px);
-    top: -1px;
-    color: $white;
+%gwic-menu-btn-icon {
+  position: relative;
+  font-size: rem(40px);
+  line-height: rem(18px);
+  top: -1px;
+  color: $white;
 
-    &.nsw-icon {
-      height: rem(16px);
-      width: rem(16px);
-      margin: 1px 0;
-    }
+  &.nsw-icon {
+    height: rem(16px);
+    width: rem(16px);
+    margin: 1px 0;
   }
+}
 
-  &__sub {
-    @include font-stack('heading');
-    font-size: rem(12px);
-  }
+%gwic-menu-button-sub {
+  @include font-stack('heading');
+  font-size: rem(12px);
 }
 /* stylelint-enable */
 
 .gwic-header-btn {
   @extend %gwic-menu-btn;
+  
+  &__icon {
+    @extend %gwic-menu-btn-icon;
+  }
+
+  &__sub {
+    @extend %gwic-menu-button-sub;
+  }
 }
 
 .gwic-header-btn--search {
@@ -167,7 +175,6 @@
 
     .gwic-header-btn__icon {
       font-size: rem(34px);
-      color: $white;
 
       &.nsw-icon {
         width: rem(24px);

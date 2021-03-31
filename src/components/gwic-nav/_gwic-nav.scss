@@ -6,6 +6,36 @@
   }
 }
 
+%gwic-nav-close {
+  @include border-radius;
+  width: rem(40px);
+  height: rem(40px);
+  background: none;
+  border: 0;
+  padding: 0;
+  position: relative;
+  right: rem(-10px);
+  top: 0;
+  text-align: center;
+
+  &:hover {
+    @include nsw-hover;
+  }
+
+  &:focus {
+    @include nsw-focus;
+  }
+
+  .gwic-icon {
+    height: rem(20px);
+    width: rem(20px);
+  }
+
+  .nsw-material-icons {
+    font-size: rem(34px);
+  }
+}
+
 .gwic-navigation {
   @include z-index('middle');
   width: 100%;
@@ -29,33 +59,7 @@
   }
 
   &__close {
-    @include border-radius;
-    width: rem(40px);
-    height: rem(40px);
-    background: none;
-    border: 0;
-    padding: 0;
-    position: relative;
-    right: rem(-10px);
-    top: 0;
-    text-align: center;
-
-    &:hover {
-      @include nsw-hover;
-    }
-
-    &:focus {
-      @include nsw-focus;
-    }
-
-    .gwic-icon {
-      height: rem(20px);
-      width: rem(20px);
-    }
-
-    .nsw-material-icons {
-      font-size: rem(34px);
-    }
+    @extend %gwic-nav-close;
   }
 
   &__link-text {

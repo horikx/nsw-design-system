@@ -1,0 +1,11 @@
+<div class="nsw-container mb-4">
+  <nav aria-label="{{label}}" class="gwic-breadcrumb">
+    <ol class="gwic-breadcrumb__list">
+      {{#each breadcrumbItems}}
+        <li class="gwic-breadcrumb__item">
+          <a href="{{url}}" class="gwic-breadcrumb__link {{#if @last}}gwic-breadcrumb--current{{/if}}" {{#if @last}}aria-current="page"{{/if}}>{{text}}</a>
+        </li>
+      {{/each}}
+    </ol>
+  </nav>
+</div>

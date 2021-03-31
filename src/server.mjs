@@ -6,12 +6,12 @@ import gwicHeader from './components/gwic-header/_gwic-header.hbs'
 import gwicFooter from './components/gwic-footer/_gwic-footer.hbs'
 import gwicSubNav from './components/gwic-sub-nav/_gwic-sub-nav.hbs'
 import gwicSplitCol from './components/split-col/_split-col.hbs'
-import breadcrumbs from './components/breadcrumbs/_breadcrumbs.hbs'
+import gwicBreadcrumbs from './components/gwic-breadcrumbs/_gwic-breadcrumbs.hbs'
 
 const templates = {
   handlebars,
   card,
-  breadcrumbs,
+  gwicBreadcrumbs,
   gwicNav,
   gwicHeader,
   gwicFooter,

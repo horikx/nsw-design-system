@@ -148,6 +148,7 @@ h4 {
     @include font-stack('heading');
     margin: 0;
     padding-top: rem($grid-gutters);
+    color: $gwic-dark-blue;
 
     @include breakpoint('md') {
       padding-top: rem($grid-gutters*2);

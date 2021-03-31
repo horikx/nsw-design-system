@@ -9,6 +9,22 @@
 
     }    
   }
+
+  .gwic-sub-navigation-btn {
+    @extend %gwic-menu-btn;
+    
+    &__icon {
+      @extend %gwic-menu-btn-icon;
+    }
+  
+    &__sub {
+      @extend %gwic-menu-button-sub;
+    }
+  }
+
+  &__close {
+    @extend %gwic-nav-close;
+  }
   
   &--open {
     .gwic-sub-navigation__list {
@@ -19,7 +35,7 @@
       display: none;
     }
 
-    .gwic-navigation__close {
+    .gwic-sub-navigation__close {
       display: block;
     }
   }
@@ -37,6 +53,6 @@
   }
 }
 
-.gwic-navigation__close {
+.gwic-sub-navigation__close {
   display: none;
 }
