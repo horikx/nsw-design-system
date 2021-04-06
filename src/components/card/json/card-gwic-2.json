@@ -5,7 +5,7 @@
   "classifiers": "nsw-card--no-highlight nsw-card--centered nsw-card--transparent nsw-card--white",
   "button": {
     "url": "#",
-    "btnBgColor": "gwic-yellow",
+    "btnBgColor": "primary",
     "buttonText": "Whole of lifecycle"
   }
 }

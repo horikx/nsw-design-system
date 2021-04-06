@@ -294,6 +294,30 @@ $button-variations: (
     border: $gwic-yellow,
     border-hover: darken($gwic-yellow, 10%)
   ),
+  gwic-orange: (
+    text-color: $gwic-dark-blue,
+    text-color-hover: $gwic-dark-blue,
+    background: $gwic-orange,
+    background-hover: darken($gwic-orange, 10%),
+    border: $gwic-orange,
+    border-hover: darken($gwic-orange, 10%)
+  ),
+  gwic-green: (
+    text-color: $gwic-dark-blue,
+    text-color-hover: $gwic-dark-blue,
+    background: $gwic-green,
+    background-hover: darken($gwic-green, 10%),
+    border: $gwic-green,
+    border-hover: darken($gwic-green, 10%)
+  ),
+  gwic-sky-blue: (
+    text-color: $gwic-dark-blue,
+    text-color-hover: $gwic-dark-blue,
+    background: $gwic-sky-blue,
+    background-hover: darken($gwic-sky-blue, 10%),
+    border: $gwic-sky-blue,
+    border-hover: darken($gwic-sky-blue, 10%)
+  ),
   danger: (
     text-color: $white,
     text-color-hover: $white,
