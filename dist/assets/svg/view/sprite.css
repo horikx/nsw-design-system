@@ -1,5 +1,14 @@
+.svg-00_blank {
+	background: url("svg/sprite.view.svg") 35.36345776031434% 0 no-repeat;
+}
+
+.svg-00_blank-dims {
+	width: 120px;
+	height: 120px;
+}
+
 .svg-01_Introduction {
-	background: url("svg/sprite.view.svg") 36.21730382293762% 0 no-repeat;
+	background: url("svg/sprite.view.svg") 0 33.282871536523935% no-repeat;
 }
 
 .svg-01_Introduction-dims {
@@ -8,7 +17,7 @@
 }
 
 .svg-02_Nutrition_&amp;_Hydration {
-	background: url("svg/sprite.view.svg") 0 33.19924623115578% no-repeat;
+	background: url("svg/sprite.view.svg") 23.575638506876228% 33.282871536523935% no-repeat;
 }
 
 .svg-02_Nutrition_&amp;_Hydration-dims {
@@ -17,7 +26,7 @@
 }
 
 .svg-03_Health_&amp;_Wellbeing {
-	background: url("svg/sprite.view.svg") 24.14486921529175% 33.19924623115578% no-repeat;
+	background: url("svg/sprite.view.svg") 58.93909626719057% 0 no-repeat;
 }
 
 .svg-03_Health_&amp;_Wellbeing-dims {
@@ -26,7 +35,7 @@
 }
 
 .svg-04_Greyhound_Breeding {
-	background: url("svg/sprite.view.svg") 60.36217303822938% 0 no-repeat;
+	background: url("svg/sprite.view.svg") 58.93909626719057% 30.22670025188917% no-repeat;
 }
 
 .svg-04_Greyhound_Breeding-dims {
@@ -35,7 +44,7 @@
 }
 
 .svg-05_Housing_&amp;_Environment {
-	background: url("svg/sprite.view.svg") 60.36217303822938% 30.150753768844222% no-repeat;
+	background: url("svg/sprite.view.svg") 0 63.5095717884131% no-repeat;
 }
 
 .svg-05_Housing_&amp;_Environment-dims {
@@ -44,7 +53,7 @@
 }
 
 .svg-06_Transporting__Greyhounds {
-	background: url("svg/sprite.view.svg") 0 63.35% no-repeat;
+	background: url("svg/sprite.view.svg") 23.575638506876228% 63.5095717884131% no-repeat;
 }
 
 .svg-06_Transporting__Greyhounds-dims {
@@ -53,7 +62,7 @@
 }
 
 .svg-07_Exercise,_Socialisation_&amp;_Enrichment {
-	background: url("svg/sprite.view.svg") 24.14486921529175% 63.35% no-repeat;
+	background: url("svg/sprite.view.svg") 47.151277013752456% 63.5095717884131% no-repeat;
 }
 
 .svg-07_Exercise,_Socialisation_&amp;_Enrichment-dims {
@@ -62,7 +71,7 @@
 }
 
 .svg-08_Training,_Trialling_&amp;_Racing {
-	background: url("svg/sprite.view.svg") 48.2897384305835% 63.35% no-repeat;
+	background: url("svg/sprite.view.svg") 82.5147347740668% 0 no-repeat;
 }
 
 .svg-08_Training,_Trialling_&amp;_Racing-dims {
@@ -71,7 +80,7 @@
 }
 
 .svg-09_Rehoming_Greyhounds_as_Companion_Animals {
-	background: url("svg/sprite.view.svg") 84.50704225352112% 0 no-repeat;
+	background: url("svg/sprite.view.svg") 82.5147347740668% 30.22670025188917% no-repeat;
 }
 
 .svg-09_Rehoming_Greyhounds_as_Companion_Animals-dims {
@@ -80,7 +89,7 @@
 }
 
 .svg-10_Definitions {
-	background: url("svg/sprite.view.svg") 84.50704225352112% 30.150753768844222% no-repeat;
+	background: url("svg/sprite.view.svg") 82.5147347740668% 60.45340050377834% no-repeat;
 }
 
 .svg-10_Definitions-dims {
@@ -89,7 +98,7 @@
 }
 
 .svg-Group_76 {
-	background: url("svg/sprite.view.svg") 0 83.44986724552402% no-repeat;
+	background: url("svg/sprite.view.svg") 0 99.819524605786% no-repeat;
 }
 
 .svg-Group_76-dims {
@@ -98,7 +107,7 @@
 }
 
 .svg-arrow {
-	background: url("svg/sprite.view.svg") 99.14529914529915% 70.25905349794239% no-repeat;
+	background: url("svg/sprite.view.svg") 40.20100502512563% 37.54474226804124% no-repeat;
 }
 
 .svg-arrow-dims {
@@ -107,7 +116,7 @@
 }
 
 .svg-chevron {
-	background: url("svg/sprite.view.svg") 96.64991624790619% 76.84341563786009% no-repeat;
+	background: url("svg/sprite.view.svg") 98.45665024630541% 74.90701030927835% no-repeat;
 }
 
 .svg-chevron-dims {
@@ -116,7 +125,7 @@
 }
 
 .svg-close {
-	background: url("svg/sprite.view.svg") 92.3076923076923% 83.42777777777778% no-repeat;
+	background: url("svg/sprite.view.svg") 40.20100502512563% 44.142680412371135% no-repeat;
 }
 
 .svg-close-dims {
@@ -134,7 +143,7 @@
 }
 
 .svg-email {
-	background: url("svg/sprite.view.svg") 93.58752166377816% 70.25905349794239% no-repeat;
+	background: url("svg/sprite.view.svg") 20.470458404074705% 12.191752577319587% no-repeat;
 }
 
 .svg-email-dims {
@@ -143,7 +152,7 @@
 }
 
 .svg-facebook {
-	background: url("svg/sprite.view.svg") 97.77777777777777% 83.42777777777778% no-repeat;
+	background: url("svg/sprite.view.svg") 60.301507537688444% 51.98618556701031% no-repeat;
 }
 
 .svg-facebook-dims {
@@ -152,7 +161,7 @@
 }
 
 .svg-gwic-bone {
-	background: url("svg/sprite.view.svg") 96.87853763641485% 33.18385650224215% no-repeat;
+	background: url("svg/sprite.view.svg") 94.83683673487309% 81.64022471910113% no-repeat;
 }
 
 .svg-gwic-bone-dims {
@@ -161,7 +170,7 @@
 }
 
 .svg-gwic-bone-bowl {
-	background: url("svg/sprite.view.svg") 99.88845788869097% 0 no-repeat;
+	background: url("svg/sprite.view.svg") 97.71933920011293% 48.600225733634325% no-repeat;
 }
 
 .svg-gwic-bone-bowl-dims {
@@ -170,7 +179,7 @@
 }
 
 .svg-gwic-bookmark {
-	background: url("svg/sprite.view.svg") 96.88722864847698% 62.280868556387155% no-repeat;
+	background: url("svg/sprite.view.svg") 42.153406785644655% 28.291520444671885% no-repeat;
 }
 
 .svg-gwic-bookmark-dims {
@@ -179,7 +188,7 @@
 }
 
 .svg-gwic-dog-wagging {
-	background: url("svg/sprite.view.svg") 81.8520387978664% 53.81165919282511% no-repeat;
+	background: url("svg/sprite.view.svg") 0 83.62539325842697% no-repeat;
 }
 
 .svg-gwic-dog-wagging-dims {
@@ -188,7 +197,7 @@
 }
 
 .svg-gwic-heart-tick {
-	background: url("svg/sprite.view.svg") 16.537933980931825% 99.64086873426977% no-repeat;
+	background: url("svg/sprite.view.svg") 98.96199859254047% 16.41284358292978% no-repeat;
 }
 
 .svg-gwic-heart-tick-dims {
@@ -197,7 +206,7 @@
 }
 
 .svg-gwic-pawprint {
-	background: url("svg/sprite.view.svg") 35.74967187020023% 83.08264885344504% no-repeat;
+	background: url("svg/sprite.view.svg") 98.33647463738426% 32.4913236982191% no-repeat;
 }
 
 .svg-gwic-pawprint-dims {
@@ -206,7 +215,7 @@
 }
 
 .svg-gwic-person-speech {
-	background: url("svg/sprite.view.svg") 18.428831374235106% 83.44986724552402% no-repeat;
+	background: url("svg/sprite.view.svg") 18.013914009321034% 99.819524605786% no-repeat;
 }
 
 .svg-gwic-person-speech-dims {
@@ -215,7 +224,7 @@
 }
 
 .svg-gwic-stopwatch {
-	background: url("svg/sprite.view.svg") 97.17246132446066% 49.27211646136618% no-repeat;
+	background: url("svg/sprite.view.svg") 95.11848416365312% 97.71021324354658% no-repeat;
 }
 
 .svg-gwic-stopwatch-dims {
@@ -224,7 +233,7 @@
 }
 
 .svg-gwic-sun-home {
-	background: url("svg/sprite.view.svg") 0 99.82044782425011% no-repeat;
+	background: url("svg/sprite.view.svg") 99.86259646449423% 0 no-repeat;
 }
 
 .svg-gwic-sun-home-dims {
@@ -233,7 +242,7 @@
 }
 
 .svg-gwic-van {
-	background: url("svg/sprite.view.svg") 0 13.287730029640649% no-repeat;
+	background: url("svg/sprite.view.svg") 0 13.317657551740213% no-repeat;
 }
 
 .svg-gwic-van-dims {
@@ -242,7 +251,7 @@
 }
 
 .svg-linkedin {
-	background: url("svg/sprite.view.svg") 92.3076923076923% 90.01213991769548% no-repeat;
+	background: url("svg/sprite.view.svg") 60.301507537688444% 58.58412371134021% no-repeat;
 }
 
 .svg-linkedin-dims {
@@ -251,7 +260,7 @@
 }
 
 .svg-menu {
-	background: url("svg/sprite.view.svg") 97.77777777777777% 90.01213991769548% no-repeat;
+	background: url("svg/sprite.view.svg") 60.301507537688444% 65.18206185567011% no-repeat;
 }
 
 .svg-menu-dims {
@@ -260,7 +269,7 @@
 }
 
 .svg-nsw-gov-logo {
-	background: url("svg/sprite.view.svg") 98.43004084846694% 16.666666666666668% no-repeat;
+	background: url("svg/sprite.view.svg") 96.32313200014983% 65.30451467268624% no-repeat;
 }
 
 .svg-nsw-gov-logo-dims {
@@ -269,7 +278,7 @@
 }
 
 .svg-search {
-	background: url("svg/sprite.view.svg") 92.3076923076923% 96.59650205761316% no-repeat;
+	background: url("svg/sprite.view.svg") 17.400167504187603% 76.72845360824743% no-repeat;
 }
 
 .svg-search-dims {
@@ -278,7 +287,7 @@
 }
 
 .svg-status-error {
-	background: url("svg/sprite.view.svg") 97.77777777777777% 96.59650205761316% no-repeat;
+	background: url("svg/sprite.view.svg") 22.76030150753769% 76.72845360824743% no-repeat;
 }
 
 .svg-status-error-dims {
@@ -287,7 +296,7 @@
 }
 
 .svg-status-info {
-	background: url("svg/sprite.view.svg") 71.7948717948718% 64.19753086419753% no-repeat;
+	background: url("svg/sprite.view.svg") 28.120435510887773% 76.72845360824743% no-repeat;
 }
 
 .svg-status-info-dims {
@@ -296,7 +305,7 @@
 }
 
 .svg-status-success {
-	background: url("svg/sprite.view.svg") 77.26495726495726% 64.19753086419753% no-repeat;
+	background: url("svg/sprite.view.svg") 33.48056951423786% 76.72845360824743% no-repeat;
 }
 
 .svg-status-success-dims {
@@ -305,7 +314,7 @@
 }
 
 .svg-status-warning {
-	background: url("svg/sprite.view.svg") 82.73504273504274% 64.19753086419753% no-repeat;
+	background: url("svg/sprite.view.svg") 38.84070351758794% 76.72845360824743% no-repeat;
 }
 
 .svg-status-warning-dims {
@@ -314,7 +323,7 @@
 }
 
 .svg-tick {
-	background: url("svg/sprite.view.svg") 20.61042735042735% 12.166666666666666% no-repeat;
+	background: url("svg/sprite.view.svg") 44.20083752093802% 76.72845360824743% no-repeat;
 }
 
 .svg-tick-dims {
@@ -323,7 +332,7 @@
 }
 
 .svg-twitter {
-	background: url("svg/sprite.view.svg") 93.10344827586206% 76.84341563786009% no-repeat;
+	background: url("svg/sprite.view.svg") 20.366722972972973% 18.789690721649485% no-repeat;
 }
 
 .svg-twitter-dims {
