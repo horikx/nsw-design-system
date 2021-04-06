@@ -6,23 +6,4 @@
     display: block;
     border-top: 2px solid $gwic-sky-blue;
   }
-
-  ol {
-    list-style-type: none;
-    counter-reset: seconditem -1;
-    margin: 0;
-    padding: 0;
-  }
-  
-  ol > li {
-    display: table;
-    counter-increment: seconditem;
-    margin-bottom: 0.6em;
-  }
-  
-  ol > li::before {
-    content: counter(item) '.' counter(seconditem);
-    display: table-cell;
-    padding-right: 0.6em;    
-  }
 }
