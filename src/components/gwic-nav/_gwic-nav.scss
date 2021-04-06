@@ -47,6 +47,10 @@
   visibility: hidden;
   outline: none;
   overflow-y: auto;
+  
+  @include breakpoint('md') {  
+    padding: 2rem 0;
+  }    
 
   &.is-opening,
   &.is-open {
@@ -65,6 +69,7 @@
   &__link-text {
     flex: 1 1 auto;
     text-align: left;
+    font-weight: bold;
 
     @include breakpoint('md') {  
       text-align: center;
@@ -96,12 +101,6 @@
     @include breakpoint($desktop-breakpoint) {
       display: none;
     }
-  }
-
-  &__icon {
-    // width: 40px;
-    // height: 40px;
-
   }
 }
 
@@ -161,7 +160,7 @@
 .gwic-subnavigation__title-link {
   flex: 1 1 100%;
   padding: 16px;
-  color: $dark80;
+  color: $gwic-dark-blue;
   text-decoration: none;
   display: flex;
   flex-direction: row;
@@ -173,7 +172,7 @@
   }
 
   &:hover {
-    background-color: $gwic-yellow;
+    // background-color: $gwic-yellow;
   }
 
   &:focus {
@@ -184,15 +183,6 @@
     background-color: $white;
   }
 }
-
-// .gwic-navigation__link,
-// .gwic-subnavigation__link {
-//   justify-content: center;
-
-//   &:last-child {
-//     justify-content: left;
-//   }
-// }
 
 .gwic-navigation__link-icon {
   line-height: rem(26px);
@@ -211,16 +201,37 @@
   }
 }
 
+.gwic-navigation--circle {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 4rem;
+  background-color: $gwic-yellow;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 1;
+}
+
 .gwic-navigation__icon {
   display: none;
+  position: relative;
   
   @include breakpoint('md') {  
     display: block;
-  }    
-}
+    height: 3rem;
+    margin: 3rem 0;
+  }
 
-.gwic-navigation__icon--hover {
-  display: none;
+  svg {
+    height: 100%;
+    z-index: 2;
+    position: relative;
+  }
+
+  &--hover {
+    display: none;
+  }
 }
 
 .gwic-navigation__link:hover {
@@ -260,10 +271,14 @@
   @include nsw-spacing(padding-top, xs);
   @include nsw-spacing(padding-bottom, xs);
   @include container;
-  border-bottom: solid 2px $nsw-primary-blue;
   display: flex;
   align-items: stretch;
   justify-content: space-between;
+  border-bottom: solid 2px $nsw-primary-blue;
+
+  @include breakpoint('md') {  
+    border: 0;
+  }
 
   h2 {
     @include font-stack('heading');
@@ -271,6 +286,11 @@
     @include nsw-font-size('md');
     flex: 1 1 auto;
     align-self: center;
+    color: $gwic-dark-blue;
+    
+    @include breakpoint('md') {  
+      text-align: center;
+    }    
   }
 }
 

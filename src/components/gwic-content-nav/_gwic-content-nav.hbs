@@ -1,10 +1,10 @@
-<div class="nsw-section bg-gwic-sky-blue nsw-section--no-padding">
+<div class="nsw-section{{#if backgroundColor}} bg-gwic-sky-blue{{/if}} nsw-section--no-padding">
   <div class="nsw-container ">
     <h1 class="nsw-section-title text-gwic-dark-blue">{{title}}</h1>
   </div>
 </div>
 {{#if navitems.length}}
-<div class="nsw-section bg-gwic-sky-blue nsw-section--no-padding mb-4">
+<div class="nsw-section{{#if backgroundColor}} bg-gwic-sky-blue{{/if}} nsw-section--no-padding mb-4">
   <div class="nsw-container ">
     <div class="gwic-sub-navigation">
       <div class="gwic-sub-navigation__btn-ctr">
@@ -24,18 +24,21 @@
         <ul class="gwic-sub-navigation__list">
           {{#each navitems}}
           <li class="gwic-navigation__list-item">
-            <a href="{{url}}" class="gwic-navigation__link d-flex flex-column align-items-md-center">
+            <a href="{{url}}" class="gwic-navigation__link d-flex flex-column">
               {{#with img}}
               <span class="flex-grow-1">
-                <span class="gwic-navigation__icon">
-                  {{{replace icon "002664" "f9be00"}}}
+                <span class="gwic-navigation__icon text-center">
+                  {{{icon}}}
                 </span>
-                <span class="gwic-navigation__icon--hover">
-                  {{{ icon }}}
+                <span class="gwic-navigation__icon gwic-navigation__icon--hover text-center">
+                  <div class="gwic-navigation--circle"></div>
+                    {{{ icon }}}
                 </span>
               </span>
               {{/with}}
-              <span class="gwic-navigation__link-text flex-shrink-1 text-white">{{text}}</span>
+              <span class="gwic-navigation__link-text flex-shrink-1 ">
+                {{text}}
+              </span>
             </a>
           </li>
           {{/each}}

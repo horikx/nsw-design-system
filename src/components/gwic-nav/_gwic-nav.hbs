@@ -1,6 +1,6 @@
 <nav id="gwic-navigation" class="gwic-navigation" aria-label="main menu">
   <div class="gwic-navigation__header">
-    <h2 id="gwic-navigation">Menu</h2>
+    <h2 id="gwic-navigation">{{menuTitle}}</h2>
     <button type="button" class="gwic-navigation__close js-close-navigation" aria-expanded="true">
       <i class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">close</i>
       <span class="sr-only">Close Menu</span>
@@ -15,7 +15,8 @@
           <span class="gwic-navigation__icon text-center">
             {{{icon}}}
           </span>
-          <span class="gwic-navigation__icon--hover text-center">
+          <span class="gwic-navigation__icon gwic-navigation__icon--hover text-center">
+            <div class="gwic-navigation--circle"></div>
             {{{ icon }}}
           </span>
         </span>

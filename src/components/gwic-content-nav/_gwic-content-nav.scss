@@ -45,7 +45,8 @@
   }
 
   &__btn-ctr {
-    display: block;
+    display: flex;
+    justify-content: flex-end;
 
     @include breakpoint('md') {  
       display: none;
