@@ -88,6 +88,15 @@
 	height: 120px;
 }
 
+.svg-Group_76 {
+	background: url("svg/sprite.view.svg") 0 83.44986724552402% no-repeat;
+}
+
+.svg-Group_76-dims {
+	width: 96.012px;
+	height: 72.064px;
+}
+
 .svg-arrow {
 	background: url("svg/sprite.view.svg") 99.14529914529915% 70.25905349794239% no-repeat;
 }
@@ -188,7 +197,7 @@
 }
 
 .svg-gwic-pawprint {
-	background: url("svg/sprite.view.svg") 17.874835935100116% 83.08264885344504% no-repeat;
+	background: url("svg/sprite.view.svg") 35.74967187020023% 83.08264885344504% no-repeat;
 }
 
 .svg-gwic-pawprint-dims {
@@ -197,7 +206,7 @@
 }
 
 .svg-gwic-person-speech {
-	background: url("svg/sprite.view.svg") 0 83.44986724552402% no-repeat;
+	background: url("svg/sprite.view.svg") 18.428831374235106% 83.44986724552402% no-repeat;
 }
 
 .svg-gwic-person-speech-dims {
