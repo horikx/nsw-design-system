@@ -481,7 +481,7 @@
     _createClass(SubNavigation, [{
       key: "init",
       value: function init() {
-        if (this.submenu) {
+        if (this.submenu && !this.submenu.classList.contains('no-collapse')) {
           this.setUpMobileControls(); // this.responsiveCheck(this.breakpoint)
           // this.breakpoint.addListener((e) => this.responsiveCheck(e))
         }

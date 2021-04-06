@@ -1,12 +1,12 @@
-<div class="nsw-section{{#if backgroundColor}} bg-gwic-sky-blue{{/if}} nsw-section--no-padding">
+<div class="nsw-section{{#if backgroundColor}} bg-gwic-sky-blue{{else}} theme--dark{{/if}} nsw-section--no-padding">
   <div class="nsw-container ">
-    <h1 class="nsw-section-title text-gwic-dark-blue">{{title}}</h1>
+    <h1 class="nsw-section-title">{{title}}</h1>
   </div>
 </div>
 {{#if navitems.length}}
-<div class="nsw-section{{#if backgroundColor}} bg-gwic-sky-blue{{/if}} nsw-section--no-padding mb-4">
+<div class="nsw-section{{#if backgroundColor}} bg-gwic-sky-blue{{else}} theme--dark{{/if}} nsw-section--no-padding mb-4">
   <div class="nsw-container ">
-    <div class="gwic-sub-navigation">
+    <div class="gwic-sub-navigation{{#unless responsiveCollapse}} no-collapse{{/unless}}">
       <div class="gwic-sub-navigation__btn-ctr">
         <button type="button" class="gwic-sub-navigation-btn gwic-sub-navigation-btn--menu js-open-sub-navigation"
           aria-expanded="false" aria-controls="main-navigation">
@@ -28,11 +28,15 @@
               {{#with img}}
               <span class="flex-grow-1">
                 <span class="gwic-navigation__icon text-center">
-                  {{{icon}}}
+                  {{#if ../../backgroundColor}}
+                    {{{icon}}}
+                  {{else}}
+                    {{{replace icon "002664" "f9be00"}}}
+                  {{/if}}
                 </span>
                 <span class="gwic-navigation__icon gwic-navigation__icon--hover text-center">
                   <div class="gwic-navigation--circle"></div>
-                    {{{ icon }}}
+                  {{{icon}}}
                 </span>
               </span>
               {{/with}}

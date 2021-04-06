@@ -1,6 +1,7 @@
 {
   "title": "NSW Greyhound Welfare Code of Practice",
   "backgroundColor": true,
+  "responsiveCollapse": true,
   "navitems": [
     {
       "text": "Introduction",

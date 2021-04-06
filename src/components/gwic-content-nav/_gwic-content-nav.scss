@@ -57,3 +57,25 @@
 .gwic-sub-navigation__close {
   display: none;
 }
+
+.theme--dark {
+  .nsw-section-title,
+  .gwic-navigation__link {
+    color: $white;
+  }
+
+  .gwic-navigation__link {
+    padding-left: 0;
+  }
+}
+
+.gwic-sub-navigation.no-collapse {
+  .gwic-sub-navigation__btn-ctr {
+    display: none;
+  }
+
+  .gwic-sub-navigation__list {
+    height: auto;
+    margin-top: 3em;
+  }
+}
