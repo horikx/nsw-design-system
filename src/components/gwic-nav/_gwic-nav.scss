@@ -62,6 +62,15 @@
     transform: translateX(-100%);
   }
 
+  // &--overlay {
+  //   z-index: 1;
+  //   position: absolute;
+  //   top: rem(72px);
+  //   height: calc(100vh - rem(72px));
+  //   width: 100vw;
+  //   background-color: ;
+  // }
+
   &__close {
     @extend %gwic-nav-close;
   }
