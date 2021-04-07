@@ -169,5 +169,13 @@
         @include border-radius;
       }
     }
+
+    &small-font {
+      &,
+      .nsw-button,
+      .nsw-card__content {
+        font-size: 0.8rem;
+      }
+    }
   }
 }
