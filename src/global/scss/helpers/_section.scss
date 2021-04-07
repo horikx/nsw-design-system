@@ -67,5 +67,7 @@
 }
 
 .nsw-section--hero-height-60 {
-  min-height: 60vh;
+  @include breakpoint('lg') {
+    min-height: 60vh;
+  }
 }
