@@ -1,6 +1,7 @@
 import handlebars from 'handlebars/runtime'
 
 import card from './components/card/_card.hbs'
+import hero from './components/hero-transparent/_hero-transparent.hbs'
 import gwicNav from './components/gwic-nav/_gwic-nav.hbs'
 import gwicHeader from './components/gwic-header/_gwic-header.hbs'
 import gwicFooter from './components/gwic-footer/_gwic-footer.hbs'
@@ -11,6 +12,7 @@ import gwicContentNav from './components/gwic-content-nav/_gwic-content-nav.hbs'
 
 const templates = {
   handlebars,
+  hero,
   card,
   gwicBreadcrumbs,
   gwicNav,
