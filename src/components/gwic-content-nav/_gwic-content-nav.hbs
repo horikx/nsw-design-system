@@ -4,7 +4,8 @@
   </div>
 </div>
 {{#if navitems.length}}
-<div class="nsw-section{{#if backgroundColor}} bg-gwic-sky-blue{{else}} theme--dark{{/if}} nsw-section--no-padding mb-4">
+<div
+  class="nsw-section{{#if backgroundColor}} bg-gwic-sky-blue{{else}} theme--dark{{/if}} nsw-section--no-padding mb-4">
   <div class="nsw-container ">
     <div class="gwic-sub-navigation{{#unless responsiveCollapse}} no-collapse{{/unless}}">
       <div class="gwic-sub-navigation__btn-ctr">
@@ -28,11 +29,15 @@
               {{#with img}}
               <span class="flex-grow-1">
                 <span class="gwic-navigation__icon text-center">
-                  {{{blank-icon icon}}}
+                  <svg class="" focusable="false" aria-hidden="true">
+                    <use xlink:href="#{{filename}}"></use>
+                  </svg>
                 </span>
                 <span class="gwic-navigation__icon gwic-navigation__icon--hover text-center">
                   <div class="gwic-navigation--circle"></div>
-                  {{{blank-icon icon}}}
+                  <svg class="" focusable="false" aria-hidden="true">
+                    <use xlink:href="#{{hoverFilename}}"></use>
+                  </svg>
                 </span>
               </span>
               {{/with}}

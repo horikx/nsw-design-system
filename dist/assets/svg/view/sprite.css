@@ -1,5 +1,5 @@
 .svg-00_blank {
-	background: url("svg/sprite.view.svg") 35.36345776031434% 0 no-repeat;
+	background: url("svg/sprite.view.svg") 0 38.078674351585015% no-repeat;
 }
 
 .svg-00_blank-dims {
@@ -7,107 +7,8 @@
 	height: 120px;
 }
 
-.svg-01_Introduction {
-	background: url("svg/sprite.view.svg") 0 33.282871536523935% no-repeat;
-}
-
-.svg-01_Introduction-dims {
-	width: 120px;
-	height: 120px;
-}
-
-.svg-02_Nutrition_&amp;_Hydration {
-	background: url("svg/sprite.view.svg") 23.575638506876228% 33.282871536523935% no-repeat;
-}
-
-.svg-02_Nutrition_&amp;_Hydration-dims {
-	width: 120px;
-	height: 120px;
-}
-
-.svg-03_Health_&amp;_Wellbeing {
-	background: url("svg/sprite.view.svg") 58.93909626719057% 0 no-repeat;
-}
-
-.svg-03_Health_&amp;_Wellbeing-dims {
-	width: 120px;
-	height: 120px;
-}
-
-.svg-04_Greyhound_Breeding {
-	background: url("svg/sprite.view.svg") 58.93909626719057% 30.22670025188917% no-repeat;
-}
-
-.svg-04_Greyhound_Breeding-dims {
-	width: 120px;
-	height: 120px;
-}
-
-.svg-05_Housing_&amp;_Environment {
-	background: url("svg/sprite.view.svg") 0 63.5095717884131% no-repeat;
-}
-
-.svg-05_Housing_&amp;_Environment-dims {
-	width: 120px;
-	height: 120px;
-}
-
-.svg-06_Transporting__Greyhounds {
-	background: url("svg/sprite.view.svg") 23.575638506876228% 63.5095717884131% no-repeat;
-}
-
-.svg-06_Transporting__Greyhounds-dims {
-	width: 120px;
-	height: 120px;
-}
-
-.svg-07_Exercise,_Socialisation_&amp;_Enrichment {
-	background: url("svg/sprite.view.svg") 47.151277013752456% 63.5095717884131% no-repeat;
-}
-
-.svg-07_Exercise,_Socialisation_&amp;_Enrichment-dims {
-	width: 120px;
-	height: 120px;
-}
-
-.svg-08_Training,_Trialling_&amp;_Racing {
-	background: url("svg/sprite.view.svg") 82.5147347740668% 0 no-repeat;
-}
-
-.svg-08_Training,_Trialling_&amp;_Racing-dims {
-	width: 120px;
-	height: 120px;
-}
-
-.svg-09_Rehoming_Greyhounds_as_Companion_Animals {
-	background: url("svg/sprite.view.svg") 82.5147347740668% 30.22670025188917% no-repeat;
-}
-
-.svg-09_Rehoming_Greyhounds_as_Companion_Animals-dims {
-	width: 120px;
-	height: 120px;
-}
-
-.svg-10_Definitions {
-	background: url("svg/sprite.view.svg") 82.5147347740668% 60.45340050377834% no-repeat;
-}
-
-.svg-10_Definitions-dims {
-	width: 120px;
-	height: 120px;
-}
-
-.svg-Group_76 {
-	background: url("svg/sprite.view.svg") 0 99.819524605786% no-repeat;
-}
-
-.svg-Group_76-dims {
-	width: 96.012px;
-	height: 72.064px;
-}
-
 .svg-arrow {
-	background: url("svg/sprite.view.svg") 40.20100502512563% 37.54474226804124% no-repeat;
+	background: url("svg/sprite.view.svg") 26.853229398663697% 13.593103448275862% no-repeat;
 }
 
 .svg-arrow-dims {
@@ -116,7 +17,7 @@
 }
 
 .svg-chevron {
-	background: url("svg/sprite.view.svg") 98.45665024630541% 74.90701030927835% no-repeat;
+	background: url("svg/sprite.view.svg") 81.90260303687637% 49.68459770114942% no-repeat;
 }
 
 .svg-chevron-dims {
@@ -125,7 +26,7 @@
 }
 
 .svg-close {
-	background: url("svg/sprite.view.svg") 40.20100502512563% 44.142680412371135% no-repeat;
+	background: url("svg/sprite.view.svg") 26.853229398663697% 20.949425287356323% no-repeat;
 }
 
 .svg-close-dims {
@@ -143,7 +44,7 @@
 }
 
 .svg-email {
-	background: url("svg/sprite.view.svg") 20.470458404074705% 12.191752577319587% no-repeat;
+	background: url("svg/sprite.view.svg") 68.15668934240364% 49.68459770114942% no-repeat;
 }
 
 .svg-email-dims {
@@ -152,7 +53,7 @@
 }
 
 .svg-facebook {
-	background: url("svg/sprite.view.svg") 60.301507537688444% 51.98618556701031% no-repeat;
+	background: url("svg/sprite.view.svg") 26.7260579064588% 46.927126436781606% no-repeat;
 }
 
 .svg-facebook-dims {
@@ -160,98 +61,188 @@
 	height: 32px;
 }
 
-.svg-gwic-bone {
-	background: url("svg/sprite.view.svg") 94.83683673487309% 81.64022471910113% no-repeat;
+.svg-gwic-bone-blue {
+	background: url("svg/sprite.view.svg") 95.97792116260364% 56.20253164556962% no-repeat;
 }
 
-.svg-gwic-bone-dims {
+.svg-gwic-bone-blue-dims {
 	width: 59.601px;
 	height: 72px;
 }
 
-.svg-gwic-bone-bowl {
-	background: url("svg/sprite.view.svg") 97.71933920011293% 48.600225733634325% no-repeat;
+.svg-gwic-bone-bowl-blue {
+	background: url("svg/sprite.view.svg") 99.9621851543365% 0 no-repeat;
 }
 
-.svg-gwic-bone-bowl-dims {
+.svg-gwic-bone-bowl-blue-dims {
 	width: 76.397px;
 	height: 74px;
 }
 
-.svg-gwic-bookmark {
-	background: url("svg/sprite.view.svg") 42.153406785644655% 28.291520444671885% no-repeat;
+.svg-gwic-bone-bowl-yellow {
+	background: url("svg/sprite.view.svg") 99.9621851543365% 18.829516539440203% no-repeat;
 }
 
-.svg-gwic-bookmark-dims {
+.svg-gwic-bone-bowl-yellow-dims {
+	width: 76.397px;
+	height: 74px;
+}
+
+.svg-gwic-bone-yellow {
+	background: url("svg/sprite.view.svg") 95.97792116260364% 74.43037974683544% no-repeat;
+}
+
+.svg-gwic-bone-yellow-dims {
+	width: 59.601px;
+	height: 72px;
+}
+
+.svg-gwic-bookmark-blue {
+	background: url("svg/sprite.view.svg") 42.71993050891304% 17.504993513827177% no-repeat;
+}
+
+.svg-gwic-bookmark-blue-dims {
 	width: 59.651px;
 	height: 49.959px;
 }
 
-.svg-gwic-dog-wagging {
-	background: url("svg/sprite.view.svg") 0 83.62539325842697% no-repeat;
+.svg-gwic-bookmark-yellow {
+	background: url("svg/sprite.view.svg") 56.87707814661955% 17.504993513827177% no-repeat;
 }
 
-.svg-gwic-dog-wagging-dims {
+.svg-gwic-bookmark-yellow-dims {
+	width: 59.651px;
+	height: 49.959px;
+}
+
+.svg-gwic-dog-wagging-blue {
+	background: url("svg/sprite.view.svg") 31.820025933321137% 33.451392405063295% no-repeat;
+}
+
+.svg-gwic-dog-wagging-blue-dims {
 	width: 103.879px;
 	height: 72px;
 }
 
-.svg-gwic-heart-tick {
-	background: url("svg/sprite.view.svg") 98.96199859254047% 16.41284358292978% no-repeat;
+.svg-gwic-dog-wagging-yellow {
+	background: url("svg/sprite.view.svg") 79.70147512336891% 0 no-repeat;
 }
 
-.svg-gwic-heart-tick-dims {
+.svg-gwic-dog-wagging-yellow-dims {
+	width: 103.879px;
+	height: 72px;
+}
+
+.svg-gwic-heart-tick-blue {
+	background: url("svg/sprite.view.svg") 44.38772430997023% 63.86379870212108% no-repeat;
+}
+
+.svg-gwic-heart-tick-blue-dims {
 	width: 83.336px;
 	height: 72.202px;
 }
 
-.svg-gwic-pawprint {
-	background: url("svg/sprite.view.svg") 98.33647463738426% 32.4913236982191% no-repeat;
+.svg-gwic-heart-tick-yellow {
+	background: url("svg/sprite.view.svg") 65.34410960006439% 63.86379870212108% no-repeat;
 }
 
-.svg-gwic-pawprint-dims {
+.svg-gwic-heart-tick-yellow-dims {
+	width: 83.336px;
+	height: 72.202px;
+}
+
+.svg-gwic-pawprint-blue {
+	background: url("svg/sprite.view.svg") 0 81.91767844860384% no-repeat;
+}
+
+.svg-gwic-pawprint-blue-dims {
 	width: 79.865px;
 	height: 70.093px;
 }
 
-.svg-gwic-person-speech {
-	background: url("svg/sprite.view.svg") 18.013914009321034% 99.819524605786% no-repeat;
+.svg-gwic-pawprint-yellow {
+	background: url("svg/sprite.view.svg") 19.90975606715943% 81.91767844860384% no-repeat;
 }
 
-.svg-gwic-person-speech-dims {
+.svg-gwic-pawprint-yellow-dims {
+	width: 79.865px;
+	height: 70.093px;
+}
+
+.svg-gwic-person-speech-blue {
+	background: url("svg/sprite.view.svg") 78.0728230490301% 18.230801952721453% no-repeat;
+}
+
+.svg-gwic-person-speech-blue-dims {
 	width: 96.012px;
 	height: 72.064px;
 }
 
-.svg-gwic-stopwatch {
-	background: url("svg/sprite.view.svg") 95.11848416365312% 97.71021324354658% no-repeat;
+.svg-gwic-person-speech-yellow {
+	background: url("svg/sprite.view.svg") 78.0728230490301% 36.47780906273421% no-repeat;
 }
 
-.svg-gwic-stopwatch-dims {
+.svg-gwic-person-speech-yellow-dims {
+	width: 96.012px;
+	height: 72.064px;
+}
+
+.svg-gwic-stopwatch-blue {
+	background: url("svg/sprite.view.svg") 53.34097347473154% 33.40910240202276% no-repeat;
+}
+
+.svg-gwic-stopwatch-blue-dims {
 	width: 61.287px;
 	height: 71.5px;
 }
 
-.svg-gwic-sun-home {
-	background: url("svg/sprite.view.svg") 99.86259646449423% 0 no-repeat;
+.svg-gwic-stopwatch-yellow {
+	background: url("svg/sprite.view.svg") 0 99.93173198482933% no-repeat;
 }
 
-.svg-gwic-sun-home-dims {
+.svg-gwic-stopwatch-yellow-dims {
+	width: 61.287px;
+	height: 71.5px;
+}
+
+.svg-gwic-sun-home-blue {
+	background: url("svg/sprite.view.svg") 0 63.993796891339% no-repeat;
+}
+
+.svg-gwic-sun-home-blue-dims {
 	width: 88.257px;
 	height: 73.004px;
 }
 
-.svg-gwic-van {
-	background: url("svg/sprite.view.svg") 0 13.317657551740213% no-repeat;
+.svg-gwic-sun-home-yellow {
+	background: url("svg/sprite.view.svg") 22.471947303962136% 63.993796891339% no-repeat;
 }
 
-.svg-gwic-van-dims {
+.svg-gwic-sun-home-yellow-dims {
+	width: 88.257px;
+	height: 73.004px;
+}
+
+.svg-gwic-van-blue {
+	background: url("svg/sprite.view.svg") 0 15.007728485242273% no-repeat;
+}
+
+.svg-gwic-van-blue-dims {
+	width: 120.571px;
+	height: 73.003px;
+}
+
+.svg-gwic-van-yellow {
+	background: url("svg/sprite.view.svg") 49.94048758562713% 0 no-repeat;
+}
+
+.svg-gwic-van-yellow-dims {
 	width: 120.571px;
 	height: 73.003px;
 }
 
 .svg-linkedin {
-	background: url("svg/sprite.view.svg") 60.301507537688444% 58.58412371134021% no-repeat;
+	background: url("svg/sprite.view.svg") 33.85300668151448% 46.927126436781606% no-repeat;
 }
 
 .svg-linkedin-dims {
@@ -260,7 +251,7 @@
 }
 
 .svg-menu {
-	background: url("svg/sprite.view.svg") 60.301507537688444% 65.18206185567011% no-repeat;
+	background: url("svg/sprite.view.svg") 40.97995545657015% 46.927126436781606% no-repeat;
 }
 
 .svg-menu-dims {
@@ -269,7 +260,7 @@
 }
 
 .svg-nsw-gov-logo {
-	background: url("svg/sprite.view.svg") 96.32313200014983% 65.30451467268624% no-repeat;
+	background: url("svg/sprite.view.svg") 98.02163286178576% 37.659033078880405% no-repeat;
 }
 
 .svg-nsw-gov-logo-dims {
@@ -278,7 +269,7 @@
 }
 
 .svg-search {
-	background: url("svg/sprite.view.svg") 17.400167504187603% 76.72845360824743% no-repeat;
+	background: url("svg/sprite.view.svg") 48.10690423162583% 46.927126436781606% no-repeat;
 }
 
 .svg-search-dims {
@@ -287,7 +278,7 @@
 }
 
 .svg-status-error {
-	background: url("svg/sprite.view.svg") 22.76030150753769% 76.72845360824743% no-repeat;
+	background: url("svg/sprite.view.svg") 55.233853006681514% 46.927126436781606% no-repeat;
 }
 
 .svg-status-error-dims {
@@ -296,7 +287,7 @@
 }
 
 .svg-status-info {
-	background: url("svg/sprite.view.svg") 28.120435510887773% 76.72845360824743% no-repeat;
+	background: url("svg/sprite.view.svg") 76.43340757238309% 57.961609195402296% no-repeat;
 }
 
 .svg-status-info-dims {
@@ -305,7 +296,7 @@
 }
 
 .svg-status-success {
-	background: url("svg/sprite.view.svg") 33.48056951423786% 76.72845360824743% no-repeat;
+	background: url("svg/sprite.view.svg") 76.43340757238309% 65.31793103448277% no-repeat;
 }
 
 .svg-status-success-dims {
@@ -314,7 +305,7 @@
 }
 
 .svg-status-warning {
-	background: url("svg/sprite.view.svg") 38.84070351758794% 76.72845360824743% no-repeat;
+	background: url("svg/sprite.view.svg") 35.57461024498886% 74.74413793103449% no-repeat;
 }
 
 .svg-status-warning-dims {
@@ -323,7 +314,7 @@
 }
 
 .svg-tick {
-	background: url("svg/sprite.view.svg") 44.20083752093802% 76.72845360824743% no-repeat;
+	background: url("svg/sprite.view.svg") 42.70155902004454% 74.74413793103449% no-repeat;
 }
 
 .svg-tick-dims {
@@ -332,7 +323,7 @@
 }
 
 .svg-twitter {
-	background: url("svg/sprite.view.svg") 20.366722972972973% 18.789690721649485% no-repeat;
+	background: url("svg/sprite.view.svg") 76.7051801801802% 49.68459770114942% no-repeat;
 }
 
 .svg-twitter-dims {

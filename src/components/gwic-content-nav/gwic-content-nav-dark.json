@@ -7,7 +7,7 @@
       "text": "Introduction",
       "url": "#",
       "img": {
-        "filename": "gwic-person-speech-blue",
+        "filename": "gwic-person-speech-yellow",
         "hoverFilename": "gwic-person-speech-blue"
       }
     },
@@ -15,7 +15,7 @@
       "text": "Nutrition & Hydration",
       "url": "#",
       "img": {
-        "filename": "gwic-bone-bowl-blue",
+        "filename": "gwic-bone-bowl-yellow",
         "hoverFilename": "gwic-bone-bowl-blue"
       }
     },
@@ -23,7 +23,7 @@
       "text": "Health & Wellbeing",
       "url": "#",
       "img": {
-        "filename": "gwic-heart-tick-blue",
+        "filename": "gwic-heart-tick-yellow",
         "hoverFilename": "gwic-heart-tick-blue"
       }
     },
@@ -31,7 +31,7 @@
       "text": "Greyhound Breeding",
       "url": "#",
       "img": {
-        "filename": "gwic-pawprint-blue",
+        "filename": "gwic-pawprint-yellow",
         "hoverFilename": "gwic-pawprint-blue"
       }
     },
@@ -39,7 +39,7 @@
       "text": "Housing & Environment",
       "url": "#",
       "img": {
-        "filename": "gwic-sun-home-blue",
+        "filename": "gwic-sun-home-yellow",
         "hoverFilename": "gwic-sun-home-blue"
       }
     },
@@ -47,7 +47,7 @@
       "text": "Transporting Greyhounds", 
       "url": "#",
       "img": {
-        "filename": "gwic-van-blue",
+        "filename": "gwic-van-yellow",
         "hoverFilename": "gwic-van-blue"
       }
     },
@@ -55,7 +55,7 @@
       "text": "Exercise, Socialisation & Enrichment",
       "url": "#",
       "img": {
-        "filename": "gwic-bone-blue",
+        "filename": "gwic-bone-yellow",
         "hoverFilename": "gwic-bone-blue"
       }
     },
@@ -63,7 +63,7 @@
       "text": "Training, Trialling & Racing",
       "url": "#",
       "img": {
-        "filename": "gwic-stopwatch-blue",
+        "filename": "gwic-stopwatch-yellow",
         "hoverFilename": "gwic-stopwatch-blue"
       }
     },
@@ -71,7 +71,7 @@
       "text": "Rehoming Greyhounds as Companion Animals ",
       "url": "#",
       "img": {
-        "filename": "gwic-dog-wagging-blue",
+        "filename": "gwic-dog-wagging-yellow",
         "hoverFilename": "gwic-dog-wagging-blue"
       }
     },
@@ -79,7 +79,7 @@
       "text": "Definitions",
       "url": "#",
       "img": {
-        "filename": "gwic-bookmark-blue",
+        "filename": "gwic-bookmark-yellow",
         "hoverFilename": "gwic-bookmark-blue"
       }
     }
