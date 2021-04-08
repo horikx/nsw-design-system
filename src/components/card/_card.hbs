@@ -1,21 +1,23 @@
 <div class="nsw-card {{#if theme}} nsw-card--{{theme}}{{/if}}{{#if content}} nsw-card--content{{/if}}{{#if classifiers}} {{classifiers}} {{/if}}">
-  <div class="nsw-card__content">
-    <h2 class="nsw-card__title">
-      <a href="#" class="nsw-card__link">{{heading}}</a>
-    </h2>
-    {{#if tag}}
-    <p class="nsw-card__tag">{{replace tag 'foo' 'bar'}}</p>
-    {{/if}}
-    {{#if date}}
-    <p class="nsw-card__date">
-      <time datetime="{{date.machine}}">{{date.human}}</time>
-    </p>
-    {{/if}}
-    {{#if copy}}<p class="nsw-card__copy">{{copy}}</p>{{/if}}
+  <div class="nsw-card__content-container">
+    <div class="nsw-card__content">
+      <h2 class="nsw-card__title">
+        <a href="#" class="nsw-card__link">{{heading}}</a>
+      </h2>
+      {{#if tag}}
+      <p class="nsw-card__tag">{{replace tag 'foo' 'bar'}}</p>
+      {{/if}}
+      {{#if date}}
+      <p class="nsw-card__date">
+        <time datetime="{{date.machine}}">{{date.human}}</time>
+      </p>
+      {{/if}}
+      {{#if copy}}<p class="nsw-card__copy">{{copy}}</p>{{/if}}
+    </div>
     {{#with button}}
-      <div class="nsw-card__button">
-        <a href="{{url}}" class="nsw-button nsw-button--{{btnBgColor}}">{{buttonText}}</a>
-      </div>
+    <div class="nsw-card__button">
+      <a href="{{url}}" class="nsw-button nsw-button--{{btnBgColor}}">{{buttonText}}</a>
+    </div>
     {{/with}}
   </div>
   {{#if img}}

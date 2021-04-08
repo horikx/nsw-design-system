@@ -29,17 +29,23 @@
     margin: 0;
   }
 
-  &__content {
+  &__content-container {
     @include nsw-font-size('sm');
-    @include nsw-spacing(padding, md md xxxxl md);
+    @include nsw-spacing(padding, md );
     border-top: solid 6px $nsw-primary-highlight;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
     order: 2;
 
     @include breakpoint('lg') {
-      @include nsw-spacing(padding, xl xl xxxxl xl);
+      @include nsw-spacing(padding, xl );
     }
+  }
+
+  &__content {
+    order: 2;
 
     .nsw-card--content & {
       border-top: 0;
