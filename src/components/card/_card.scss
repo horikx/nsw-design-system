@@ -30,22 +30,25 @@
   }
 
   &__content-container {
-    @include nsw-font-size('sm');
-    @include nsw-spacing(padding, md );
     border-top: solid 6px $nsw-primary-highlight;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
     order: 2;
-
-    @include breakpoint('lg') {
-      @include nsw-spacing(padding, xl );
-    }
+    
+    @include nsw-spacing(padding, none none md none );
   }
 
   &__content {
     order: 2;
+
+    @include nsw-font-size('sm');
+    @include nsw-spacing(padding, md );
+
+    @include breakpoint('lg') {
+      @include nsw-spacing(padding, xl );
+    }
 
     .nsw-card--content & {
       border-top: 0;
