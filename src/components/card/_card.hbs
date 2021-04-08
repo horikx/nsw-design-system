@@ -1,4 +1,4 @@
-<div class="nsw-card {{#if theme}} nsw-card--{{theme}}{{/if}}{{#if content}} nsw-card--content{{/if}}{{#if classifiers}} {{classifiers}} {{/if}}">
+<div class="nsw-card {{#if theme}} nsw-card--{{theme}}{{/if}}{{#if highlightColor}} nsw-card--{{highlightColor}}{{/if}}{{#if content}} nsw-card--content{{/if}}{{#if classifiers}} {{classifiers}} {{/if}}">
   <div class="nsw-card__content-container">
     <div class="nsw-card__content">
       <h2 class="nsw-card__title">
@@ -16,7 +16,7 @@
     </div>
     {{#with button}}
     <div class="nsw-card__button">
-      <a href="{{url}}" class="nsw-button nsw-button--{{btnBgColor}}">{{buttonText}}</a>
+      <a href="{{url}}" class="nsw-button nsw-button--{{../highlightColor}}">{{buttonText}}</a>
     </div>
     {{/with}}
   </div>

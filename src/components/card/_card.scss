@@ -148,7 +148,7 @@
       box-shadow: none;
     }
 
-    &white {
+    &text-white {
       &,
       .nsw-card__link {
         color: $white;
@@ -182,6 +182,14 @@
       .nsw-card__content {
         font-size: 0.8rem;
       }
+    }
+  }
+}
+
+@each $color, $value in $bg-colors {
+  .nsw-card--#{$color} {
+    .nsw-card__content-container {
+      border-top-color: $value;
     }
   }
 }
