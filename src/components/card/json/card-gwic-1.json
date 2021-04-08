@@ -4,6 +4,7 @@
   "img": "https://picsum.photos/id/292/400/200",
   "classifiers": "nsw-card--no-highlight nsw-card--centered nsw-card--transparent nsw-card--text-white nsw-card--small-font",
   "highlightColor": "gwic-green",
+  "link": "#",
   "button": {
     "url": "#",
     "buttonText": "Whole of lifecycle"

@@ -2,10 +2,10 @@
   <div class="nsw-card__content-container">
     <div class="nsw-card__content">
       <h2 class="nsw-card__title">
-        <a href="#" class="nsw-card__link">{{heading}}</a>
+        <a href="{{link}}" class="nsw-card__link">{{heading}}</a>
       </h2>
       {{#if tag}}
-      <p class="nsw-card__tag">{{replace tag 'foo' 'bar'}}</p>
+      <p class="nsw-card__tag">{{tag}}</p>
       {{/if}}
       {{#if date}}
       <p class="nsw-card__date">
@@ -16,7 +16,7 @@
     </div>
     {{#with button}}
     <div class="nsw-card__button align-self-center">
-      <a href="{{url}}" class="nsw-button nsw-button--{{../highlightColor}}">{{buttonText}}</a>
+      <a class="nsw-button nsw-button--{{../highlightColor}}">{{buttonText}}</a>
     </div>
     {{/with}}
   </div>
