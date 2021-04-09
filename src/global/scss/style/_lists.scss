@@ -13,6 +13,6 @@ ol.decilist {
   > li::before {
     content: counter(item) '.' counter(seconditem);
     display: table-cell;
-    width: rem(2);
+    width: 2rem;
   }
 }
