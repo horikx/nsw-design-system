@@ -1,18 +1,16 @@
-.decilist {
-  ol {
-    list-style-type: none;
-    counter-reset: item 1 seconditem 0;
-    margin: 0;
-    padding: 0;
-  }
+ol.decilist {
+  list-style-type: none;
+  counter-reset: item 1 seconditem 0;
+  margin: 0;
+  padding: 0;
   
-  ol > li {
+  > li {
     display: table;
     counter-increment: seconditem;
     margin-bottom: 0.6em;
   }
   
-  ol > li::before {
+  > li::before {
     content: counter(item) '.' counter(seconditem);
     display: table-cell;
     padding-right: 0.6em;    
