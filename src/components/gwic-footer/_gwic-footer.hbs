@@ -1,4 +1,4 @@
-<footer class="gwic-footer">
+<footer class="gwic-footer text-center">
   {{#if sectionLinks}}
   <div class="gwic-footer__upper">
     <div class="nsw-container section-links">
@@ -17,18 +17,36 @@
   {{/if}}
   <div class="gwic-footer__lower">
     <div class="nsw-container">
-      <p>{{respectText}}</p>
-      <hr>
-      <ul class="nsw-footer-links">
-        {{#each footerLinks}}
-          <li class="gwic-footer-links__item">
-            <a href="{{url}}" class="gwic-footer-links__link">{{text}}</a>
-          </li>
-        {{/each}}
-      </ul>
+      <p class="gwic-footer__respect-text">{{respectText}}</p>
       <div class="gwic-footer__info">
-        <p class="gwic-footer__copyright">{{copyright}}</p>
+        <div class="gwic-footer__copyright">{{copyright}}</div>
+        <ul class="gwic-footer-links justify-content-center">
+          {{#each footerLinks}}
+            <li class="gwic-footer-links__item ">
+              <a href="{{url}}" class="gwic-footer-links__link">{{text}}</a>
+            </li>
+          {{/each}}
+        </ul>
+        <div><a href="mailto:{{email}}">{{email}}</a> &middot; {{ phone }}</div>
       </div>
+      {{#with social}}
+      <div class="gwic-footer__social-icons">
+        {{#with facebook}}
+        <a href="{{../facebook}}" class="gwic-footer__social-icons__link">
+          <svg class="" focusable="false" aria-hidden="true">
+            <use xlink:href="#facebook"></use>
+          </svg>
+        </a>
+        {{/with}}
+        {{#with linkedin}}
+        <a href="{{../linkedin}}" class="gwic-footer__social-icons__link">
+          <svg class="" focusable="false" aria-hidden="true">
+            <use xlink:href="#linkedin"></use>
+          </svg>
+        </a>
+        {{/with}}
+      </div>
+      {{/with}}
     </div>
   </div>
 </footer>

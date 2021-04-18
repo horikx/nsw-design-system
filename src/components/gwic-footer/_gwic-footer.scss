@@ -1,6 +1,11 @@
 .gwic-footer {
   @include font-stack;
   border-top: solid 1px $light40;
+  
+  &,
+  a {
+    color: $gwic-dark-blue;
+  }
 
   hr {
     @include nsw-spacing(margin, md none md none);
@@ -8,6 +13,10 @@
     border: 0;
     color: $light40;
     background-color: $light40;
+  }
+  
+  &__respect-text {
+    @include nsw-spacing(margin, xl none lg none);
   }
 
   &__upper {
@@ -22,9 +31,11 @@
   }
 
   &__info {
+    @include nsw-spacing(margin, none none xl none);
 
     @include breakpoint('md') {
       display: flex;
+      flex-direction: column;
       flex-wrap: nowrap;
     }
   }
@@ -48,16 +59,16 @@
 }
 
 .gwic-footer-links {
-  @include font-stack('heading');
-  @include nsw-spacing(margin, md none none none);
-  @include nsw-spacing(padding, none);
+  // @include font-stack('heading');
+  @include nsw-spacing(margin, xs none xs none);
+  // @include nsw-spacing(padding, none);
   list-style: none;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 
   &__item {
-    @include nsw-spacing(margin, none none md none);
+    // @include nsw-spacing(margin, none none md none);
     flex: 1 0 50%;
     max-width: 50%;
 
@@ -78,6 +89,19 @@
     &:focus {
       @include nsw-focus($color: $white);
     }
+  }
+}
+
+.gwic-footer__social-icons {
+  a {
+    text-decoration: none;
+
+    @include nsw-spacing(margin-right, lg);
+  }
+
+  svg {
+    height: 40px;
+    width: 40px;
   }
 }
 

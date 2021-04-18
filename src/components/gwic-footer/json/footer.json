@@ -1,6 +1,12 @@
 {
 	"respectText": "We pay respect to the Traditional Custodians and First Peoples of NSW, and acknowledge their continued connection to their country and culture.",
-  "copyright": "Copyright © 2021",
+  "copyright": "© 2021 NSW Government ",
+  "email": "info@ourgreyhounds.nsw.gov.au",
+  "phone": "1300 HOUNDS (734466)",
+  "social": {
+    "facebook": "https://www.facebook.com/NSWGWIC/",
+    "linkedin": "https://www.linkedin.com/company/greyhound-welfare-integrity-commission/?viewAsMember=true"
+  },
 	"footerLinks": [
     {
       "text": "Accessibility",
