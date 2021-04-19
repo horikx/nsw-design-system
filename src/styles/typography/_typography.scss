@@ -72,6 +72,12 @@
     height: 1px;
     background-color: $gwic-sky-blue;
     margin: rem(16) 0;
+
+    &.thick {
+      height: rem(5);
+
+      margin: rem(30) 0;
+    }
   }
 }
 
