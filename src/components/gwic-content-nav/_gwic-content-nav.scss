@@ -4,9 +4,11 @@
     height: 0;
     overflow: hidden;
     
+    @include nsw-spacing(padding-bottom, xxl);
+    
     @include breakpoint('md') {  
       height: auto;
-
+      overflow: visible;
     }    
   }
 
@@ -51,6 +53,10 @@
     @include breakpoint('md') {  
       display: none;
     }   
+  }
+
+  .gwic-navigation__link {
+    padding-top: 0;
   }
 }
 
