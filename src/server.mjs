@@ -9,7 +9,7 @@ import gwicSubNav from './components/gwic-sub-nav/_gwic-sub-nav.hbs'
 import gwicSplitCol from './components/split-col/_split-col.hbs'
 import gwicBreadcrumbs from './components/gwic-breadcrumbs/_gwic-breadcrumbs.hbs'
 import gwicContentNav from './components/gwic-content-nav/_gwic-content-nav.hbs'
-import gwicFigure from './components/gwic-content-nav/_gwic-content-nav.hbs'
+import gwicFigure from './components/gwic-figure/_gwic-figure.hbs'
 
 const templates = {
   handlebars,
