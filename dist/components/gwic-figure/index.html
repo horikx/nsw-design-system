@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NSW Digital Design System - GWIC Figure</title>
+  <meta name="robots" content="noindex" />
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" href="/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/assets/svg/view/sprite.css">
+  <script>
+    // SVG Sprite Loader
+    var svgAjax = new XMLHttpRequest();
+    svgAjax.open("GET", "../../assets/svg/sprite.svg", true);
+    svgAjax.send();
+    svgAjax.onload = function(e) {
+      var fragment = document.createRange().createContextualFragment(svgAjax.responseText);
+      var svg = fragment.querySelector('svg')
+      svg.setAttribute('aria-hidden', true);
+      svg.style.cssText = 'position: absolute; width: 0; height: 0; overflow: hidden;'
+      document.body.insertBefore(fragment, document.body.childNodes[0]);
+    };
+    // Replace 'no-js' with 'js' on the html tag
+    (function(e){e.className=e.className.replace(/\bno-js\b/,'js')})(document.documentElement);
+  </script>
+</head>
+
+<body >
+  <div class="nsw-container nsw-body-content">
+<figure class="d-flex flex-column reverse">
+  <figcaption class="bg-gwic-sky-blue p-3"><strong>Title</strong> Caption </figcaption>
+  <img src="https://picsum.photos/1000/800" class="img-fluid w-100" alt="Alternate text">
+</figure></div>
+  <script src="/js/main.js"></script>
+  <script>window.NSW.initSite()</script>
+</body>
+</html>
