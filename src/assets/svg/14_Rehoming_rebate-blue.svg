@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#23364E;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#23364E;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;}
+	.st2{fill:none;stroke:#23364E;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#23364E;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#23364E;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.1,7;}
+	.st5{fill:none;stroke:#23364E;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.1046,7.325;}
+</style>
+<g>
+	<g>
+		<circle class="st0" cx="50" cy="50" r="36"/>
+	</g>
+	<g>
+		<g>
+			<path class="st0" d="M50,50c-4.98,0-9.02-4.04-9.02-9.02s4.04-9.02,9.02-9.02h9.02"/>
+			<path class="st0" d="M50,50c4.98,0,9.02,4.04,9.02,9.02s-4.04,9.02-9.02,9.02h-9.02"/>
+		</g>
+		<line class="st0" x1="50" y1="26.55" x2="50" y2="73.45"/>
+	</g>
+</g>
+</svg>
