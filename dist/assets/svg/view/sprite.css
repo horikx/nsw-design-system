@@ -1,5 +1,5 @@
 .svg-00_blank {
-	background: url("svg/sprite.view.svg") 10.23938223938224% 50% no-repeat;
+	background: url("svg/sprite.view.svg") 9.305263157894737% 40% no-repeat;
 }
 
 .svg-00_blank-dims {
@@ -7,8 +7,17 @@
 	height: 52px;
 }
 
+.svg-01_Breeding {
+	background: url("svg/sprite.view.svg") 18.428070175438595% 40% no-repeat;
+}
+
+.svg-01_Breeding-dims {
+	width: 52px;
+	height: 52px;
+}
+
 .svg-01_Breeding-blue {
-	background: url("svg/sprite.view.svg") 20.27799227799228% 50% no-repeat;
+	background: url("svg/sprite.view.svg") 27.550877192982455% 40% no-repeat;
 }
 
 .svg-01_Breeding-blue-dims {
@@ -17,7 +26,7 @@
 }
 
 .svg-01_Breeding-yellow {
-	background: url("svg/sprite.view.svg") 30.316602316602317% 50% no-repeat;
+	background: url("svg/sprite.view.svg") 36.67368421052632% 40% no-repeat;
 }
 
 .svg-01_Breeding-yellow-dims {
@@ -25,8 +34,17 @@
 	height: 52px;
 }
 
+.svg-01_Greyhound_Breeding {
+	background: url("svg/sprite.view.svg") 54.35438596491228% 0 no-repeat;
+}
+
+.svg-01_Greyhound_Breeding-dims {
+	width: 52px;
+	height: 52px;
+}
+
 .svg-01_Greyhound_Breeding-blue {
-	background: url("svg/sprite.view.svg") 40.35521235521235% 50% no-repeat;
+	background: url("svg/sprite.view.svg") 54.35438596491228% 10% no-repeat;
 }
 
 .svg-01_Greyhound_Breeding-blue-dims {
@@ -35,7 +53,7 @@
 }
 
 .svg-01_Greyhound_Breeding-yellow {
-	background: url("svg/sprite.view.svg") 59.810810810810814% 0 no-repeat;
+	background: url("svg/sprite.view.svg") 54.35438596491228% 20% no-repeat;
 }
 
 .svg-01_Greyhound_Breeding-yellow-dims {
@@ -43,8 +61,17 @@
 	height: 52px;
 }
 
+.svg-02_Rehoming {
+	background: url("svg/sprite.view.svg") 54.35438596491228% 30% no-repeat;
+}
+
+.svg-02_Rehoming-dims {
+	width: 52px;
+	height: 52px;
+}
+
 .svg-02_Rehoming-blue {
-	background: url("svg/sprite.view.svg") 59.810810810810814% 12.5% no-repeat;
+	background: url("svg/sprite.view.svg") 54.35438596491228% 40% no-repeat;
 }
 
 .svg-02_Rehoming-blue-dims {
@@ -53,7 +80,7 @@
 }
 
 .svg-02_Rehoming-yellow {
-	background: url("svg/sprite.view.svg") 59.810810810810814% 25% no-repeat;
+	background: url("svg/sprite.view.svg") 0 50% no-repeat;
 }
 
 .svg-02_Rehoming-yellow-dims {
@@ -61,8 +88,17 @@
 	height: 52px;
 }
 
+.svg-03_Introduction {
+	background: url("svg/sprite.view.svg") 9.12280701754386% 50% no-repeat;
+}
+
+.svg-03_Introduction-dims {
+	width: 52px;
+	height: 52px;
+}
+
 .svg-03_Introduction-blue {
-	background: url("svg/sprite.view.svg") 59.810810810810814% 37.5% no-repeat;
+	background: url("svg/sprite.view.svg") 18.24561403508772% 50% no-repeat;
 }
 
 .svg-03_Introduction-blue-dims {
@@ -71,7 +107,7 @@
 }
 
 .svg-03_Introduction-yellow {
-	background: url("svg/sprite.view.svg") 59.810810810810814% 50% no-repeat;
+	background: url("svg/sprite.view.svg") 27.36842105263158% 50% no-repeat;
 }
 
 .svg-03_Introduction-yellow-dims {
@@ -79,8 +115,17 @@
 	height: 52px;
 }
 
+.svg-04_Breeding_methods {
+	background: url("svg/sprite.view.svg") 36.49122807017544% 50% no-repeat;
+}
+
+.svg-04_Breeding_methods-dims {
+	width: 52px;
+	height: 52px;
+}
+
 .svg-04_Breeding_methods-blue {
-	background: url("svg/sprite.view.svg") 0 62.5% no-repeat;
+	background: url("svg/sprite.view.svg") 45.6140350877193% 50% no-repeat;
 }
 
 .svg-04_Breeding_methods-blue-dims {
@@ -89,7 +134,7 @@
 }
 
 .svg-04_Breeding_methods-yellow {
-	background: url("svg/sprite.view.svg") 10.038610038610038% 62.5% no-repeat;
+	background: url("svg/sprite.view.svg") 63.47719298245614% 0 no-repeat;
 }
 
 .svg-04_Breeding_methods-yellow-dims {
@@ -97,8 +142,17 @@
 	height: 52px;
 }
 
+.svg-05_Kennel_sizes_&amp;_fencing {
+	background: url("svg/sprite.view.svg") 63.47719298245614% 10% no-repeat;
+}
+
+.svg-05_Kennel_sizes_&amp;_fencing-dims {
+	width: 52px;
+	height: 52px;
+}
+
 .svg-05_Kennel_sizes_&amp;_fencing-blue {
-	background: url("svg/sprite.view.svg") 20.077220077220076% 62.5% no-repeat;
+	background: url("svg/sprite.view.svg") 63.47719298245614% 20% no-repeat;
 }
 
 .svg-05_Kennel_sizes_&amp;_fencing-blue-dims {
@@ -107,7 +161,7 @@
 }
 
 .svg-05_Kennel_sizes_&amp;_fencing-yellow {
-	background: url("svg/sprite.view.svg") 30.115830115830114% 62.5% no-repeat;
+	background: url("svg/sprite.view.svg") 63.47719298245614% 30% no-repeat;
 }
 
 .svg-05_Kennel_sizes_&amp;_fencing-yellow-dims {
@@ -115,8 +169,17 @@
 	height: 52px;
 }
 
+.svg-06_Education {
+	background: url("svg/sprite.view.svg") 63.47719298245614% 40% no-repeat;
+}
+
+.svg-06_Education-dims {
+	width: 52px;
+	height: 52px;
+}
+
 .svg-06_Education-blue {
-	background: url("svg/sprite.view.svg") 40.15444015444015% 62.5% no-repeat;
+	background: url("svg/sprite.view.svg") 63.47719298245614% 50% no-repeat;
 }
 
 .svg-06_Education-blue-dims {
@@ -125,7 +188,7 @@
 }
 
 .svg-06_Education-yellow {
-	background: url("svg/sprite.view.svg") 50.19305019305019% 62.5% no-repeat;
+	background: url("svg/sprite.view.svg") 0 60% no-repeat;
 }
 
 .svg-06_Education-yellow-dims {
@@ -133,8 +196,17 @@
 	height: 52px;
 }
 
+.svg-07_Rehoming_Policy {
+	background: url("svg/sprite.view.svg") 9.12280701754386% 60% no-repeat;
+}
+
+.svg-07_Rehoming_Policy-dims {
+	width: 52px;
+	height: 52px;
+}
+
 .svg-07_Rehoming_Policy-blue {
-	background: url("svg/sprite.view.svg") 69.84942084942085% 0 no-repeat;
+	background: url("svg/sprite.view.svg") 18.24561403508772% 60% no-repeat;
 }
 
 .svg-07_Rehoming_Policy-blue-dims {
@@ -143,7 +215,7 @@
 }
 
 .svg-07_Rehoming_Policy-yellow {
-	background: url("svg/sprite.view.svg") 69.84942084942085% 12.5% no-repeat;
+	background: url("svg/sprite.view.svg") 27.36842105263158% 60% no-repeat;
 }
 
 .svg-07_Rehoming_Policy-yellow-dims {
@@ -151,8 +223,17 @@
 	height: 52px;
 }
 
+.svg-08_Genetics {
+	background: url("svg/sprite.view.svg") 36.49122807017544% 60% no-repeat;
+}
+
+.svg-08_Genetics-dims {
+	width: 52px;
+	height: 52px;
+}
+
 .svg-08_Genetics-blue {
-	background: url("svg/sprite.view.svg") 69.84942084942085% 25% no-repeat;
+	background: url("svg/sprite.view.svg") 45.6140350877193% 60% no-repeat;
 }
 
 .svg-08_Genetics-blue-dims {
@@ -161,7 +242,7 @@
 }
 
 .svg-08_Genetics-yellow {
-	background: url("svg/sprite.view.svg") 69.84942084942085% 37.5% no-repeat;
+	background: url("svg/sprite.view.svg") 54.73684210526316% 60% no-repeat;
 }
 
 .svg-08_Genetics-yellow-dims {
@@ -169,8 +250,17 @@
 	height: 52px;
 }
 
+.svg-09_Training_for_racing {
+	background: url("svg/sprite.view.svg") 72.6% 0 no-repeat;
+}
+
+.svg-09_Training_for_racing-dims {
+	width: 52px;
+	height: 52px;
+}
+
 .svg-09_Training_for_racing-blue {
-	background: url("svg/sprite.view.svg") 69.84942084942085% 50% no-repeat;
+	background: url("svg/sprite.view.svg") 72.6% 10% no-repeat;
 }
 
 .svg-09_Training_for_racing-blue-dims {
@@ -179,7 +269,7 @@
 }
 
 .svg-09_Training_for_racing-yellow {
-	background: url("svg/sprite.view.svg") 69.84942084942085% 62.5% no-repeat;
+	background: url("svg/sprite.view.svg") 72.6% 20% no-repeat;
 }
 
 .svg-09_Training_for_racing-yellow-dims {
@@ -187,8 +277,17 @@
 	height: 52px;
 }
 
+.svg-10_Managing_illness {
+	background: url("svg/sprite.view.svg") 72.6% 30% no-repeat;
+}
+
+.svg-10_Managing_illness-dims {
+	width: 52px;
+	height: 52px;
+}
+
 .svg-10_Managing_illness-blue {
-	background: url("svg/sprite.view.svg") 0 75% no-repeat;
+	background: url("svg/sprite.view.svg") 72.6% 40% no-repeat;
 }
 
 .svg-10_Managing_illness-blue-dims {
@@ -197,7 +296,7 @@
 }
 
 .svg-10_Managing_illness-yellow {
-	background: url("svg/sprite.view.svg") 10.038610038610038% 75% no-repeat;
+	background: url("svg/sprite.view.svg") 72.6% 50% no-repeat;
 }
 
 .svg-10_Managing_illness-yellow-dims {
@@ -205,8 +304,17 @@
 	height: 52px;
 }
 
+.svg-11_Whelping_boxes {
+	background: url("svg/sprite.view.svg") 72.6% 60% no-repeat;
+}
+
+.svg-11_Whelping_boxes-dims {
+	width: 52px;
+	height: 52px;
+}
+
 .svg-11_Whelping_boxes-blue {
-	background: url("svg/sprite.view.svg") 20.077220077220076% 75% no-repeat;
+	background: url("svg/sprite.view.svg") 0 70% no-repeat;
 }
 
 .svg-11_Whelping_boxes-blue-dims {
@@ -215,7 +323,7 @@
 }
 
 .svg-11_Whelping_boxes-yellow {
-	background: url("svg/sprite.view.svg") 30.115830115830114% 75% no-repeat;
+	background: url("svg/sprite.view.svg") 9.12280701754386% 70% no-repeat;
 }
 
 .svg-11_Whelping_boxes-yellow-dims {
@@ -223,8 +331,17 @@
 	height: 52px;
 }
 
+.svg-12_Biosecurity_&amp;_Hygiene {
+	background: url("svg/sprite.view.svg") 18.24561403508772% 70% no-repeat;
+}
+
+.svg-12_Biosecurity_&amp;_Hygiene-dims {
+	width: 52px;
+	height: 52px;
+}
+
 .svg-12_Biosecurity_&amp;_Hygiene-blue {
-	background: url("svg/sprite.view.svg") 40.15444015444015% 75% no-repeat;
+	background: url("svg/sprite.view.svg") 27.36842105263158% 70% no-repeat;
 }
 
 .svg-12_Biosecurity_&amp;_Hygiene-blue-dims {
@@ -233,7 +350,7 @@
 }
 
 .svg-12_Biosecurity_&amp;_Hygiene-yellow {
-	background: url("svg/sprite.view.svg") 50.19305019305019% 75% no-repeat;
+	background: url("svg/sprite.view.svg") 36.49122807017544% 70% no-repeat;
 }
 
 .svg-12_Biosecurity_&amp;_Hygiene-yellow-dims {
@@ -241,8 +358,17 @@
 	height: 52px;
 }
 
+.svg-13_Rules_of_racing {
+	background: url("svg/sprite.view.svg") 45.6140350877193% 70% no-repeat;
+}
+
+.svg-13_Rules_of_racing-dims {
+	width: 52px;
+	height: 52px;
+}
+
 .svg-13_Rules_of_racing-blue {
-	background: url("svg/sprite.view.svg") 60.23166023166023% 75% no-repeat;
+	background: url("svg/sprite.view.svg") 54.73684210526316% 70% no-repeat;
 }
 
 .svg-13_Rules_of_racing-blue-dims {
@@ -251,7 +377,7 @@
 }
 
 .svg-13_Rules_of_racing-yellow {
-	background: url("svg/sprite.view.svg") 79.88803088803088% 0 no-repeat;
+	background: url("svg/sprite.view.svg") 63.85964912280702% 70% no-repeat;
 }
 
 .svg-13_Rules_of_racing-yellow-dims {
@@ -259,8 +385,17 @@
 	height: 52px;
 }
 
+.svg-14_Injury_rebate {
+	background: url("svg/sprite.view.svg") 81.72280701754386% 0 no-repeat;
+}
+
+.svg-14_Injury_rebate-dims {
+	width: 52px;
+	height: 52px;
+}
+
 .svg-14_Injury_rebate-blue {
-	background: url("svg/sprite.view.svg") 79.88803088803088% 12.5% no-repeat;
+	background: url("svg/sprite.view.svg") 81.72280701754386% 10% no-repeat;
 }
 
 .svg-14_Injury_rebate-blue-dims {
@@ -269,7 +404,7 @@
 }
 
 .svg-14_Injury_rebate-yellow {
-	background: url("svg/sprite.view.svg") 79.88803088803088% 25% no-repeat;
+	background: url("svg/sprite.view.svg") 81.72280701754386% 20% no-repeat;
 }
 
 .svg-14_Injury_rebate-yellow-dims {
@@ -277,8 +412,17 @@
 	height: 52px;
 }
 
+.svg-14_Rehoming_rebate {
+	background: url("svg/sprite.view.svg") 81.72280701754386% 30% no-repeat;
+}
+
+.svg-14_Rehoming_rebate-dims {
+	width: 52px;
+	height: 52px;
+}
+
 .svg-14_Rehoming_rebate-blue {
-	background: url("svg/sprite.view.svg") 79.88803088803088% 37.5% no-repeat;
+	background: url("svg/sprite.view.svg") 81.72280701754386% 40% no-repeat;
 }
 
 .svg-14_Rehoming_rebate-blue-dims {
@@ -287,7 +431,7 @@
 }
 
 .svg-14_Rehoming_rebate-yellow {
-	background: url("svg/sprite.view.svg") 79.88803088803088% 50% no-repeat;
+	background: url("svg/sprite.view.svg") 81.72280701754386% 50% no-repeat;
 }
 
 .svg-14_Rehoming_rebate-yellow-dims {
@@ -295,8 +439,17 @@
 	height: 52px;
 }
 
+.svg-15_Health_Records {
+	background: url("svg/sprite.view.svg") 81.72280701754386% 60% no-repeat;
+}
+
+.svg-15_Health_Records-dims {
+	width: 52px;
+	height: 52px;
+}
+
 .svg-15_Health_Records-blue {
-	background: url("svg/sprite.view.svg") 79.88803088803088% 62.5% no-repeat;
+	background: url("svg/sprite.view.svg") 81.72280701754386% 70% no-repeat;
 }
 
 .svg-15_Health_Records-blue-dims {
@@ -305,7 +458,7 @@
 }
 
 .svg-15_Health_Records-yellow {
-	background: url("svg/sprite.view.svg") 79.88803088803088% 75% no-repeat;
+	background: url("svg/sprite.view.svg") 0 80% no-repeat;
 }
 
 .svg-15_Health_Records-yellow-dims {
@@ -313,8 +466,17 @@
 	height: 52px;
 }
 
+.svg-15_Record_Keeping {
+	background: url("svg/sprite.view.svg") 9.12280701754386% 80% no-repeat;
+}
+
+.svg-15_Record_Keeping-dims {
+	width: 52px;
+	height: 52px;
+}
+
 .svg-15_Record_Keeping-blue {
-	background: url("svg/sprite.view.svg") 0 87.5% no-repeat;
+	background: url("svg/sprite.view.svg") 18.24561403508772% 80% no-repeat;
 }
 
 .svg-15_Record_Keeping-blue-dims {
@@ -323,7 +485,7 @@
 }
 
 .svg-15_Record_Keeping-yellow {
-	background: url("svg/sprite.view.svg") 10.038610038610038% 87.5% no-repeat;
+	background: url("svg/sprite.view.svg") 27.36842105263158% 80% no-repeat;
 }
 
 .svg-15_Record_Keeping-yellow-dims {
@@ -331,8 +493,17 @@
 	height: 52px;
 }
 
+.svg-16_Caring_for_brood_bitches {
+	background: url("svg/sprite.view.svg") 36.49122807017544% 80% no-repeat;
+}
+
+.svg-16_Caring_for_brood_bitches-dims {
+	width: 52px;
+	height: 52px;
+}
+
 .svg-16_Caring_for_brood_bitches-blue {
-	background: url("svg/sprite.view.svg") 20.077220077220076% 87.5% no-repeat;
+	background: url("svg/sprite.view.svg") 45.6140350877193% 80% no-repeat;
 }
 
 .svg-16_Caring_for_brood_bitches-blue-dims {
@@ -341,7 +512,7 @@
 }
 
 .svg-16_Caring_for_brood_bitches-yellow {
-	background: url("svg/sprite.view.svg") 30.115830115830114% 87.5% no-repeat;
+	background: url("svg/sprite.view.svg") 54.73684210526316% 80% no-repeat;
 }
 
 .svg-16_Caring_for_brood_bitches-yellow-dims {
@@ -349,8 +520,17 @@
 	height: 52px;
 }
 
+.svg-17_Emergencies {
+	background: url("svg/sprite.view.svg") 63.85964912280702% 80% no-repeat;
+}
+
+.svg-17_Emergencies-dims {
+	width: 52px;
+	height: 52px;
+}
+
 .svg-17_Emergencies-blue {
-	background: url("svg/sprite.view.svg") 40.15444015444015% 87.5% no-repeat;
+	background: url("svg/sprite.view.svg") 72.98245614035088% 80% no-repeat;
 }
 
 .svg-17_Emergencies-blue-dims {
@@ -359,7 +539,7 @@
 }
 
 .svg-17_Emergencies-yellow {
-	background: url("svg/sprite.view.svg") 50.19305019305019% 87.5% no-repeat;
+	background: url("svg/sprite.view.svg") 90.8456140350877% 0 no-repeat;
 }
 
 .svg-17_Emergencies-yellow-dims {
@@ -367,8 +547,17 @@
 	height: 52px;
 }
 
+.svg-18_Greyhounds_as_Pets {
+	background: url("svg/sprite.view.svg") 90.8456140350877% 10% no-repeat;
+}
+
+.svg-18_Greyhounds_as_Pets-dims {
+	width: 52px;
+	height: 52px;
+}
+
 .svg-18_Greyhounds_as_Pets-blue {
-	background: url("svg/sprite.view.svg") 60.23166023166023% 87.5% no-repeat;
+	background: url("svg/sprite.view.svg") 90.8456140350877% 20% no-repeat;
 }
 
 .svg-18_Greyhounds_as_Pets-blue-dims {
@@ -377,7 +566,7 @@
 }
 
 .svg-18_Greyhounds_as_Pets-yellow {
-	background: url("svg/sprite.view.svg") 70.27027027027027% 87.5% no-repeat;
+	background: url("svg/sprite.view.svg") 90.8456140350877% 30% no-repeat;
 }
 
 .svg-18_Greyhounds_as_Pets-yellow-dims {
@@ -385,8 +574,17 @@
 	height: 52px;
 }
 
+.svg-19_Dental_Health {
+	background: url("svg/sprite.view.svg") 90.8456140350877% 40% no-repeat;
+}
+
+.svg-19_Dental_Health-dims {
+	width: 52px;
+	height: 52px;
+}
+
 .svg-19_Dental_Health-blue {
-	background: url("svg/sprite.view.svg") 89.92664092664093% 0 no-repeat;
+	background: url("svg/sprite.view.svg") 90.8456140350877% 50% no-repeat;
 }
 
 .svg-19_Dental_Health-blue-dims {
@@ -395,7 +593,7 @@
 }
 
 .svg-19_Dental_Health-yellow {
-	background: url("svg/sprite.view.svg") 89.92664092664093% 12.5% no-repeat;
+	background: url("svg/sprite.view.svg") 90.8456140350877% 60% no-repeat;
 }
 
 .svg-19_Dental_Health-yellow-dims {
@@ -403,8 +601,17 @@
 	height: 52px;
 }
 
+.svg-20_Kennel_Cough {
+	background: url("svg/sprite.view.svg") 90.8456140350877% 70% no-repeat;
+}
+
+.svg-20_Kennel_Cough-dims {
+	width: 52px;
+	height: 52px;
+}
+
 .svg-20_Kennel_Cough-blue {
-	background: url("svg/sprite.view.svg") 89.92664092664093% 25% no-repeat;
+	background: url("svg/sprite.view.svg") 90.8456140350877% 80% no-repeat;
 }
 
 .svg-20_Kennel_Cough-blue-dims {
@@ -413,7 +620,7 @@
 }
 
 .svg-20_Kennel_Cough-yellow {
-	background: url("svg/sprite.view.svg") 89.92664092664093% 37.5% no-repeat;
+	background: url("svg/sprite.view.svg") 0 90% no-repeat;
 }
 
 .svg-20_Kennel_Cough-yellow-dims {
@@ -421,8 +628,17 @@
 	height: 52px;
 }
 
+.svg-21_Injuries {
+	background: url("svg/sprite.view.svg") 9.12280701754386% 90% no-repeat;
+}
+
+.svg-21_Injuries-dims {
+	width: 52px;
+	height: 52px;
+}
+
 .svg-21_Injuries-blue {
-	background: url("svg/sprite.view.svg") 89.92664092664093% 50% no-repeat;
+	background: url("svg/sprite.view.svg") 18.24561403508772% 90% no-repeat;
 }
 
 .svg-21_Injuries-blue-dims {
@@ -431,7 +647,7 @@
 }
 
 .svg-21_Injuries-yellow {
-	background: url("svg/sprite.view.svg") 89.92664092664093% 62.5% no-repeat;
+	background: url("svg/sprite.view.svg") 27.36842105263158% 90% no-repeat;
 }
 
 .svg-21_Injuries-yellow-dims {
@@ -439,8 +655,17 @@
 	height: 52px;
 }
 
+.svg-22_Rehoming_contacts {
+	background: url("svg/sprite.view.svg") 36.49122807017544% 90% no-repeat;
+}
+
+.svg-22_Rehoming_contacts-dims {
+	width: 52px;
+	height: 52px;
+}
+
 .svg-22_Rehoming_contacts-blue {
-	background: url("svg/sprite.view.svg") 89.92664092664093% 75% no-repeat;
+	background: url("svg/sprite.view.svg") 45.6140350877193% 90% no-repeat;
 }
 
 .svg-22_Rehoming_contacts-blue-dims {
@@ -449,7 +674,7 @@
 }
 
 .svg-22_Rehoming_contacts-yellow {
-	background: url("svg/sprite.view.svg") 89.92664092664093% 87.5% no-repeat;
+	background: url("svg/sprite.view.svg") 54.73684210526316% 90% no-repeat;
 }
 
 .svg-22_Rehoming_contacts-yellow-dims {
@@ -457,8 +682,17 @@
 	height: 52px;
 }
 
+.svg-23_Definitions {
+	background: url("svg/sprite.view.svg") 63.85964912280702% 90% no-repeat;
+}
+
+.svg-23_Definitions-dims {
+	width: 52px;
+	height: 52px;
+}
+
 .svg-23_Definitions-blue {
-	background: url("svg/sprite.view.svg") 0 100% no-repeat;
+	background: url("svg/sprite.view.svg") 72.98245614035088% 90% no-repeat;
 }
 
 .svg-23_Definitions-blue-dims {
@@ -467,7 +701,7 @@
 }
 
 .svg-23_Definitions-yellow {
-	background: url("svg/sprite.view.svg") 10.038610038610038% 100% no-repeat;
+	background: url("svg/sprite.view.svg") 82.10526315789474% 90% no-repeat;
 }
 
 .svg-23_Definitions-yellow-dims {
@@ -476,7 +710,7 @@
 }
 
 .svg-arrow {
-	background: url("svg/sprite.view.svg") 20.077220077220076% 100% no-repeat;
+	background: url("svg/sprite.view.svg") 99.96842105263157% 0 no-repeat;
 }
 
 .svg-arrow-dims {
@@ -485,7 +719,7 @@
 }
 
 .svg-chevron {
-	background: url("svg/sprite.view.svg") 13.745283018867923% 12.5% no-repeat;
+	background: url("svg/sprite.view.svg") 97.90721649484534% 10% no-repeat;
 }
 
 .svg-chevron-dims {
@@ -494,7 +728,7 @@
 }
 
 .svg-close {
-	background: url("svg/sprite.view.svg") 30.115830115830114% 100% no-repeat;
+	background: url("svg/sprite.view.svg") 99.96842105263157% 20% no-repeat;
 }
 
 .svg-close-dims {
@@ -512,7 +746,7 @@
 }
 
 .svg-email {
-	background: url("svg/sprite.view.svg") 37.305882352941175% 12.5% no-repeat;
+	background: url("svg/sprite.view.svg") 33.854092526690394% 10% no-repeat;
 }
 
 .svg-email-dims {
@@ -521,7 +755,7 @@
 }
 
 .svg-facebook {
-	background: url("svg/sprite.view.svg") 40.15444015444015% 100% no-repeat;
+	background: url("svg/sprite.view.svg") 99.96842105263157% 30% no-repeat;
 }
 
 .svg-facebook-dims {
@@ -530,7 +764,7 @@
 }
 
 .svg-gwic-bone-blue {
-	background: url("svg/sprite.view.svg") 49.86342190216041% 50% no-repeat;
+	background: url("svg/sprite.view.svg") 99.0113117061389% 40% no-repeat;
 }
 
 .svg-gwic-bone-blue-dims {
@@ -539,7 +773,7 @@
 }
 
 .svg-gwic-bone-bowl-blue {
-	background: url("svg/sprite.view.svg") 48.91867842773135% 37.5% no-repeat;
+	background: url("svg/sprite.view.svg") 44.44776434195725% 30% no-repeat;
 }
 
 .svg-gwic-bone-bowl-blue-dims {
@@ -548,7 +782,7 @@
 }
 
 .svg-gwic-bone-bowl-yellow {
-	background: url("svg/sprite.view.svg") 0 50% no-repeat;
+	background: url("svg/sprite.view.svg") 0 40% no-repeat;
 }
 
 .svg-gwic-bone-bowl-yellow-dims {
@@ -557,7 +791,7 @@
 }
 
 .svg-gwic-bone-yellow {
-	background: url("svg/sprite.view.svg") 59.59771542090887% 62.5% no-repeat;
+	background: url("svg/sprite.view.svg") 99.0113117061389% 50% no-repeat;
 }
 
 .svg-gwic-bone-yellow-dims {
@@ -566,7 +800,7 @@
 }
 
 .svg-gwic-bookmark-blue {
-	background: url("svg/sprite.view.svg") 0 37.5% no-repeat;
+	background: url("svg/sprite.view.svg") 0 30% no-repeat;
 }
 
 .svg-gwic-bookmark-blue-dims {
@@ -575,7 +809,7 @@
 }
 
 .svg-gwic-bookmark-yellow {
-	background: url("svg/sprite.view.svg") 11.37380566247875% 37.5% no-repeat;
+	background: url("svg/sprite.view.svg") 10.324766313698364% 30% no-repeat;
 }
 
 .svg-gwic-bookmark-yellow-dims {
@@ -584,7 +818,7 @@
 }
 
 .svg-gwic-dog-wagging-blue {
-	background: url("svg/sprite.view.svg") 23.303495226564518% 12.5% no-repeat;
+	background: url("svg/sprite.view.svg") 21.123365057661513% 10% no-repeat;
 }
 
 .svg-gwic-dog-wagging-blue-dims {
@@ -593,7 +827,7 @@
 }
 
 .svg-gwic-dog-wagging-yellow {
-	background: url("svg/sprite.view.svg") 0 25% no-repeat;
+	background: url("svg/sprite.view.svg") 0 20% no-repeat;
 }
 
 .svg-gwic-dog-wagging-yellow-dims {
@@ -602,7 +836,7 @@
 }
 
 .svg-gwic-heart-tick-blue {
-	background: url("svg/sprite.view.svg") 33.80045607811799% 37.5% no-repeat;
+	background: url("svg/sprite.view.svg") 30.690003008476822% 30% no-repeat;
 }
 
 .svg-gwic-heart-tick-blue-dims {
@@ -611,7 +845,7 @@
 }
 
 .svg-gwic-heart-tick-yellow {
-	background: url("svg/sprite.view.svg") 49.28957062389147% 0 no-repeat;
+	background: url("svg/sprite.view.svg") 44.75374732334047% 0 no-repeat;
 }
 
 .svg-gwic-heart-tick-yellow-dims {
@@ -620,7 +854,7 @@
 }
 
 .svg-gwic-pawprint-blue {
-	background: url("svg/sprite.view.svg") 49.244460022588314% 12.5% no-repeat;
+	background: url("svg/sprite.view.svg") 44.716554089896384% 10% no-repeat;
 }
 
 .svg-gwic-pawprint-blue-dims {
@@ -629,7 +863,7 @@
 }
 
 .svg-gwic-pawprint-yellow {
-	background: url("svg/sprite.view.svg") 49.244460022588314% 25% no-repeat;
+	background: url("svg/sprite.view.svg") 44.716554089896384% 20% no-repeat;
 }
 
 .svg-gwic-pawprint-yellow-dims {
@@ -638,7 +872,7 @@
 }
 
 .svg-gwic-person-speech-blue {
-	background: url("svg/sprite.view.svg") 13.0417643928494% 25% no-repeat;
+	background: url("svg/sprite.view.svg") 11.829379480486976% 20% no-repeat;
 }
 
 .svg-gwic-person-speech-blue-dims {
@@ -647,7 +881,7 @@
 }
 
 .svg-gwic-person-speech-yellow {
-	background: url("svg/sprite.view.svg") 37.4992608944163% 0 no-repeat;
+	background: url("svg/sprite.view.svg") 34.01326492303842% 0 no-repeat;
 }
 
 .svg-gwic-person-speech-yellow-dims {
@@ -656,7 +890,7 @@
 }
 
 .svg-gwic-stopwatch-blue {
-	background: url("svg/sprite.view.svg") 69.65573990087452% 75% no-repeat;
+	background: url("svg/sprite.view.svg") 99.17329481177227% 60% no-repeat;
 }
 
 .svg-gwic-stopwatch-blue-dims {
@@ -665,7 +899,7 @@
 }
 
 .svg-gwic-stopwatch-yellow {
-	background: url("svg/sprite.view.svg") 79.60655988671374% 87.5% no-repeat;
+	background: url("svg/sprite.view.svg") 99.17329481177227% 70% no-repeat;
 }
 
 .svg-gwic-stopwatch-yellow-dims {
@@ -674,7 +908,7 @@
 }
 
 .svg-gwic-sun-home-blue {
-	background: url("svg/sprite.view.svg") 37.210302947331364% 25% no-repeat;
+	background: url("svg/sprite.view.svg") 33.77536347659371% 20% no-repeat;
 }
 
 .svg-gwic-sun-home-blue-dims {
@@ -683,7 +917,7 @@
 }
 
 .svg-gwic-sun-home-yellow {
-	background: url("svg/sprite.view.svg") 25.19019772740608% 25% no-repeat;
+	background: url("svg/sprite.view.svg") 22.8648523903357% 20% no-repeat;
 }
 
 .svg-gwic-sun-home-yellow-dims {
@@ -692,7 +926,7 @@
 }
 
 .svg-gwic-van-blue {
-	background: url("svg/sprite.view.svg") 0 12.5% no-repeat;
+	background: url("svg/sprite.view.svg") 0 10% no-repeat;
 }
 
 .svg-gwic-van-blue-dims {
@@ -701,7 +935,7 @@
 }
 
 .svg-gwic-van-yellow {
-	background: url("svg/sprite.view.svg") 23.616614703811727% 0 no-repeat;
+	background: url("svg/sprite.view.svg") 21.38031503232268% 0 no-repeat;
 }
 
 .svg-gwic-van-yellow-dims {
@@ -710,7 +944,7 @@
 }
 
 .svg-linkedin {
-	background: url("svg/sprite.view.svg") 50.19305019305019% 100% no-repeat;
+	background: url("svg/sprite.view.svg") 99.96842105263157% 80% no-repeat;
 }
 
 .svg-linkedin-dims {
@@ -719,7 +953,7 @@
 }
 
 .svg-menu {
-	background: url("svg/sprite.view.svg") 60.23166023166023% 100% no-repeat;
+	background: url("svg/sprite.view.svg") 99.96842105263157% 90% no-repeat;
 }
 
 .svg-menu-dims {
@@ -728,7 +962,7 @@
 }
 
 .svg-nsw-gov-logo {
-	background: url("svg/sprite.view.svg") 69.94216321119076% 100% no-repeat;
+	background: url("svg/sprite.view.svg") 54.504480897227616% 50% no-repeat;
 }
 
 .svg-nsw-gov-logo-dims {
@@ -737,7 +971,7 @@
 }
 
 .svg-search {
-	background: url("svg/sprite.view.svg") 79.83976833976834% 100% no-repeat;
+	background: url("svg/sprite.view.svg") 0 100% no-repeat;
 }
 
 .svg-search-dims {
@@ -746,7 +980,7 @@
 }
 
 .svg-status-error {
-	background: url("svg/sprite.view.svg") 89.87837837837837% 100% no-repeat;
+	background: url("svg/sprite.view.svg") 9.12280701754386% 100% no-repeat;
 }
 
 .svg-status-error-dims {
@@ -755,7 +989,7 @@
 }
 
 .svg-status-info {
-	background: url("svg/sprite.view.svg") 99.96525096525095% 0 no-repeat;
+	background: url("svg/sprite.view.svg") 18.24561403508772% 100% no-repeat;
 }
 
 .svg-status-info-dims {
@@ -764,7 +998,7 @@
 }
 
 .svg-status-success {
-	background: url("svg/sprite.view.svg") 99.96525096525095% 12.5% no-repeat;
+	background: url("svg/sprite.view.svg") 27.36842105263158% 100% no-repeat;
 }
 
 .svg-status-success-dims {
@@ -773,7 +1007,7 @@
 }
 
 .svg-status-warning {
-	background: url("svg/sprite.view.svg") 99.96525096525095% 25% no-repeat;
+	background: url("svg/sprite.view.svg") 36.49122807017544% 100% no-repeat;
 }
 
 .svg-status-warning-dims {
@@ -782,7 +1016,7 @@
 }
 
 .svg-tick {
-	background: url("svg/sprite.view.svg") 99.96525096525095% 37.5% no-repeat;
+	background: url("svg/sprite.view.svg") 45.6140350877193% 100% no-repeat;
 }
 
 .svg-tick-dims {
@@ -791,7 +1025,7 @@
 }
 
 .svg-twitter {
-	background: url("svg/sprite.view.svg") 22.693957115009745% 37.5% no-repeat;
+	background: url("svg/sprite.view.svg") 20.605309734513273% 30% no-repeat;
 }
 
 .svg-twitter-dims {
