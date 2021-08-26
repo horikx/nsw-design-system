@@ -1,5 +1,5 @@
 .svg-00_blank {
-	background: url("svg/sprite.view.svg") 9.305263157894737% 40% no-repeat;
+	background: url("svg/sprite.view.svg") 24.358921161825727% 0 no-repeat;
 }
 
 .svg-00_blank-dims {
@@ -7,710 +7,656 @@
 	height: 52px;
 }
 
-.svg-01_Breeding {
-	background: url("svg/sprite.view.svg") 18.428070175438595% 40% no-repeat;
+.svg-Biosecurity_and_Hygiene_Blue {
+	background: url("svg/sprite.view.svg") 24.358921161825727% 12.5% no-repeat;
 }
 
-.svg-01_Breeding-dims {
+.svg-Biosecurity_and_Hygiene_Blue-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-01_Breeding-blue {
-	background: url("svg/sprite.view.svg") 27.550877192982455% 40% no-repeat;
+.svg-Biosecurity_and_Hygiene_Yellow {
+	background: url("svg/sprite.view.svg") 0 25% no-repeat;
 }
 
-.svg-01_Breeding-blue-dims {
+.svg-Biosecurity_and_Hygiene_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-01_Breeding-yellow {
-	background: url("svg/sprite.view.svg") 36.67368421052632% 40% no-repeat;
+.svg-Breeding_Blue {
+	background: url("svg/sprite.view.svg") 10.78838174273859% 25% no-repeat;
 }
 
-.svg-01_Breeding-yellow-dims {
+.svg-Breeding_Blue-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-01_Greyhound_Breeding {
-	background: url("svg/sprite.view.svg") 54.35438596491228% 0 no-repeat;
+.svg-Breeding_Methods_Blue {
+	background: url("svg/sprite.view.svg") 21.57676348547718% 25% no-repeat;
 }
 
-.svg-01_Greyhound_Breeding-dims {
+.svg-Breeding_Methods_Blue-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-01_Greyhound_Breeding-blue {
-	background: url("svg/sprite.view.svg") 54.35438596491228% 10% no-repeat;
+.svg-Breeding_Methods_Yellow {
+	background: url("svg/sprite.view.svg") 35.14730290456431% 0 no-repeat;
 }
 
-.svg-01_Greyhound_Breeding-blue-dims {
+.svg-Breeding_Methods_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-01_Greyhound_Breeding-yellow {
-	background: url("svg/sprite.view.svg") 54.35438596491228% 20% no-repeat;
+.svg-Breeding_Yellow {
+	background: url("svg/sprite.view.svg") 35.14730290456431% 12.5% no-repeat;
 }
 
-.svg-01_Greyhound_Breeding-yellow-dims {
+.svg-Breeding_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-02_Rehoming {
-	background: url("svg/sprite.view.svg") 54.35438596491228% 30% no-repeat;
+.svg-Caring_for_Brood_Bitches_Blue {
+	background: url("svg/sprite.view.svg") 35.14730290456431% 25% no-repeat;
 }
 
-.svg-02_Rehoming-dims {
+.svg-Caring_for_Brood_Bitches_Blue-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-02_Rehoming-blue {
-	background: url("svg/sprite.view.svg") 54.35438596491228% 40% no-repeat;
+.svg-Caring_for_Brood_Bitches_Yellow {
+	background: url("svg/sprite.view.svg") 0 37.5% no-repeat;
 }
 
-.svg-02_Rehoming-blue-dims {
+.svg-Caring_for_Brood_Bitches_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-02_Rehoming-yellow {
+.svg-Definitions_1_Blue {
+	background: url("svg/sprite.view.svg") 10.78838174273859% 37.5% no-repeat;
+}
+
+.svg-Definitions_1_Blue-dims {
+	width: 52px;
+	height: 52px;
+}
+
+.svg-Definitions_1_Yellow {
+	background: url("svg/sprite.view.svg") 21.57676348547718% 37.5% no-repeat;
+}
+
+.svg-Definitions_1_Yellow-dims {
+	width: 52px;
+	height: 52px;
+}
+
+.svg-Definitions_Blue {
+	background: url("svg/sprite.view.svg") 32.365145228215766% 37.5% no-repeat;
+}
+
+.svg-Definitions_Blue-dims {
+	width: 52px;
+	height: 52px;
+}
+
+.svg-Definitions_Yellow {
+	background: url("svg/sprite.view.svg") 45.93568464730291% 0 no-repeat;
+}
+
+.svg-Definitions_Yellow-dims {
+	width: 52px;
+	height: 52px;
+}
+
+.svg-Dental_Heath_Blue {
+	background: url("svg/sprite.view.svg") 45.93568464730291% 12.5% no-repeat;
+}
+
+.svg-Dental_Heath_Blue-dims {
+	width: 52px;
+	height: 52px;
+}
+
+.svg-Dental_Heath_Yellow {
+	background: url("svg/sprite.view.svg") 45.93568464730291% 25% no-repeat;
+}
+
+.svg-Dental_Heath_Yellow-dims {
+	width: 52px;
+	height: 52px;
+}
+
+.svg-Education_Blue {
+	background: url("svg/sprite.view.svg") 45.93568464730291% 37.5% no-repeat;
+}
+
+.svg-Education_Blue-dims {
+	width: 52px;
+	height: 52px;
+}
+
+.svg-Education_Yellow {
 	background: url("svg/sprite.view.svg") 0 50% no-repeat;
 }
 
-.svg-02_Rehoming-yellow-dims {
+.svg-Education_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-03_Introduction {
-	background: url("svg/sprite.view.svg") 9.12280701754386% 50% no-repeat;
+.svg-Emergencies_Blue {
+	background: url("svg/sprite.view.svg") 10.78838174273859% 50% no-repeat;
 }
 
-.svg-03_Introduction-dims {
+.svg-Emergencies_Blue-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-03_Introduction-blue {
-	background: url("svg/sprite.view.svg") 18.24561403508772% 50% no-repeat;
+.svg-Emergencies_Yellow {
+	background: url("svg/sprite.view.svg") 21.57676348547718% 50% no-repeat;
 }
 
-.svg-03_Introduction-blue-dims {
+.svg-Emergencies_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-03_Introduction-yellow {
-	background: url("svg/sprite.view.svg") 27.36842105263158% 50% no-repeat;
+.svg-Exercising_Socialisation_and_Enrichment_Blue {
+	background: url("svg/sprite.view.svg") 32.365145228215766% 50% no-repeat;
 }
 
-.svg-03_Introduction-yellow-dims {
+.svg-Exercising_Socialisation_and_Enrichment_Blue-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-04_Breeding_methods {
-	background: url("svg/sprite.view.svg") 36.49122807017544% 50% no-repeat;
+.svg-Exercising_Socialisation_and_Enrichment_Yellow {
+	background: url("svg/sprite.view.svg") 43.15352697095436% 50% no-repeat;
 }
 
-.svg-04_Breeding_methods-dims {
+.svg-Exercising_Socialisation_and_Enrichment_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-04_Breeding_methods-blue {
-	background: url("svg/sprite.view.svg") 45.6140350877193% 50% no-repeat;
+.svg-Genetics_Blue {
+	background: url("svg/sprite.view.svg") 56.724066390041486% 0 no-repeat;
 }
 
-.svg-04_Breeding_methods-blue-dims {
+.svg-Genetics_Blue-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-04_Breeding_methods-yellow {
-	background: url("svg/sprite.view.svg") 63.47719298245614% 0 no-repeat;
+.svg-Genetics_Yellow {
+	background: url("svg/sprite.view.svg") 56.724066390041486% 12.5% no-repeat;
 }
 
-.svg-04_Breeding_methods-yellow-dims {
+.svg-Genetics_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-05_Kennel_sizes_&amp;_fencing {
-	background: url("svg/sprite.view.svg") 63.47719298245614% 10% no-repeat;
+.svg-Greyhound_Breeding_1_Blue {
+	background: url("svg/sprite.view.svg") 56.724066390041486% 25% no-repeat;
 }
 
-.svg-05_Kennel_sizes_&amp;_fencing-dims {
+.svg-Greyhound_Breeding_1_Blue-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-05_Kennel_sizes_&amp;_fencing-blue {
-	background: url("svg/sprite.view.svg") 63.47719298245614% 20% no-repeat;
+.svg-Greyhound_Breeding_1_Yellow {
+	background: url("svg/sprite.view.svg") 56.724066390041486% 37.5% no-repeat;
 }
 
-.svg-05_Kennel_sizes_&amp;_fencing-blue-dims {
+.svg-Greyhound_Breeding_1_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-05_Kennel_sizes_&amp;_fencing-yellow {
-	background: url("svg/sprite.view.svg") 63.47719298245614% 30% no-repeat;
+.svg-Greyhound_Breeding_Blue {
+	background: url("svg/sprite.view.svg") 56.724066390041486% 50% no-repeat;
 }
 
-.svg-05_Kennel_sizes_&amp;_fencing-yellow-dims {
+.svg-Greyhound_Breeding_Blue-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-06_Education {
-	background: url("svg/sprite.view.svg") 63.47719298245614% 40% no-repeat;
+.svg-Greyhound_Breeding_Yellow {
+	background: url("svg/sprite.view.svg") 0 62.5% no-repeat;
 }
 
-.svg-06_Education-dims {
+.svg-Greyhound_Breeding_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-06_Education-blue {
-	background: url("svg/sprite.view.svg") 63.47719298245614% 50% no-repeat;
+.svg-Greyhounds_as_Pets_Blue {
+	background: url("svg/sprite.view.svg") 10.78838174273859% 62.5% no-repeat;
 }
 
-.svg-06_Education-blue-dims {
+.svg-Greyhounds_as_Pets_Blue-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-06_Education-yellow {
-	background: url("svg/sprite.view.svg") 0 60% no-repeat;
+.svg-Greyhounds_as_Pets_Yellow {
+	background: url("svg/sprite.view.svg") 21.57676348547718% 62.5% no-repeat;
 }
 
-.svg-06_Education-yellow-dims {
+.svg-Greyhounds_as_Pets_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-07_Rehoming_Policy {
-	background: url("svg/sprite.view.svg") 9.12280701754386% 60% no-repeat;
+.svg-Healh_and_Wellbeing_Blue {
+	background: url("svg/sprite.view.svg") 32.365145228215766% 62.5% no-repeat;
 }
 
-.svg-07_Rehoming_Policy-dims {
+.svg-Healh_and_Wellbeing_Blue-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-07_Rehoming_Policy-blue {
-	background: url("svg/sprite.view.svg") 18.24561403508772% 60% no-repeat;
+.svg-Healh_and_Wellbeing_Yellow {
+	background: url("svg/sprite.view.svg") 43.15352697095436% 62.5% no-repeat;
 }
 
-.svg-07_Rehoming_Policy-blue-dims {
+.svg-Healh_and_Wellbeing_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-07_Rehoming_Policy-yellow {
-	background: url("svg/sprite.view.svg") 27.36842105263158% 60% no-repeat;
+.svg-Health_Records_Blue {
+	background: url("svg/sprite.view.svg") 53.941908713692946% 62.5% no-repeat;
 }
 
-.svg-07_Rehoming_Policy-yellow-dims {
+.svg-Health_Records_Blue-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-08_Genetics {
-	background: url("svg/sprite.view.svg") 36.49122807017544% 60% no-repeat;
+.svg-Health_Records_Yellow {
+	background: url("svg/sprite.view.svg") 67.51244813278008% 0 no-repeat;
 }
 
-.svg-08_Genetics-dims {
+.svg-Health_Records_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-08_Genetics-blue {
-	background: url("svg/sprite.view.svg") 45.6140350877193% 60% no-repeat;
+.svg-Housing_and_Evironment_Blue {
+	background: url("svg/sprite.view.svg") 67.51244813278008% 12.5% no-repeat;
 }
 
-.svg-08_Genetics-blue-dims {
+.svg-Housing_and_Evironment_Blue-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-08_Genetics-yellow {
-	background: url("svg/sprite.view.svg") 54.73684210526316% 60% no-repeat;
+.svg-Housing_and_Evironment_Yellow {
+	background: url("svg/sprite.view.svg") 67.51244813278008% 25% no-repeat;
 }
 
-.svg-08_Genetics-yellow-dims {
+.svg-Housing_and_Evironment_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-09_Training_for_racing {
-	background: url("svg/sprite.view.svg") 72.6% 0 no-repeat;
+.svg-Injuries_Blue {
+	background: url("svg/sprite.view.svg") 67.51244813278008% 37.5% no-repeat;
 }
 
-.svg-09_Training_for_racing-dims {
+.svg-Injuries_Blue-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-09_Training_for_racing-blue {
-	background: url("svg/sprite.view.svg") 72.6% 10% no-repeat;
+.svg-Injuries_Yellow {
+	background: url("svg/sprite.view.svg") 67.51244813278008% 50% no-repeat;
 }
 
-.svg-09_Training_for_racing-blue-dims {
+.svg-Injuries_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-09_Training_for_racing-yellow {
-	background: url("svg/sprite.view.svg") 72.6% 20% no-repeat;
+.svg-Injury_Rebate_Blue {
+	background: url("svg/sprite.view.svg") 67.51244813278008% 62.5% no-repeat;
 }
 
-.svg-09_Training_for_racing-yellow-dims {
+.svg-Injury_Rebate_Blue-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-10_Managing_illness {
-	background: url("svg/sprite.view.svg") 72.6% 30% no-repeat;
+.svg-Injury_Rebate_Yellow {
+	background: url("svg/sprite.view.svg") 0 75% no-repeat;
 }
 
-.svg-10_Managing_illness-dims {
+.svg-Injury_Rebate_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-10_Managing_illness-blue {
-	background: url("svg/sprite.view.svg") 72.6% 40% no-repeat;
+.svg-Introduction_1_Blue {
+	background: url("svg/sprite.view.svg") 10.78838174273859% 75% no-repeat;
 }
 
-.svg-10_Managing_illness-blue-dims {
+.svg-Introduction_1_Blue-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-10_Managing_illness-yellow {
-	background: url("svg/sprite.view.svg") 72.6% 50% no-repeat;
+.svg-Introduction_1_Yellow {
+	background: url("svg/sprite.view.svg") 21.57676348547718% 75% no-repeat;
 }
 
-.svg-10_Managing_illness-yellow-dims {
+.svg-Introduction_1_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-11_Whelping_boxes {
-	background: url("svg/sprite.view.svg") 72.6% 60% no-repeat;
+.svg-Introduction_Blue {
+	background: url("svg/sprite.view.svg") 32.365145228215766% 75% no-repeat;
 }
 
-.svg-11_Whelping_boxes-dims {
+.svg-Introduction_Blue-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-11_Whelping_boxes-blue {
-	background: url("svg/sprite.view.svg") 0 70% no-repeat;
+.svg-Introduction_Yellow {
+	background: url("svg/sprite.view.svg") 43.15352697095436% 75% no-repeat;
 }
 
-.svg-11_Whelping_boxes-blue-dims {
+.svg-Introduction_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-11_Whelping_boxes-yellow {
-	background: url("svg/sprite.view.svg") 9.12280701754386% 70% no-repeat;
+.svg-Kennel_Cough_Blue {
+	background: url("svg/sprite.view.svg") 53.941908713692946% 75% no-repeat;
 }
 
-.svg-11_Whelping_boxes-yellow-dims {
+.svg-Kennel_Cough_Blue-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-12_Biosecurity_&amp;_Hygiene {
-	background: url("svg/sprite.view.svg") 18.24561403508772% 70% no-repeat;
+.svg-Kennel_Cough_Yellow {
+	background: url("svg/sprite.view.svg") 64.73029045643153% 75% no-repeat;
 }
 
-.svg-12_Biosecurity_&amp;_Hygiene-dims {
+.svg-Kennel_Cough_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-12_Biosecurity_&amp;_Hygiene-blue {
-	background: url("svg/sprite.view.svg") 27.36842105263158% 70% no-repeat;
+.svg-Kennel_Sizes_and_Fencing_Blue {
+	background: url("svg/sprite.view.svg") 78.30082987551867% 0 no-repeat;
 }
 
-.svg-12_Biosecurity_&amp;_Hygiene-blue-dims {
+.svg-Kennel_Sizes_and_Fencing_Blue-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-12_Biosecurity_&amp;_Hygiene-yellow {
-	background: url("svg/sprite.view.svg") 36.49122807017544% 70% no-repeat;
+.svg-Kennel_Sizes_and_Fencing_Yellow {
+	background: url("svg/sprite.view.svg") 78.30082987551867% 12.5% no-repeat;
 }
 
-.svg-12_Biosecurity_&amp;_Hygiene-yellow-dims {
+.svg-Kennel_Sizes_and_Fencing_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-13_Rules_of_racing {
-	background: url("svg/sprite.view.svg") 45.6140350877193% 70% no-repeat;
+.svg-Managing_Illness_Blue {
+	background: url("svg/sprite.view.svg") 78.30082987551867% 25% no-repeat;
 }
 
-.svg-13_Rules_of_racing-dims {
+.svg-Managing_Illness_Blue-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-13_Rules_of_racing-blue {
-	background: url("svg/sprite.view.svg") 54.73684210526316% 70% no-repeat;
+.svg-Managing_Illness_Yellow {
+	background: url("svg/sprite.view.svg") 78.30082987551867% 37.5% no-repeat;
 }
 
-.svg-13_Rules_of_racing-blue-dims {
+.svg-Managing_Illness_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-13_Rules_of_racing-yellow {
-	background: url("svg/sprite.view.svg") 63.85964912280702% 70% no-repeat;
+.svg-Nutrition_and_Hydration_Blue {
+	background: url("svg/sprite.view.svg") 78.30082987551867% 50% no-repeat;
 }
 
-.svg-13_Rules_of_racing-yellow-dims {
+.svg-Nutrition_and_Hydration_Blue-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-14_Injury_rebate {
-	background: url("svg/sprite.view.svg") 81.72280701754386% 0 no-repeat;
+.svg-Nutrition_and_Hydration_Yellow {
+	background: url("svg/sprite.view.svg") 78.30082987551867% 62.5% no-repeat;
 }
 
-.svg-14_Injury_rebate-dims {
+.svg-Nutrition_and_Hydration_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-14_Injury_rebate-blue {
-	background: url("svg/sprite.view.svg") 81.72280701754386% 10% no-repeat;
+.svg-Record_Keeping_Blue {
+	background: url("svg/sprite.view.svg") 78.30082987551867% 75% no-repeat;
 }
 
-.svg-14_Injury_rebate-blue-dims {
+.svg-Record_Keeping_Blue-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-14_Injury_rebate-yellow {
-	background: url("svg/sprite.view.svg") 81.72280701754386% 20% no-repeat;
+.svg-Record_Keeping_Yellow {
+	background: url("svg/sprite.view.svg") 0 87.5% no-repeat;
 }
 
-.svg-14_Injury_rebate-yellow-dims {
+.svg-Record_Keeping_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-14_Rehoming_rebate {
-	background: url("svg/sprite.view.svg") 81.72280701754386% 30% no-repeat;
+.svg-Rehoming_Blue {
+	background: url("svg/sprite.view.svg") 10.78838174273859% 87.5% no-repeat;
 }
 
-.svg-14_Rehoming_rebate-dims {
+.svg-Rehoming_Blue-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-14_Rehoming_rebate-blue {
-	background: url("svg/sprite.view.svg") 81.72280701754386% 40% no-repeat;
+.svg-Rehoming_Contacts_Blue {
+	background: url("svg/sprite.view.svg") 21.57676348547718% 87.5% no-repeat;
 }
 
-.svg-14_Rehoming_rebate-blue-dims {
+.svg-Rehoming_Contacts_Blue-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-14_Rehoming_rebate-yellow {
-	background: url("svg/sprite.view.svg") 81.72280701754386% 50% no-repeat;
+.svg-Rehoming_Contacts_Yellow {
+	background: url("svg/sprite.view.svg") 32.365145228215766% 87.5% no-repeat;
 }
 
-.svg-14_Rehoming_rebate-yellow-dims {
+.svg-Rehoming_Contacts_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-15_Health_Records {
-	background: url("svg/sprite.view.svg") 81.72280701754386% 60% no-repeat;
+.svg-Rehoming_Greyhounds_as_Companion_Animals_Blue {
+	background: url("svg/sprite.view.svg") 43.15352697095436% 87.5% no-repeat;
 }
 
-.svg-15_Health_Records-dims {
+.svg-Rehoming_Greyhounds_as_Companion_Animals_Blue-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-15_Health_Records-blue {
-	background: url("svg/sprite.view.svg") 81.72280701754386% 70% no-repeat;
+.svg-Rehoming_Greyhounds_as_Companion_Animals_Yellow {
+	background: url("svg/sprite.view.svg") 53.941908713692946% 87.5% no-repeat;
 }
 
-.svg-15_Health_Records-blue-dims {
+.svg-Rehoming_Greyhounds_as_Companion_Animals_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-15_Health_Records-yellow {
-	background: url("svg/sprite.view.svg") 0 80% no-repeat;
+.svg-Rehoming_Policy_Blue {
+	background: url("svg/sprite.view.svg") 64.73029045643153% 87.5% no-repeat;
 }
 
-.svg-15_Health_Records-yellow-dims {
+.svg-Rehoming_Policy_Blue-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-15_Record_Keeping {
-	background: url("svg/sprite.view.svg") 9.12280701754386% 80% no-repeat;
+.svg-Rehoming_Policy_Yellow {
+	background: url("svg/sprite.view.svg") 75.51867219917013% 87.5% no-repeat;
 }
 
-.svg-15_Record_Keeping-dims {
+.svg-Rehoming_Policy_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-15_Record_Keeping-blue {
-	background: url("svg/sprite.view.svg") 18.24561403508772% 80% no-repeat;
+.svg-Rehoming_Rebate_Blue {
+	background: url("svg/sprite.view.svg") 89.08921161825727% 0 no-repeat;
 }
 
-.svg-15_Record_Keeping-blue-dims {
+.svg-Rehoming_Rebate_Blue-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-15_Record_Keeping-yellow {
-	background: url("svg/sprite.view.svg") 27.36842105263158% 80% no-repeat;
+.svg-Rehoming_Rebate_Yellow {
+	background: url("svg/sprite.view.svg") 89.08921161825727% 12.5% no-repeat;
 }
 
-.svg-15_Record_Keeping-yellow-dims {
+.svg-Rehoming_Rebate_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-16_Caring_for_brood_bitches {
-	background: url("svg/sprite.view.svg") 36.49122807017544% 80% no-repeat;
+.svg-Rehoming_Yellow {
+	background: url("svg/sprite.view.svg") 89.08921161825727% 25% no-repeat;
 }
 
-.svg-16_Caring_for_brood_bitches-dims {
+.svg-Rehoming_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-16_Caring_for_brood_bitches-blue {
-	background: url("svg/sprite.view.svg") 45.6140350877193% 80% no-repeat;
+.svg-Rules_of_Racing_Blue {
+	background: url("svg/sprite.view.svg") 89.08921161825727% 37.5% no-repeat;
 }
 
-.svg-16_Caring_for_brood_bitches-blue-dims {
+.svg-Rules_of_Racing_Blue-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-16_Caring_for_brood_bitches-yellow {
-	background: url("svg/sprite.view.svg") 54.73684210526316% 80% no-repeat;
+.svg-Rules_of_Racing_Yellow {
+	background: url("svg/sprite.view.svg") 89.08921161825727% 50% no-repeat;
 }
 
-.svg-16_Caring_for_brood_bitches-yellow-dims {
+.svg-Rules_of_Racing_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-17_Emergencies {
-	background: url("svg/sprite.view.svg") 63.85964912280702% 80% no-repeat;
+.svg-Training_Trialling_and_Racing_Blue {
+	background: url("svg/sprite.view.svg") 89.08921161825727% 62.5% no-repeat;
 }
 
-.svg-17_Emergencies-dims {
+.svg-Training_Trialling_and_Racing_Blue-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-17_Emergencies-blue {
-	background: url("svg/sprite.view.svg") 72.98245614035088% 80% no-repeat;
+.svg-Training_Trialling_and_Racing_Yellow {
+	background: url("svg/sprite.view.svg") 89.08921161825727% 75% no-repeat;
 }
 
-.svg-17_Emergencies-blue-dims {
+.svg-Training_Trialling_and_Racing_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-17_Emergencies-yellow {
-	background: url("svg/sprite.view.svg") 90.8456140350877% 0 no-repeat;
+.svg-Training_for_Racing_Blue {
+	background: url("svg/sprite.view.svg") 89.08921161825727% 87.5% no-repeat;
 }
 
-.svg-17_Emergencies-yellow-dims {
+.svg-Training_for_Racing_Blue-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-18_Greyhounds_as_Pets {
-	background: url("svg/sprite.view.svg") 90.8456140350877% 10% no-repeat;
+.svg-Training_for_Racing_Yellow {
+	background: url("svg/sprite.view.svg") 0 100% no-repeat;
 }
 
-.svg-18_Greyhounds_as_Pets-dims {
+.svg-Training_for_Racing_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-18_Greyhounds_as_Pets-blue {
-	background: url("svg/sprite.view.svg") 90.8456140350877% 20% no-repeat;
+.svg-Transporting_Greyhounds_Blue {
+	background: url("svg/sprite.view.svg") 10.78838174273859% 100% no-repeat;
 }
 
-.svg-18_Greyhounds_as_Pets-blue-dims {
+.svg-Transporting_Greyhounds_Blue-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-18_Greyhounds_as_Pets-yellow {
-	background: url("svg/sprite.view.svg") 90.8456140350877% 30% no-repeat;
+.svg-Transporting_Greyhounds_Yellow {
+	background: url("svg/sprite.view.svg") 21.57676348547718% 100% no-repeat;
 }
 
-.svg-18_Greyhounds_as_Pets-yellow-dims {
+.svg-Transporting_Greyhounds_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-19_Dental_Health {
-	background: url("svg/sprite.view.svg") 90.8456140350877% 40% no-repeat;
+.svg-Whelping_Boxes_Blue {
+	background: url("svg/sprite.view.svg") 32.365145228215766% 100% no-repeat;
 }
 
-.svg-19_Dental_Health-dims {
+.svg-Whelping_Boxes_Blue-dims {
 	width: 52px;
 	height: 52px;
 }
 
-.svg-19_Dental_Health-blue {
-	background: url("svg/sprite.view.svg") 90.8456140350877% 50% no-repeat;
+.svg-Whelping_Boxes_Yellow {
+	background: url("svg/sprite.view.svg") 43.15352697095436% 100% no-repeat;
 }
 
-.svg-19_Dental_Health-blue-dims {
-	width: 52px;
-	height: 52px;
-}
-
-.svg-19_Dental_Health-yellow {
-	background: url("svg/sprite.view.svg") 90.8456140350877% 60% no-repeat;
-}
-
-.svg-19_Dental_Health-yellow-dims {
-	width: 52px;
-	height: 52px;
-}
-
-.svg-20_Kennel_Cough {
-	background: url("svg/sprite.view.svg") 90.8456140350877% 70% no-repeat;
-}
-
-.svg-20_Kennel_Cough-dims {
-	width: 52px;
-	height: 52px;
-}
-
-.svg-20_Kennel_Cough-blue {
-	background: url("svg/sprite.view.svg") 90.8456140350877% 80% no-repeat;
-}
-
-.svg-20_Kennel_Cough-blue-dims {
-	width: 52px;
-	height: 52px;
-}
-
-.svg-20_Kennel_Cough-yellow {
-	background: url("svg/sprite.view.svg") 0 90% no-repeat;
-}
-
-.svg-20_Kennel_Cough-yellow-dims {
-	width: 52px;
-	height: 52px;
-}
-
-.svg-21_Injuries {
-	background: url("svg/sprite.view.svg") 9.12280701754386% 90% no-repeat;
-}
-
-.svg-21_Injuries-dims {
-	width: 52px;
-	height: 52px;
-}
-
-.svg-21_Injuries-blue {
-	background: url("svg/sprite.view.svg") 18.24561403508772% 90% no-repeat;
-}
-
-.svg-21_Injuries-blue-dims {
-	width: 52px;
-	height: 52px;
-}
-
-.svg-21_Injuries-yellow {
-	background: url("svg/sprite.view.svg") 27.36842105263158% 90% no-repeat;
-}
-
-.svg-21_Injuries-yellow-dims {
-	width: 52px;
-	height: 52px;
-}
-
-.svg-22_Rehoming_contacts {
-	background: url("svg/sprite.view.svg") 36.49122807017544% 90% no-repeat;
-}
-
-.svg-22_Rehoming_contacts-dims {
-	width: 52px;
-	height: 52px;
-}
-
-.svg-22_Rehoming_contacts-blue {
-	background: url("svg/sprite.view.svg") 45.6140350877193% 90% no-repeat;
-}
-
-.svg-22_Rehoming_contacts-blue-dims {
-	width: 52px;
-	height: 52px;
-}
-
-.svg-22_Rehoming_contacts-yellow {
-	background: url("svg/sprite.view.svg") 54.73684210526316% 90% no-repeat;
-}
-
-.svg-22_Rehoming_contacts-yellow-dims {
-	width: 52px;
-	height: 52px;
-}
-
-.svg-23_Definitions {
-	background: url("svg/sprite.view.svg") 63.85964912280702% 90% no-repeat;
-}
-
-.svg-23_Definitions-dims {
-	width: 52px;
-	height: 52px;
-}
-
-.svg-23_Definitions-blue {
-	background: url("svg/sprite.view.svg") 72.98245614035088% 90% no-repeat;
-}
-
-.svg-23_Definitions-blue-dims {
-	width: 52px;
-	height: 52px;
-}
-
-.svg-23_Definitions-yellow {
-	background: url("svg/sprite.view.svg") 82.10526315789474% 90% no-repeat;
-}
-
-.svg-23_Definitions-yellow-dims {
+.svg-Whelping_Boxes_Yellow-dims {
 	width: 52px;
 	height: 52px;
 }
 
 .svg-arrow {
-	background: url("svg/sprite.view.svg") 99.96842105263157% 0 no-repeat;
+	background: url("svg/sprite.view.svg") 53.941908713692946% 100% no-repeat;
 }
 
 .svg-arrow-dims {
@@ -719,7 +665,7 @@
 }
 
 .svg-chevron {
-	background: url("svg/sprite.view.svg") 97.90721649484534% 10% no-repeat;
+	background: url("svg/sprite.view.svg") 63.1578947368421% 100% no-repeat;
 }
 
 .svg-chevron-dims {
@@ -728,7 +674,7 @@
 }
 
 .svg-close {
-	background: url("svg/sprite.view.svg") 99.96842105263157% 20% no-repeat;
+	background: url("svg/sprite.view.svg") 73.02904564315352% 100% no-repeat;
 }
 
 .svg-close-dims {
@@ -746,7 +692,7 @@
 }
 
 .svg-email {
-	background: url("svg/sprite.view.svg") 33.854092526690394% 10% no-repeat;
+	background: url("svg/sprite.view.svg") 0 12.5% no-repeat;
 }
 
 .svg-email-dims {
@@ -755,7 +701,7 @@
 }
 
 .svg-facebook {
-	background: url("svg/sprite.view.svg") 99.96842105263157% 30% no-repeat;
+	background: url("svg/sprite.view.svg") 83.81742738589212% 100% no-repeat;
 }
 
 .svg-facebook-dims {
@@ -763,188 +709,8 @@
 	height: 52px;
 }
 
-.svg-gwic-bone-blue {
-	background: url("svg/sprite.view.svg") 99.0113117061389% 40% no-repeat;
-}
-
-.svg-gwic-bone-blue-dims {
-	width: 46.49px;
-	height: 52px;
-}
-
-.svg-gwic-bone-bowl-blue {
-	background: url("svg/sprite.view.svg") 44.44776434195725% 30% no-repeat;
-}
-
-.svg-gwic-bone-bowl-blue-dims {
-	width: 53.04px;
-	height: 52px;
-}
-
-.svg-gwic-bone-bowl-yellow {
-	background: url("svg/sprite.view.svg") 0 40% no-repeat;
-}
-
-.svg-gwic-bone-bowl-yellow-dims {
-	width: 53.04px;
-	height: 52px;
-}
-
-.svg-gwic-bone-yellow {
-	background: url("svg/sprite.view.svg") 99.0113117061389% 50% no-repeat;
-}
-
-.svg-gwic-bone-yellow-dims {
-	width: 46.49px;
-	height: 52px;
-}
-
-.svg-gwic-bookmark-blue {
-	background: url("svg/sprite.view.svg") 0 30% no-repeat;
-}
-
-.svg-gwic-bookmark-blue-dims {
-	width: 58.21px;
-	height: 52px;
-}
-
-.svg-gwic-bookmark-yellow {
-	background: url("svg/sprite.view.svg") 10.324766313698364% 30% no-repeat;
-}
-
-.svg-gwic-bookmark-yellow-dims {
-	width: 58.21px;
-	height: 52px;
-}
-
-.svg-gwic-dog-wagging-blue {
-	background: url("svg/sprite.view.svg") 21.123365057661513% 10% no-repeat;
-}
-
-.svg-gwic-dog-wagging-blue-dims {
-	width: 66.17px;
-	height: 52px;
-}
-
-.svg-gwic-dog-wagging-yellow {
-	background: url("svg/sprite.view.svg") 0 20% no-repeat;
-}
-
-.svg-gwic-dog-wagging-yellow-dims {
-	width: 66.17px;
-	height: 52px;
-}
-
-.svg-gwic-heart-tick-blue {
-	background: url("svg/sprite.view.svg") 30.690003008476822% 30% no-repeat;
-}
-
-.svg-gwic-heart-tick-blue-dims {
-	width: 56.93px;
-	height: 52px;
-}
-
-.svg-gwic-heart-tick-yellow {
-	background: url("svg/sprite.view.svg") 44.75374732334047% 0 no-repeat;
-}
-
-.svg-gwic-heart-tick-yellow-dims {
-	width: 56.93px;
-	height: 52px;
-}
-
-.svg-gwic-pawprint-blue {
-	background: url("svg/sprite.view.svg") 44.716554089896384% 10% no-repeat;
-}
-
-.svg-gwic-pawprint-blue-dims {
-	width: 56.46px;
-	height: 52px;
-}
-
-.svg-gwic-pawprint-yellow {
-	background: url("svg/sprite.view.svg") 44.716554089896384% 20% no-repeat;
-}
-
-.svg-gwic-pawprint-yellow-dims {
-	width: 56.46px;
-	height: 52px;
-}
-
-.svg-gwic-person-speech-blue {
-	background: url("svg/sprite.view.svg") 11.829379480486976% 20% no-repeat;
-}
-
-.svg-gwic-person-speech-blue-dims {
-	width: 62.63px;
-	height: 52px;
-}
-
-.svg-gwic-person-speech-yellow {
-	background: url("svg/sprite.view.svg") 34.01326492303842% 0 no-repeat;
-}
-
-.svg-gwic-person-speech-yellow-dims {
-	width: 62.63px;
-	height: 52px;
-}
-
-.svg-gwic-stopwatch-blue {
-	background: url("svg/sprite.view.svg") 99.17329481177227% 60% no-repeat;
-}
-
-.svg-gwic-stopwatch-blue-dims {
-	width: 47.43px;
-	height: 52px;
-}
-
-.svg-gwic-stopwatch-yellow {
-	background: url("svg/sprite.view.svg") 99.17329481177227% 70% no-repeat;
-}
-
-.svg-gwic-stopwatch-yellow-dims {
-	width: 47.43px;
-	height: 52px;
-}
-
-.svg-gwic-sun-home-blue {
-	background: url("svg/sprite.view.svg") 33.77536347659371% 20% no-repeat;
-}
-
-.svg-gwic-sun-home-blue-dims {
-	width: 58.69px;
-	height: 52px;
-}
-
-.svg-gwic-sun-home-yellow {
-	background: url("svg/sprite.view.svg") 22.8648523903357% 20% no-repeat;
-}
-
-.svg-gwic-sun-home-yellow-dims {
-	width: 58.69px;
-	height: 52px;
-}
-
-.svg-gwic-van-blue {
-	background: url("svg/sprite.view.svg") 0 10% no-repeat;
-}
-
-.svg-gwic-van-blue-dims {
-	width: 72.85px;
-	height: 52px;
-}
-
-.svg-gwic-van-yellow {
-	background: url("svg/sprite.view.svg") 21.38031503232268% 0 no-repeat;
-}
-
-.svg-gwic-van-yellow-dims {
-	width: 72.85px;
-	height: 52px;
-}
-
 .svg-linkedin {
-	background: url("svg/sprite.view.svg") 99.96842105263157% 80% no-repeat;
+	background: url("svg/sprite.view.svg") 99.87759336099585% 0 no-repeat;
 }
 
 .svg-linkedin-dims {
@@ -953,7 +719,7 @@
 }
 
 .svg-menu {
-	background: url("svg/sprite.view.svg") 99.96842105263157% 90% no-repeat;
+	background: url("svg/sprite.view.svg") 99.87759336099585% 12.5% no-repeat;
 }
 
 .svg-menu-dims {
@@ -962,7 +728,7 @@
 }
 
 .svg-nsw-gov-logo {
-	background: url("svg/sprite.view.svg") 54.504480897227616% 50% no-repeat;
+	background: url("svg/sprite.view.svg") 99.37658691658237% 25% no-repeat;
 }
 
 .svg-nsw-gov-logo-dims {
@@ -971,7 +737,7 @@
 }
 
 .svg-search {
-	background: url("svg/sprite.view.svg") 0 100% no-repeat;
+	background: url("svg/sprite.view.svg") 99.87759336099585% 37.5% no-repeat;
 }
 
 .svg-search-dims {
@@ -980,7 +746,7 @@
 }
 
 .svg-status-error {
-	background: url("svg/sprite.view.svg") 9.12280701754386% 100% no-repeat;
+	background: url("svg/sprite.view.svg") 99.87759336099585% 50% no-repeat;
 }
 
 .svg-status-error-dims {
@@ -989,7 +755,7 @@
 }
 
 .svg-status-info {
-	background: url("svg/sprite.view.svg") 18.24561403508772% 100% no-repeat;
+	background: url("svg/sprite.view.svg") 99.87759336099585% 62.5% no-repeat;
 }
 
 .svg-status-info-dims {
@@ -998,7 +764,7 @@
 }
 
 .svg-status-success {
-	background: url("svg/sprite.view.svg") 27.36842105263158% 100% no-repeat;
+	background: url("svg/sprite.view.svg") 99.87759336099585% 75% no-repeat;
 }
 
 .svg-status-success-dims {
@@ -1007,7 +773,7 @@
 }
 
 .svg-status-warning {
-	background: url("svg/sprite.view.svg") 36.49122807017544% 100% no-repeat;
+	background: url("svg/sprite.view.svg") 99.87759336099585% 87.5% no-repeat;
 }
 
 .svg-status-warning-dims {
@@ -1016,7 +782,7 @@
 }
 
 .svg-tick {
-	background: url("svg/sprite.view.svg") 45.6140350877193% 100% no-repeat;
+	background: url("svg/sprite.view.svg") 99.87759336099585% 100% no-repeat;
 }
 
 .svg-tick-dims {
@@ -1025,7 +791,7 @@
 }
 
 .svg-twitter {
-	background: url("svg/sprite.view.svg") 20.605309734513273% 30% no-repeat;
+	background: url("svg/sprite.view.svg") 12.578616352201259% 12.5% no-repeat;
 }
 
 .svg-twitter-dims {
